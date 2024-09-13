@@ -1,4 +1,7 @@
-use ratatui::style::Stylize;
+use ratatui::{
+    style::Stylize,
+    text::{ToLine, ToSpan, ToText},
+};
 
 mod data {
     use std::collections::HashMap;
@@ -114,14 +117,23 @@ fn game(words: Vec<data::Word>, mut terminal: ratatui::DefaultTerminal) {
     loop {
         terminal
             .draw(|frame| {
-                let text: ratatui::prelude::Line =
-                    test.iter().flat_map(|word| word.get_widget()).collect();
+                let mut text = test[index].info.to_text();
+                text.push_line(
+                    test.iter()
+                        .flat_map(|word| word.get_widget())
+                        .collect::<ratatui::text::Line>(),
+                );
+
                 frame.render_widget(ratatui::widgets::Paragraph::new(text), frame.area());
             })
             .unwrap();
 
         if let Ok(ratatui::crossterm::event::Event::Key(key)) = ratatui::crossterm::event::read() {
             test[index].handle_input(key, &mut index);
+        }
+
+        if index >= test.len() {
+            break;
         }
     }
 }
