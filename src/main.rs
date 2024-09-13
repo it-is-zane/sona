@@ -1,7 +1,6 @@
-use ratatui::{
-    style::Stylize,
-    text::{ToLine, ToSpan, ToText},
-};
+use std::num::Wrapping;
+
+use ratatui::text::ToText;
 
 mod data {
     use std::collections::HashMap;
@@ -108,9 +107,12 @@ fn game(words: Vec<data::Word>, mut terminal: ratatui::DefaultTerminal) {
         .iter()
         .filter(|word| word.usage_category == "core")
         .filter(|word| word.definitions.is_some())
-        .take(20)
         .map(|word| Word::new(word.word.clone(), word.definitions.clone().unwrap()))
         .collect();
+
+    use rand::seq::SliceRandom;
+    test.shuffle(&mut rand::thread_rng());
+    test.truncate(40);
 
     let mut index = 0;
 
@@ -124,7 +126,11 @@ fn game(words: Vec<data::Word>, mut terminal: ratatui::DefaultTerminal) {
                         .collect::<ratatui::text::Line>(),
                 );
 
-                frame.render_widget(ratatui::widgets::Paragraph::new(text), frame.area());
+                frame.render_widget(
+                    ratatui::widgets::Paragraph::new(text)
+                        .wrap(ratatui::widgets::Wrap { trim: false }),
+                    frame.area(),
+                );
             })
             .unwrap();
 
