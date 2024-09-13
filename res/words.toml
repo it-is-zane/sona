@@ -1,0 +1,6427 @@
+[[words]]
+id = "konsuno"
+usage_category = "sandbox"
+word = "konsuno"
+deprecated = false
+commentary = ""
+definitions = "to gaslight"
+
+[[words]]
+id = "tokana"
+usage_category = "sandbox"
+word = "tokana"
+deprecated = false
+commentary = ""
+definitions = "focus, attention, concentrate, resolution, fineness; focus on"
+
+[[words]]
+id = "mijomi"
+usage_category = "obscure"
+word = "mijomi"
+deprecated = false
+commentary = ""
+definitions = "gay, achillean, MLM"
+
+[[words]]
+id = "jule"
+usage_category = "sandbox"
+word = "jule"
+deprecated = false
+commentary = ""
+definitions = "indeterminate, inconclusive, tentative; unpredictable, unstable, volatile; to waver; to vibrate, to tremble, to wobble, to shake"
+
+[[words]]
+id = "pakola"
+usage_category = "sandbox"
+word = "pakola"
+deprecated = false
+commentary = ""
+definitions = "[misspelling of pakala]"
+
+[[words]]
+id = "ona"
+usage_category = "core"
+word = "ona"
+deprecated = false
+commentary = 'This word was coined in a poll in 2002. It replaced "iki", which was deemed too similar-sounding to "ike". Other options in the poll included "ipi" and "i".'
+definitions = "(third-person pronoun) he, she, it, they"
+
+[words.ku_data]
+his = 73
+she = 80
+it = 73
+he = 80
+itself = 47
+their = 83
+them = 90
+himself = 36
+him = 80
+they = 79
+her = 95
+herself = 36
+themselves = 53
+its = 100
+
+[words.pu_verbatim]
+en = "NOUN he, she, it, they"
+de = "NOMEN er, sie, es, sie (3. Person plural)"
+eo = "SUBSTANTIVO li, ŝi, (ri,) ĝi, ili"
+fr = "NOM il(s), elle(s)"
+
+[[words]]
+id = "monsi"
+usage_category = "core"
+word = "monsi"
+deprecated = false
+commentary = ""
+definitions = "back, behind, rear"
+
+[words.ku_data]
+butt = 93
+ass = 67
+"back (anatomy)" = 73
+behind = 35
+
+[words.pu_verbatim]
+de = "NOMEN Rücken, Hintern, Rückseite"
+en = "NOUN back, behind, rear"
+fr = "NOM dos, derrière, arrière"
+eo = "SUBSTANTIVO dorso, malantaŭo"
+
+[[words]]
+id = "papa"
+usage_category = "sandbox"
+word = "papa"
+deprecated = false
+commentary = ""
+definitions = "Baba from Baba is You"
+
+[[words]]
+id = "open"
+usage_category = "core"
+word = "open"
+deprecated = false
+commentary = 'Some proficient speakers use open as a preverb that means "start to," that goes along with the complimentary pini preverb "to stop"'
+definitions = "begin, start, open, turn on; beginning"
+
+[words.ku_data]
+engage = 33
+starter = 32
+launch = 33
+begin = 100
+start = 91
+initial = 40
+opening = 60
+introduction = 25
+initiate = 73
+starting = 69
+origin = 25
+access = 36
+beginning = 82
+open = 100
+entry = 36
+
+[words.pu_verbatim]
+de = "VERB beginnen, starten; öffnen; anschalten"
+fr = "VERBE commencer, ouvrir, allumer"
+en = "VERB to begin, start; open; turn on"
+eo = "VERBO komenci; malfermi; ŝalti"
+
+[[words]]
+id = "toma"
+usage_category = "sandbox"
+word = "toma"
+deprecated = false
+commentary = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
+definitions = "[typo of tomo]"
+
+[[words]]
+id = "lisa"
+usage_category = "sandbox"
+word = "lisa"
+deprecated = false
+commentary = "Coined in response to -isa animal words."
+definitions = "fox"
+
+[[words]]
+id = "usawi"
+usage_category = "obscure"
+word = "usawi"
+deprecated = false
+commentary = '''Originally, usawi also included "technology so complex it's impossible to tell apart from magic" in its meaning, but this meaning has been deprecated by the creator.'''
+definitions = "magic, sorcery; enchant; magical, supernatural, occult, incomprehensible"
+
+[words.ku_data]
+magic = 7
+
+[[words]]
+id = "awen"
+usage_category = "core"
+word = "awen"
+deprecated = false
+commentary = ""
+definitions = "stay, remain, wait, pause; protect, keep safe; continue; (preverb) continue to"
+
+[words.ku_data]
+protection = 56
+continuous = 55
+hesitate = 27
+security = 50
+continued = 74
+defend = 76
+stability = 55
+stable = 50
+sustain = 83
+guard = 30
+preserve = 90
+ongoing = 27
+defence = 44
+"left (remaining)" = 42
+custody = 33
+reservation = 30
+save = 70
+saving = 30
+endure = 75
+suspend = 29
+continue = 73
+conservation = 25
+remain = 84
+reserve = 58
+safely = 31
+standing = 36
+constant = 45
+protect = 67
+maintenance = 40
+wait = 100
+stay = 100
+pause = 33
+keep = 61
+still = 60
+delay = 25
+hang = 27
+safety = 27
+retain = 79
+await = 100
+defensive = 40
+steady = 35
+protective = 45
+maintain = 54
+rescue = 40
+continuing = 71
+remaining = 56
+secure = 72
+stand = 37
+safe = 53
+
+[words.pu_verbatim]
+fr = """
+ADJECTIF resté, protégé, gardé, qui attend, qui persiste, conservé
+AUXILIAIRE continuer à"""
+de = """
+ADJEKTIV beständig, behalten, geschützt, sicher, wartend, bleibend
+HILFSVERB fortfahren, andauern"""
+eo = """
+ADJEKTIVO daŭranta, tenata, gardata, protektita, sekura, atendanta, restanta
+ANTAŬVERBO daŭre …i, konstante …i, plue"""
+en = """
+ADJECTIVE enduring, kept, protected, safe, waiting, staying
+PRE-VERB to continue to"""
+
+[[words]]
+id = "kana"
+usage_category = "sandbox"
+word = "kana"
+deprecated = false
+commentary = "Serves as a non-deprecated, neutral-connotation, and polysemous variant of words like oni, powe, or jume."
+definitions = "dream; trance, hypnosis, hallucination; illusion, fantasy, imaginary; narrative, story, myth"
+
+[[words]]
+id = "kisa"
+usage_category = "sandbox"
+word = "kisa"
+deprecated = false
+commentary = ""
+definitions = "cat"
+
+[[words]]
+id = "kosan"
+usage_category = "sandbox"
+word = "kosan"
+deprecated = false
+commentary = ""
+definitions = "guard, protect, defend, shield, brace, fortify from outside"
+
+[[words]]
+id = "tan"
+usage_category = "core"
+word = "tan"
+deprecated = false
+commentary = ""
+definitions = "(preposition) from, because of; cause, origin"
+
+[words.ku_data]
+basis = 40
+motive = 38
+source = 64
+by = 70
+from = 93
+purpose = 33
+reason = 86
+"because of" = 80
+factor = 29
+origin = 40
+since = 32
+cause = 36
+per = 33
+"behalf of" = 40
+incentive = 27
+
+[words.pu_verbatim]
+en = "PREPOSITION by, from, because of"
+eo = "PREPOZICIO fare de, el, pro"
+de = "PRÄPOSITION von, wegen"
+fr = "PRÉPOSITION de, provenant de, à cause de"
+
+[[words]]
+id = "waso"
+usage_category = "core"
+word = "waso"
+deprecated = false
+commentary = ""
+definitions = "bird, flying creature, winged animal"
+
+[words.ku_data]
+eagle = 30
+turkey = 33
+chicken = 44
+duck = 40
+bat = 23
+bird = 100
+
+[words.pu_verbatim]
+en = "NOUN bird, flying creature, winged animal"
+eo = "SUBSTANTIVO birdo, fluganta vivaĵo, besto kun flugiloj"
+de = "NOMEN Vogel, fliegende Kreatur, geflügeltes Tier"
+fr = "NOM oiseau, créature volante, animal ailé"
+
+[[words]]
+id = "oke"
+usage_category = "obscure"
+word = "oke"
+deprecated = false
+commentary = ""
+definitions = "(acknowledgement or acceptance)"
+
+[words.ku_data]
+fine = 7
+OK = 10
+alright = 9
+
+[[words]]
+id = "palisa"
+usage_category = "core"
+word = "palisa"
+deprecated = false
+commentary = ""
+definitions = "long and hard thing e.g. branch, pole, rod, stick, spine, mast"
+
+[words.ku_data]
+stem = 18
+stake = 80
+branch = 60
+bar = 25
+staff = 41
+stick = 100
+beam = 18
+straight = 25
+pole = 67
+rod = 94
+
+[words.pu_verbatim]
+en = "NOUN long hard thing; branch, rod, stick"
+eo = "SUBSTANTIVO io longa kaj rigida; branĉo, stango, bastono"
+de = "NOMEN langes hartes Ding; Ast, Stange, Stab"
+fr = "NOM objet long et dur : bâton"
+
+[[words]]
+id = "lijokuku"
+usage_category = "sandbox"
+word = "lijokuku"
+deprecated = false
+commentary = "Virtually unknown outside the Korean toki pona community."
+definitions = "to express agreement with laughter"
+
+[[words]]
+id = "tankala"
+usage_category = "sandbox"
+word = "tankala"
+deprecated = false
+commentary = ""
+definitions = "southeast"
+
+[[words]]
+id = "wa"
+usage_category = "obscure"
+word = "wa"
+deprecated = false
+commentary = 'Sometimes analyzed as a variety of "a".'
+definitions = "(interjection) [indicating awe or amazement]"
+
+[words.ku_data]
+whoa = 23
+wow = 11
+
+[[words]]
+id = "ilo"
+usage_category = "core"
+word = "ilo"
+deprecated = false
+commentary = ""
+definitions = "tool, implement, machine, device"
+
+[words.ku_data]
+computer = 26
+device = 95
+mechanical = 52
+utility = 40
+technical = 43
+app = 73
+application = 30
+software = 43
+robot = 59
+equipment = 85
+tool = 100
+technological = 53
+technology = 29
+machine = 84
+mechanism = 46
+instrument = 31
+gear = 50
+tech = 47
+hardware = 64
+
+[words.pu_verbatim]
+fr = "NOM outil, instrument, équipement, machine, appareil"
+de = "NOMEN Werkzeug, Hilfsmittel, Maschine, Gerät"
+en = "NOUN tool, implement, machine, device"
+eo = "SUBSTANTIVO ilo, maŝino, aparato"
+
+[[words]]
+id = "puwa"
+usage_category = "obscure"
+word = "puwa"
+deprecated = false
+commentary = ""
+definitions = "fluffy, soft, squishy (something that can be compressed and will try to go back to its original shape)"
+
+[[words]]
+id = "kan"
+usage_category = "sandbox"
+word = "kan"
+deprecated = true
+commentary = ""
+definitions = "(preposition) with, among, in the company of"
+
+[words.ku_data]
+with = 13
+amid = 7
+involved = 8
+together = 16
+alongside = 17
+associated = 9
+
+[[words]]
+id = "kajo"
+usage_category = "sandbox"
+word = "kajo"
+deprecated = false
+commentary = ""
+definitions = "the digit 9"
+
+[[words]]
+id = "kokoliko"
+usage_category = "sandbox"
+word = "kokoliko"
+deprecated = false
+commentary = ""
+definitions = "rooster, chicken, birds from the genus Gallus"
+
+[[words]]
+id = "kamalawala"
+usage_category = "obscure"
+word = "kamalawala"
+deprecated = false
+commentary = '''The word is from a story called "jan pi Kamalawala". A character's name is described as "nimi Jan pi Kama e Lawa Ala", and a shortened version given as "nimi Kamalawala". jan Kipo is responsible for it becoming a word instead of just a name.'''
+definitions = "anarchy, uprising, revolt, rebellion"
+
+[words.ku_data]
+revolution = 7
+
+[[words]]
+id = "kulijo"
+usage_category = "obscure"
+word = "kulijo"
+deprecated = false
+commentary = ""
+definitions = "(interjection) [casually express appreciation or acknowledgement]; cool, fine, okay"
+
+[[words]]
+id = "sijelo"
+usage_category = "core"
+word = "sijelo"
+deprecated = false
+commentary = ""
+definitions = "body, shape, physical state, torso, substance, form"
+
+[words.ku_data]
+torso = 64
+body = 100
+physical = 23
+self = 23
+figure = 32
+flesh = 50
+form = 35
+physically = 40
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO korpo (de homo aŭ besto), fizika stato, torso"
+de = "NOMEN Körper (einer Person oder eines Tieres), physische Form, Torso"
+en = "NOUN body (of person or animal), physical state, torso"
+fr = "NOM corps, état physique, torse"
+
+[[words]]
+id = "waken"
+usage_category = "sandbox"
+word = "waken"
+deprecated = false
+commentary = ""
+definitions = "wug"
+
+[[words]]
+id = "waleja"
+usage_category = "sandbox"
+word = "waleja"
+deprecated = false
+commentary = 'May be used as a preposition, e.g. "lipu waleja toki pona = a book about toki pona". However, this usage is very rare.'
+definitions = "context, topic, salience, pertinent, topical, pertain to, be relevant"
+
+[words.ku_data]
+case = 5
+emphasis = 7
+premise = 4
+theme = 9
+emphasize = 8
+attention = 10
+circumstance = 14
+background = 8
+situation = 8
+subject = 4
+context = 15
+topic = 6
+
+[[words]]
+id = "sama"
+usage_category = "core"
+word = "sama"
+deprecated = false
+commentary = ""
+definitions = "same, similar, alike; (adjective) peer, fellow, each other; (preposition) similar to, same as"
+
+[words.ku_data]
+constant = 36
+as = 80
+fellow = 25
+identical = 45
+like = 47
+mutual = 29
+relate = 35
+similar = 90
+alike = 100
+equal = 100
+seem = 33
+relation = 36
+equally = 54
+copy = 31
+associated = 36
+even = 33
+equivalent = 87
+similarly = 62
+equity = 29
+likewise = 40
+resemble = 27
+related = 40
+equality = 55
+
+[words.pu_verbatim]
+de = """
+ADJEKTIV gleich, ähnlich; einander; geschwisterlich, gleichgesellt
+PRÄPOSITION wie, genau wie, ähnlich wie"""
+fr = """
+ADJECTIF même, semblable; l'un l'autre ; fraternel, homologue
+PRÉPOSITION comme"""
+en = """
+ADJECTIVE same, similar; each other; sibling, peer, fellow
+PREPOSITION as, like"""
+eo = """
+ADJEKTIVO sama, simila; unu la alia; gefrata, kamarada, kunula
+PREPOZICIO kiel, simile al"""
+
+[[words]]
+id = "mun"
+usage_category = "core"
+word = "mun"
+deprecated = false
+commentary = ""
+definitions = "moon, night sky object, star, celestial body"
+
+[words.ku_data]
+planet = 19
+moon = 95
+"celestial body" = 80
+star = 25
+
+[words.pu_verbatim]
+fr = "NOM lune, astre, étoile"
+en = "NOUN moon, night sky object, star"
+de = "NOMEN Mond, Objekt am Nachthimmel, Stern"
+eo = "SUBSTANTIVO luno, nokta ĉiela objekto, stelo"
+
+[[words]]
+id = "laso"
+usage_category = "core"
+word = "laso"
+deprecated = false
+commentary = ""
+definitions = "turquoise, blue, green, cyan, indigo, lime green"
+
+[words.ku_data]
+teal = 71
+blue = 81
+green = 47
+
+[words.pu_verbatim]
+fr = "ADJECTIF bleu, vert"
+en = "ADJECTIVE blue, green"
+eo = "ADJEKTIVO blua, verda"
+de = "ADJEKTIV blau, grün"
+
+[[words]]
+id = "olin"
+usage_category = "core"
+word = "olin"
+deprecated = false
+commentary = '''In english, "love" can be used to mean "like a lot", but in toki pona, "olin" doesn't work that way. It indicates an emotional connection or bond, not preference'''
+definitions = "to have a strong emotional bond with, e.g. affection, appreciation, compassion, respect; platonic, romantic, or familial relationships"
+
+[words.ku_data]
+beloved = 27
+care = 14
+love = 96
+loyalty = 23
+intimate = 33
+appreciation = 13
+compassion = 50
+dear = 17
+faithful = 20
+romance = 69
+romantic = 60
+mercy = 16
+crush = 13
+attraction = 40
+passionate = 16
+darling = 16
+loving = 100
+loyal = 20
+passion = 29
+respect = 13
+
+[words.pu_verbatim]
+de = "VERB lieben, Mitgefühl haben, respektieren, Zuneigung zeigen"
+en = "VERB to love, have compassion for, respect, show affection to"
+fr = "VERBE aimer, respecter, compatir, montrer de l'affection pour"
+eo = "VERBO ami, simpatii kun, respekti, montri sian korinklinon al"
+
+[[words]]
+id = "peta"
+usage_category = "sandbox"
+word = "peta"
+deprecated = false
+commentary = ""
+definitions = "green, greenish; verdant, alive; ecofriendly"
+
+[[words]]
+id = "pona"
+usage_category = "core"
+word = "pona"
+deprecated = false
+commentary = ""
+definitions = "positive quality, e.g. good, pleasant, helpful, friendly, useful, peaceful"
+
+[words.ku_data]
+terrific = 36
+benefit = 69
+ideal = 50
+improvement = 47
+appropriate = 90
+courtesy = 31
+helpful = 53
+perfect = 29
+ease = 43
+improved = 33
+please = 28
+heal = 43
+resolve = 33
+elegant = 31
+good = 100
+supportive = 42
+peace = 36
+peaceful = 50
+correction = 46
+validity = 53
+mercy = 32
+lovely = 33
+well-being = 33
+kind = 53
+improve = 50
+easily = 25
+efficiency = 32
+positive = 70
+valid = 75
+correctly = 40
+natural = 33
+pleasant = 73
+effective = 31
+comfortable = 30
+easy = 33
+awesome = 41
+reasonable = 38
+better = 27
+"right (not wrong)" = 55
+useful = 31
+justice = 31
+fair = 45
+ethical = 50
+reliability = 29
+approval = 41
+basic = 27
+civil = 36
+elementary = 33
+solve = 27
+alright = 64
+okay = 54
+grace = 45
+thanks = 36
+virtue = 67
+nice = 88
+excellent = 25
+friendly = 72
+worthy = 33
+free = 27
+beautiful = 31
+properly = 36
+sufficient = 25
+acceptable = 81
+plain = 36
+successfully = 50
+well = 70
+wonderful = 36
+correct = 60
+fix = 57
+success = 26
+morality = 25
+OK = 80
+proper = 80
+welfare = 36
+cool = 55
+decent = 38
+merit = 50
+advantage = 55
+quality = 79
+relieve = 28
+successful = 43
+simple = 69
+fairly = 36
+honest = 27
+enhance = 33
+effectiveness = 40
+fascinating = 25
+adequate = 40
+fine = 80
+fixed = 54
+qualify = 25
+repair = 57
+simply = 80
+
+[words.pu_verbatim]
+eo = "ADJEKTIVO bona, pozitiva, utila; amika, paca; simpla"
+en = "ADJECTIVE good, positive, useful; friendly, peaceful; simple"
+de = "ADJEKTIV gut, positiv, nützlich; freundlich, friedlich; einfach, simpel"
+fr = "ADJECTIF bon, positif, utile ; sympa, paisible ; simple"
+
+[[words]]
+id = "lu"
+usage_category = "sandbox"
+word = "lu"
+deprecated = false
+commentary = ""
+definitions = "(word reserved for future use by Sonja Lang)"
+
+[[words]]
+id = "kokosila"
+usage_category = "uncommon"
+word = "kokosila"
+deprecated = false
+commentary = 'In Esperanto, "krokodili" means "to speak among Esperantists in a language besides Esperanto," and is an established bit of Esperanto culture.'
+definitions = "to speak a non-Toki Pona language in an environment where Toki Pona is more appropriate"
+
+[words.ku_data]
+"speak another language in a Toki Pona only environment" = 50
+
+[[words]]
+id = "monsuta"
+usage_category = "common"
+word = "monsuta"
+deprecated = false
+commentary = ""
+definitions = "fear, nervousness, dread; scary, frightening; scary thing e.g. predator, threat, danger"
+
+[words.ku_data]
+demon = 25
+scare = 38
+beast = 29
+monster = 58
+terror = 30
+disturbing = 30
+scary = 60
+horror = 42
+afraid = 27
+fear = 59
+
+[[words]]
+id = "pa"
+usage_category = "sandbox"
+word = "pa"
+deprecated = true
+commentary = ""
+definitions = "(interjection) bruh; expression of disbelief, exasperation, or excitement"
+
+[[words]]
+id = "nena"
+usage_category = "core"
+word = "nena"
+deprecated = false
+commentary = ""
+definitions = "protuberances e.g. bump, button, hill, nose"
+
+[words.ku_data]
+fold = 13
+mount = 18
+pile = 22
+button = 33
+hill = 67
+mountain = 25
+breast = 19
+peak = 29
+nose = 50
+ridge = 33
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO elstara malebenaĵo, elstaraĵo, tubero, butono, monteto, monto, nazo"
+de = "NOMEN Delle, Knopf, Hügel, Berg, Nase, Vorsprung"
+en = "NOUN bump, button, hill, mountain, nose, protuberance"
+fr = "NOM nez ; bosse, colline, montagne ; bouton"
+
+[[words]]
+id = "lipu"
+usage_category = "core"
+word = "lipu"
+deprecated = false
+commentary = ""
+definitions = "flat and bendable object, e.g. paper, card, leaf; written text or document, e.g. book, website, clay tablet"
+
+[words.ku_data]
+novel = 50
+tag = 25
+page = 82
+paper = 93
+sheet = 69
+doc = 39
+document = 88
+ticket = 90
+website = 60
+flat = 37
+form = 26
+certificate = 39
+"letter (in mail)" = 47
+list = 36
+magazine = 70
+article = 86
+poster = 27
+publication = 41
+book = 92
+essay = 57
+file = 64
+pad = 30
+sign = 43
+journal = 38
+card = 85
+literature = 38
+newspaper = 27
+blog = 36
+
+[words.pu_verbatim]
+de = "NOMEN flaches Objekt; Buch, Dokument, Karte, Papier, Aufzeichnung, Webseite"
+en = "NOUN flat object; book, document, card, paper, record, website"
+fr = "NOM objet plat ; livre, document, carte, papier, site web"
+eo = "SUBSTANTIVO plata objekto; libro, dokumento, karto, papero, registro, retejo"
+
+[[words]]
+id = "kulupu"
+usage_category = "core"
+word = "kulupu"
+deprecated = false
+commentary = ""
+definitions = "group, community, society, company, nation, collection, team, crowd"
+
+[words.ku_data]
+set = 54
+combination = 31
+social = 38
+socially = 53
+squad = 80
+stack = 35
+team = 60
+coalition = 54
+category = 50
+club = 57
+rally = 25
+sequence = 29
+partnership = 38
+organization = 100
+society = 67
+demographic = 25
+conference = 25
+community = 95
+tribal = 75
+committee = 33
+company = 25
+gathering = 53
+association = 65
+tribe = 83
+group = 100
+cluster = 71
+pack = 27
+pile = 44
+collection = 67
+establishment = 27
+assembly = 45
+class = 38
+array = 36
+crew = 64
+institution = 50
+bureau = 38
+crowd = 41
+league = 70
+ethnic = 40
+franchise = 25
+gang = 46
+network = 44
+public = 33
+affiliation = 33
+bunch = 75
+collective = 91
+meeting = 45
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO komunumo, kunularo, grupo, nacio, socio, tribo"
+de = "NOMEN Gemeinschaft, Firma, Gruppe, Nation, Gesellschaft, Stamm, Community"
+fr = "NOM communauté, groupe, nation, société, tribu, compagnie"
+en = "NOUN community, company, group, nation, society, tribe"
+
+[[words]]
+id = "pomotolo"
+usage_category = "sandbox"
+word = "pomotolo"
+deprecated = false
+commentary = 'From the time management method developed by Francesco Cirillo in Berlin in the 1980s, for which people often used tomato-shaped timers. In ku, "pomotolo" was given as one of the translations of "tomato", presumably due to speakers misusing or misunderstanding the word.'
+definitions = "effective, useful, give good results"
+
+[words.ku_data]
+tomato = 7
+
+[[words]]
+id = "alasa"
+usage_category = "core"
+word = "alasa"
+deprecated = false
+commentary = 'In some communities, the usage of "alasa" as a preverb meaning "try to" is equally or even more common than "lukin". In pu, only "lukin"/"oko" has this meaning.'
+definitions = "hunt, forage, search, attempt; (preverb) try to"
+
+[words.ku_data]
+quest = 33
+pursuit = 75
+explore = 44
+chase = 39
+try = 36
+seek = 56
+finding = 58
+locate = 38
+pursue = 74
+collect = 33
+hunt = 100
+catch = 26
+gather = 61
+hunting = 87
+search = 75
+
+[words.pu_verbatim]
+eo = "VERBO ĉasi, kolekti"
+fr = "VERBE chasser, cueillir"
+de = "VERB jagen, nach Nahrung suchen"
+en = "VERB to hunt, forage"
+
+[[words]]
+id = "ta"
+usage_category = "sandbox"
+word = "ta"
+deprecated = false
+commentary = 'Follows a semantically consistent pattern of "SUBJ li PV ta PRED" = "SUBJ li PV e [SUBJ li PRED]" or "[SUBJ li PRED] li PV". The top and bottom lines of the sitelen pona may be extended to the left around the pre-predicate word(s).'
+definitions = "(particle) [marks the previous words as preverbs]"
+
+[[words]]
+id = "jaki"
+usage_category = "core"
+word = "jaki"
+deprecated = false
+commentary = ""
+definitions = "disgusting, unclean, unsanitary, toxic, repulsive, rotten"
+
+[words.ku_data]
+garbage = 86
+infection = 44
+trash = 89
+crap = 47
+waste = 47
+disease = 37
+shit = 33
+pollution = 27
+gross = 87
+dirty = 93
+junk = 75
+mess = 82
+bullshit = 27
+nasty = 62
+virus = 30
+illness = 20
+toxic = 47
+bacteria = 67
+disgusting = 79
+
+[words.pu_verbatim]
+fr = "ADJECTIF dégoûtant, obscène, maladif, toxique, impur, insalubre"
+en = "ADJECTIVE disgusting, obscene, sickly, toxic, unclean, unsanitary"
+de = "ADJEKTIV eklig, obszön, krank, giftig, unsauber, unhygienisch"
+eo = "ADJEKTIVO naŭza, obscena, malagrabla, toksa, malpura, malhigiena"
+
+[[words]]
+id = "jami"
+usage_category = "obscure"
+word = "jami"
+deprecated = false
+commentary = 'Often used for "stim".'
+definitions = "yummy; eliciting or stimulating a positive sensory experience"
+
+[[words]]
+id = "su1"
+usage_category = "sandbox"
+word = "su"
+deprecated = false
+commentary = ""
+definitions = "[yes/no question marker, replacing the role of li]"
+
+[[words]]
+id = "suwi"
+usage_category = "core"
+word = "suwi"
+deprecated = false
+commentary = ""
+definitions = "sweet, fragrant; cute, adorable"
+
+[words.ku_data]
+cute = 92
+soft = 27
+sugar = 58
+candy = 65
+gentle = 33
+tender = 31
+darling = 26
+dessert = 32
+treat = 25
+sweet = 100
+
+[words.pu_verbatim]
+fr = "ADJECTIF doux, parfumé, mignon, innocent, adorable"
+en = "ADJECTIVE sweet, fragrant; cute, innocent, adorable"
+eo = "ADJEKTIVO dolĉa, bonodora; ĉarma, senkulpa, aminda"
+de = "ADJEKTIV süß, wohlriechend; niedlich, unschuldig, liebenswert"
+
+[[words]]
+id = "apeja"
+usage_category = "obscure"
+word = "apeja"
+deprecated = false
+commentary = 'According to jan Sonja, "apeja" never appeared in any pre-pu toki pona dictionary made by her and never promoted by her, instead it may have been "just an experimental idea in a forum post".'
+definitions = "guilt, shame, shun, stigma, disgrace; to accuse, to single out, to expose, to dishonor, to embarrass"
+
+[words.ku_data]
+embarrassed = 27
+guilt = 17
+shame = 40
+
+[[words]]
+id = "salu"
+usage_category = "sandbox"
+word = "salu"
+deprecated = false
+commentary = "💭 Intended as an experiment in its current form, and is not meant for widespread use at this time. Meant to be used alongside a nasin that does not use either ike or pona to express value judgements (especially morality). These words are often used in a way that ignores the reasoning behind the judgement. The goal of this experimental nasin is to promote mindfulness about value itself, translating mere reaction into introspection and explanation. ⚠️ Because of the stated attachment to this particular nasin pi toki pona, it should be noted that using salu and pona/ike as good/bad at the same time goes against the point of the word's creation, and that salu is redundant in this circumstance. If you are using one, you should not use the other."
+definitions = "comfort, security, safety, stability; attention, care, caution"
+
+[[words]]
+id = "polinpin"
+usage_category = "sandbox"
+word = "polinpin"
+deprecated = false
+commentary = ""
+definitions = "bowling pin"
+
+[[words]]
+id = "ma"
+usage_category = "core"
+word = "ma"
+deprecated = false
+commentary = ""
+definitions = "earth, land, soil; country, territory, world; outdoors"
+
+[words.ku_data]
+environment = 54
+land = 93
+region = 80
+zone = 69
+dirt = 33
+acre = 25
+national = 45
+soil = 73
+ground = 64
+kingdom = 28
+province = 70
+country = 100
+sector = 31
+world = 45
+setting = 40
+habitat = 36
+realm = 91
+landscape = 40
+area = 81
+outside = 26
+venue = 27
+place = 73
+field = 80
+nation = 62
+territory = 100
+continent = 40
+yard = 29
+earth = 71
+environmental = 57
+domain = 45
+nature = 43
+site = 50
+outdoors = 38
+location = 50
+
+[words.pu_verbatim]
+de = "NOMEN Erde (Planet), Land; draußen, Welt; Land (geo.), Territorium; Erde (Dreck)"
+fr = "NOM terre, sol ; monde, lieu en plien air ; pays, territoire"
+en = "NOUN earth, land; outdoors, world; country, territory; soil"
+eo = "SUBSTANTIVO tero, terpeco; eksterdoma subĉiela loko, mondo; lando, ŝtato, teritorio; tero (substanco)"
+
+[[words]]
+id = "inisa"
+usage_category = "sandbox"
+word = "inisa"
+deprecated = false
+commentary = ""
+definitions = "forget"
+
+[[words]]
+id = "uta"
+usage_category = "core"
+word = "uta"
+deprecated = false
+commentary = 'The dot in the "uta" sitelen pona is to distinguish luka-uta from moku.'
+definitions = "mouth, lips, throat, consuming orifice"
+
+[words.ku_data]
+mouth = 100
+kiss = 44
+bite = 31
+chew = 25
+lip = 47
+jaw = 42
+
+[words.pu_verbatim]
+en = "NOUN mouth,lips, oral cavity, jaw"
+eo = "SUBSTANTIVO buŝo, lipoj, buŝa kavo, makzeloj"
+fr = "NOM bouche, lèvres, cavité buccale, mâchoire"
+de = "NOMEN Mund, Lippen, Mundhöhle, Kiefer"
+
+[[words]]
+id = "kankuli"
+usage_category = "sandbox"
+word = "kankuli"
+deprecated = false
+commentary = ""
+definitions = "scrunkly"
+
+[[words]]
+id = "kuntu"
+usage_category = "sandbox"
+word = "kuntu"
+deprecated = false
+commentary = ""
+definitions = "laughter, chuckle, laugh, comedy, humor"
+
+[words.ku_data]
+comedy = 8
+laughter = 14
+chuckle = 13
+laugh = 8
+
+[[words]]
+id = "lupa"
+usage_category = "core"
+word = "lupa"
+deprecated = false
+commentary = ""
+definitions = "hole, pit, cave, doorway, window, portal"
+
+[words.ku_data]
+dig = 21
+window = 57
+opening = 27
+hole = 94
+entrance = 40
+door = 87
+gap = 27
+gate = 45
+orifice = 79
+pit = 77
+
+[words.pu_verbatim]
+en = "NOUN door, hole, orifice, window"
+de = "NOMEN Tür, Loch, Öffnung, Fenster"
+eo = "SUBSTANTIVO pordo, truo, korpa aperturo, fenestro"
+fr = "NOM porte, trou, orifice, fenêtre"
+
+[[words]]
+id = "neja"
+usage_category = "sandbox"
+word = "neja"
+deprecated = false
+commentary = ""
+definitions = "(number) four"
+
+[[words]]
+id = "e"
+usage_category = "core"
+word = "e"
+deprecated = false
+commentary = ""
+definitions = "(particle) [marks the start of a direct object]"
+
+[words.pu_verbatim]
+de = "PARTIKEL (vor dem direkten Objekt)"
+eo = "PARTIKULO (emfazo, emocio aŭ konfirmo)"
+fr = "PARTICULE (avant l'objet direct)"
+en = "PARTICLE (before the direct object)"
+
+[[words]]
+id = "sapelipope"
+usage_category = "sandbox"
+word = "sapelipope"
+deprecated = false
+commentary = ""
+definitions = "fiddlesticks!, damn"
+
+[[words]]
+id = "jatu"
+usage_category = "sandbox"
+word = "jatu"
+deprecated = false
+commentary = ""
+definitions = "the digit 1"
+
+[[words]]
+id = "la"
+usage_category = "core"
+word = "la"
+deprecated = false
+commentary = ""
+definitions = "(particle) [mark the previous statement as context to the following statement]"
+
+[words.ku_data]
+than = 33
+if = 88
+depending = 43
+regarding = 38
+while = 48
+
+[words.pu_verbatim]
+de = "PARTIKEL (zwischen der Kontextphrase und dem Hauptsatz)"
+eo = "PARTIKULO (inter la kunteksta frazparto kaj la ĉeffrazo)"
+en = "PARTICLE (between the context phrase and the main sentence)"
+fr = "PARTICULE (entre le contexte et la phrase principale)"
+
+[[words]]
+id = "sole"
+usage_category = "sandbox"
+word = "sole"
+deprecated = false
+commentary = "May refer to a state prior to a kama."
+definitions = "pattern, constant, unchanged, unaltered, unaffected; instinct, habit, to use to, to tend to"
+
+[[words]]
+id = "unu"
+usage_category = "obscure"
+word = "unu"
+deprecated = false
+commentary = ""
+definitions = "purple, violet"
+
+[words.ku_data]
+purple = 27
+
+[[words]]
+id = "selo"
+usage_category = "core"
+word = "selo"
+deprecated = false
+commentary = ""
+definitions = "outer layer, e.g. skin, peel, shell, bark; outer shape, outer form, boundary"
+
+[words.ku_data]
+appearance = 17
+outline = 40
+barrier = 22
+cover = 21
+boundary = 65
+external = 36
+layer = 42
+edge = 40
+outer = 50
+surface = 60
+margin = 29
+shape = 44
+peel = 50
+border = 32
+shell = 27
+skin = 83
+frame = 30
+
+[words.pu_verbatim]
+fr = "NOM forme, couche extérieure, peau, écorce, pelure, peau, coquille ; limite"
+de = "NOMEN äußere Form, äußere Schicht; Rinde, Schale, Hülle, Haut; Grenzfläche, Grenzlinie"
+eo = "SUBSTANTIVO ekstera formo, ekstera tavolo; ŝelo (de arbo, frukto, molusko), karapaco, haŭto; limo"
+en = "NOUN outer form, outer layer; bark, peel, shell, skin; boundary"
+
+[[words]]
+id = "tomo"
+usage_category = "core"
+word = "tomo"
+deprecated = false
+commentary = ""
+definitions = "indoor space or shelter e.g. room, building, home, tent, shack"
+
+[words.ku_data]
+suite = 59
+household = 43
+cabin = 42
+house = 94
+establishment = 45
+construction = 33
+residential = 50
+facility = 50
+room = 81
+apartment = 42
+hall = 38
+institute = 33
+station = 39
+structural = 54
+housing = 86
+shelter = 80
+residence = 68
+domestic = 58
+building = 100
+structure = 53
+chamber = 85
+home = 82
+venue = 33
+
+[words.pu_verbatim]
+de = "NOMEN Inhäusiges; Gebäude, Zuhause, Haus, Raum"
+eo = "SUBSTANTIVO endoma spaco; konstruaĵo, hejmo, domo, ĉambro"
+en = "NOUN indoor space; building, home, house, room"
+fr = "NOM espace intérieur, lieu couvert ; maison, bâtiment, édifice, pièce, chambre, chez soi, demeure"
+
+[[words]]
+id = "li"
+usage_category = "core"
+word = "li"
+deprecated = false
+commentary = ""
+definitions = "(particle) [marks the start of an indicative verb (statement)]"
+
+[words.pu_verbatim]
+fr = "PARTICULE (entre le sujet et son verbe, à l'exception de mi ou sina tout seul ; sert aussi à introduire un nouveau verbe pour le même sujet)"
+eo = "PARTIKULO (inter subjekto krom sola mi aŭ sola sina kaj ties verbo; ankaŭ por enkonduki novan verbon de la sama subjekto)"
+en = "PARTICLE (between any subject except mi alone or sina alone and its verb; also to introduce a new verb for the same subject)"
+de = "PARTIKEL (zwischen jedem Subjekt und dem zugehörigen Verb, außer bei einzelnem mi oder einzelnem sina; auch um ein neues Verb für dasselbe Subjekt einzuleiten)"
+
+[[words]]
+id = "itomi"
+usage_category = "sandbox"
+word = "itomi"
+deprecated = false
+commentary = 'Coined in reference to the song ‘Mia Khalifa’ by iLOVEFRiDay, where "hit or miss" was a prominent lyric. Sources disagree on who coined the word.'
+definitions = "Schadenfreude, indirect insult, disrespect, shade"
+
+[[words]]
+id = "yupekosi"
+usage_category = "obscure"
+word = "yupekosi"
+deprecated = false
+commentary = 'Coined as a random keystroke. It is presumed jan Sonja used "y" by mistake, but then made it part of the joke by adding "nobody knows how to pronounce the y".'
+definitions = "to behave like George Lucas and revise your old creative works and actually make them worse"
+
+[words.ku_data]
+"change a creative work and unintentionally make it worse" = 50
+
+[[words]]
+id = "pake"
+usage_category = "obscure"
+word = "pake"
+deprecated = false
+commentary = ""
+definitions = "stop, cease, halt; to block the way, to interrupt; to prevent"
+
+[words.ku_data]
+forbid = 20
+deny = 13
+interrupt = 16
+wall = 17
+stop = 27
+lock = 20
+intervention = 14
+restrict = 13
+prevent = 30
+limitation = 13
+cease = 13
+
+[[words]]
+id = "akesi"
+usage_category = "core"
+word = "akesi"
+deprecated = false
+commentary = 'akesi used to mean "non-cute animal," and is defined this way in pu, but this definition has fallen out of use and was later removed in the pu annotations published with ku.'
+definitions = "reptile, amphibian, scaly creature, crawling creature"
+
+[words.ku_data]
+frog = 56
+reptile = 96
+
+[words.pu_verbatim]
+de = "NOMEN nichtsüßes Tier; Reptil, Amphibie"
+fr = "NOM animal non-mignon ; reptile, amphibien"
+en = "NOUN non-cute animal; reptile, amphibian"
+eo = "SUBSTANTIVO reptilio, amfibio"
+
+[[words]]
+id = "je"
+usage_category = "sandbox"
+word = "je"
+deprecated = false
+commentary = ""
+definitions = "(interjection) [indicating excitement]"
+
+[[words]]
+id = "nuwa"
+usage_category = "sandbox"
+word = "nuwa"
+deprecated = false
+commentary = ""
+definitions = "newer"
+
+[[words]]
+id = "ewe"
+usage_category = "sandbox"
+word = "ewe"
+deprecated = false
+commentary = ""
+definitions = "stone, gravel, rock, pebble, lava, magma"
+
+[words.ku_data]
+stone = 3
+
+[[words]]
+id = "sina"
+usage_category = "core"
+word = "sina"
+deprecated = false
+commentary = ""
+definitions = "(pronoun) you, y'all"
+
+[words.ku_data]
+yourself = 67
+yours = 83
+you = 94
+your = 88
+
+[words.pu_verbatim]
+en = "NOUN you"
+fr = "NOM tu, toi, vous"
+de = "NOMEN du, Sie, ihr"
+eo = "SUBSTANTIVO vi"
+
+[[words]]
+id = "papa2"
+usage_category = "sandbox"
+word = "papa"
+deprecated = false
+commentary = 'Several (different?) people in 2019-2021 weirdly kept putting "papa" in their Reddit / Facebook posts, seemingly to promote it as a word to other people. It caused a backlash, with other people criticising the coinage, and coining other meanings for "papa".'
+definitions = "father"
+
+[[words]]
+id = "nja"
+usage_category = "obscure"
+word = "nja"
+deprecated = false
+commentary = ""
+definitions = "meow, cat sound"
+
+[[words]]
+id = "kon"
+usage_category = "core"
+word = "kon"
+deprecated = false
+commentary = ""
+definitions = "air, breath, wind; essence, spirit, soul, ghost; unseen agent"
+
+[words.ku_data]
+breeze = 33
+essence = 65
+soul = 100
+definition = 34
+"invisible entity" = 45
+meaning = 55
+intangible = 53
+breathing = 45
+breath = 57
+smell = 29
+atmosphere = 64
+abstract = 33
+breathe = 60
+spirit = 86
+gas = 83
+oxygen = 60
+air = 100
+
+[words.pu_verbatim]
+en = "NOUN air, breath; essence, spirit, hidden reality, unseen agent"
+eo = "SUBSTANTIVO aero, spiro; esenco, spirito; kaŝita realaĵo, io nevidata"
+de = "NOMEN Luft, Atem; Essenz, Geist; versteckte Realität, ungesehener Akteur"
+fr = "NOM air, souffle ; essence, esprit ; réalité cachée, agent invisible"
+
+[[words]]
+id = "wisa"
+usage_category = "sandbox"
+word = "wisa"
+deprecated = false
+commentary = ""
+definitions = "dog, canine"
+
+[[words]]
+id = "okepuma"
+usage_category = "sandbox"
+word = "okepuma"
+deprecated = false
+commentary = ""
+definitions = "boomer, Baby Boomer, inconsiderate elder; [interjection/insult]"
+
+[[words]]
+id = "anta"
+usage_category = "sandbox"
+word = "anta"
+deprecated = false
+commentary = ""
+definitions = "oil, fat, grease; slippery; salty, savory"
+
+[[words]]
+id = "mulapisu"
+usage_category = "obscure"
+word = "mulapisu"
+deprecated = false
+commentary = ""
+definitions = "pizza"
+
+[words.ku_data]
+pizza = 40
+
+[[words]]
+id = "enepi"
+usage_category = "sandbox"
+word = "enepi"
+deprecated = false
+commentary = ""
+definitions = "NFT, scam"
+
+[[words]]
+id = "pika"
+usage_category = "obscure"
+word = "pika"
+deprecated = false
+commentary = ""
+definitions = "electric, electronic, conductive, mechanical, online; electricity, lightning, thunder, network"
+
+[[words]]
+id = "mi"
+usage_category = "core"
+word = "mi"
+deprecated = false
+commentary = ""
+definitions = "(pronoun) I, me, we, us"
+
+[words.ku_data]
+mine = 63
+ours = 36
+ourselves = 26
+us = 43
+my = 100
+our = 63
+me = 100
+self = 38
+I = 100
+we = 38
+myself = 47
+
+[words.pu_verbatim]
+en = "NOUN I, me, we, us"
+fr = "NOM je, moi, nous"
+eo = "SUBSTANTIVO mi, ni"
+de = "NOMEN ich, mir, wir, uns"
+
+[[words]]
+id = "pipo"
+usage_category = "sandbox"
+word = "pipo"
+deprecated = false
+commentary = ""
+definitions = "annoy, annoyance, bothersome, boring"
+
+[[words]]
+id = "pipi"
+usage_category = "core"
+word = "pipi"
+deprecated = false
+commentary = ""
+definitions = "insect, bug, spider, tiny crawling creature"
+
+[words.ku_data]
+spider = 48
+bug = 100
+insect = 92
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO insekto, formiko, araneo, eta senvertebrulo"
+en = "NOUN bug, insect, ant, spider"
+de = "NOMEN Käfer, Insekt, Ameise, Spinne"
+fr = "NOM insecte, araignée, fourmi"
+
+[[words]]
+id = "kutopoma"
+usage_category = "sandbox"
+word = "kutopoma"
+deprecated = false
+commentary = "Virtually unknown outside the Korean toki pona community."
+definitions = 'the Korean group chat "kulupu pi toki pona pi ma Anku"'
+
+[[words]]
+id = "nimi"
+usage_category = "core"
+word = "nimi"
+deprecated = false
+commentary = ""
+definitions = "word, name"
+
+[words.ku_data]
+name = 100
+term = 55
+lyrics = 40
+brand = 29
+so-called = 29
+label = 33
+word = 100
+title = 50
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO nomo, vorto"
+fr = "NOM mot, nom"
+de = "NOMEN Name, Wort"
+en = "NOUN name, word"
+
+[[words]]
+id = "nowi"
+usage_category = "sandbox"
+word = "nowi"
+deprecated = false
+commentary = "Intended as an alt to esun which implies that non-mutually-beneficial relationships are not real relationships."
+definitions = "connected, related, joined; complementary, mutual; exchange"
+
+[[words]]
+id = "lanpan"
+usage_category = "uncommon"
+word = "lanpan"
+deprecated = false
+commentary = ""
+definitions = "take, seize, steal"
+
+[words.ku_data]
+steal = 48
+grab = 25
+seize = 42
+
+[[words]]
+id = "awase"
+usage_category = "sandbox"
+word = "awase"
+deprecated = false
+commentary = 'jan Lenoka further elaborated the semantics to imply "to bump into, to make contact with".'
+definitions = "bump, knock, jolt"
+
+[[words]]
+id = "poni"
+usage_category = "sandbox"
+word = "poni"
+deprecated = false
+commentary = 'Occasionally comes up as a jokish corruption of "pona" (especially in a phrase "toki poni").'
+definitions = "pony (of or relating to the My Little Pony franchise)"
+
+[[words]]
+id = "kese"
+usage_category = "sandbox"
+word = "kese"
+deprecated = false
+commentary = ""
+definitions = "queer, LGBT+"
+
+[words.ku_data]
+"LGBTQ+" = 6
+
+[[words]]
+id = "konwe"
+usage_category = "obscure"
+word = "konwe"
+deprecated = true
+commentary = '''
+Conway refers to John Horton Conway, creator of the cellular automaton Game of Life.
+konwe's intended meaning extends beyond just "living" and "life." It can be used to describe rocks or rivers or other nonliving things'''
+definitions = "animacy, life, autonomy; autonomous being, living thing, organism; alive, animate, dynamic; to animate, to bring to life"
+
+[[words]]
+id = "misikeke"
+usage_category = "common"
+word = "misikeke"
+deprecated = false
+commentary = "The word was used privately by jan Sonja up until November 2019, when she mentioned it in the ma pona pi toki pona discord server as a word she was experimenting with. It is believed the word was originally coined in 2007-2009 alongside pan, esun, apeja, monsuta, and pu, but this cannot be proven."
+definitions = "medical item or practice e.g. prescriptions, meditation, exercise, bandages, therapy"
+
+[words.ku_data]
+pill = 30
+medication = 46
+medicine = 42
+cure = 40
+medical = 30
+
+[[words]]
+id = "pasila"
+usage_category = "sandbox"
+word = "pasila"
+deprecated = true
+commentary = ""
+definitions = "good, easy; simple, relaxed, peaceful, uncomplicated"
+
+[[words]]
+id = "sike"
+usage_category = "core"
+word = "sike"
+deprecated = false
+commentary = ""
+definitions = "circle, sphere, spiral, round thing e.g. ball, wheel; repeating thing e.g. cycle, orbit, loop"
+
+[words.ku_data]
+round = 100
+cycle = 70
+circuit = 46
+ring = 33
+ball = 77
+roll = 20
+disc = 59
+surround = 31
+twist = 21
+wheel = 64
+sphere = 82
+loop = 71
+spin = 36
+globe = 55
+orbit = 23
+circle = 100
+curve = 25
+rolling = 25
+spot = 25
+
+[words.pu_verbatim]
+fr = """
+NOM objet rond : ballon, cercle, cycle, sphère, roue, anneau
+ADJECTIF annuel"""
+eo = """
+SUBSTANTIVO io ronda aŭ cirkla; pilko, cirklo, ciklo, globo, sfero, rado
+ADJEKTIVO de unu jaro"""
+en = """
+NOUN round or circular thing; ball, circle, cycle, sphere, wheel
+ADJECTIVE of one year"""
+de = """
+NOMEN rundes oder kreisförmiges Ding; Ball, Kreis, Zyklus, Kugel, Rad
+ADJEKTIV ein Jahr betreffend"""
+
+[[words]]
+id = "jans"
+usage_category = "sandbox"
+word = "jans"
+deprecated = false
+commentary = "Not coined directly, but developed out of repeated use in the early ma pona pi toki pona Discord server community. jans was repeatedly used because of the humor in adding an English plural suffix to a Toki Pona word."
+definitions = "a particular group of early members of the ma pona pi toki pona Discord server"
+
+[[words]]
+id = "kewi"
+usage_category = "sandbox"
+word = "kewi"
+deprecated = false
+commentary = ""
+definitions = "credit, acknowledgement, capital, reputation, status"
+
+[[words]]
+id = "moli"
+usage_category = "core"
+word = "moli"
+deprecated = false
+commentary = ""
+definitions = "death, dead, die, dying; kill, murder"
+
+[words.ku_data]
+execution = 27
+death = 100
+killing = 100
+deadly = 38
+kill = 64
+dying = 69
+die = 75
+dead = 94
+
+[words.pu_verbatim]
+fr = "ADJECTIF mort, mourant"
+en = "ADJECTIVE dead, dying"
+eo = "ADJEKTIVO mortinta, mortanta"
+de = "ADJEKTIV tot, sterbend"
+
+[[words]]
+id = "lape"
+usage_category = "core"
+word = "lape"
+deprecated = false
+commentary = ""
+definitions = "sleep, rest, break from an activity or work"
+
+[words.ku_data]
+rest = 58
+asleep = 80
+"lie (be in flat position)" = 26
+sleep = 100
+lay = 31
+
+[words.pu_verbatim]
+de = "ADJEKTIV schlafend, ausruhend"
+fr = "ADJECTIF dormant, se reposant"
+eo = "ADJEKTIVO dormanta, ripozanta"
+en = "ADJECTIVE sleeping, resting"
+
+[[words]]
+id = "wi"
+usage_category = "sandbox"
+word = "wi"
+deprecated = false
+commentary = ""
+definitions = "(pronoun) we (excluding you)"
+
+[[words]]
+id = "pata"
+usage_category = "sandbox"
+word = "pata"
+deprecated = true
+commentary = ""
+definitions = "sibling, brother, sister"
+
+[words.ku_data]
+cousin = 6
+sibling = 7
+
+[[words]]
+id = "weka"
+usage_category = "core"
+word = "weka"
+deprecated = false
+commentary = ""
+definitions = "absent, away, distant; remove, get rid of"
+
+[words.ku_data]
+distant = 64
+lose = 25
+lack = 27
+missing = 73
+drain = 40
+remove = 93
+away = 73
+ban = 31
+strip = 29
+out = 45
+omit = 80
+fade = 27
+loss = 69
+dismiss = 67
+rid = 100
+removal = 100
+resign = 31
+separate = 25
+absence = 71
+exit = 31
+disappear = 47
+delete = 67
+exclude = 45
+flee = 38
+separation = 30
+sweep = 31
+apart = 80
+vanish = 60
+avoid = 47
+reject = 33
+eliminate = 80
+abandon = 63
+remote = 25
+leave = 64
+skip = 29
+withdraw = 33
+far = 60
+escape = 42
+distance = 42
+wipe = 27
+
+[words.pu_verbatim]
+en = "ADJECTIVE absent, away, ignored"
+de = "ADJEKTIV abwesend, weg, ignoriert"
+eo = "ADJEKTIVO neĉeestanta, fora, ignorata"
+fr = "ADJECTIF absent, enlevé, éloigné"
+
+[[words]]
+id = "towoki"
+usage_category = "sandbox"
+word = "towoki"
+deprecated = false
+commentary = ""
+definitions = "hewwo"
+
+[[words]]
+id = "pilin"
+usage_category = "core"
+word = "pilin"
+deprecated = false
+commentary = ""
+definitions = "experience e.g. emotion, feeling, touch; heart (physical or emotional)"
+
+[words.ku_data]
+thinking = 40
+suspicion = 30
+touch = 27
+think = 24
+belief = 29
+estimated = 25
+reaction = 30
+idea = 27
+hypothesis = 50
+notion = 55
+sense = 69
+impression = 50
+perception = 27
+stimulus = 33
+heart = 70
+emotionally = 76
+experience = 35
+mentally = 24
+assumption = 40
+suppose = 36
+thought = 39
+outlook = 25
+emotional = 62
+feeling = 100
+opinion = 55
+believe = 40
+emotion = 100
+conscience = 36
+sentiment = 83
+deem = 47
+feel = 92
+assume = 50
+mood = 80
+perceive = 50
+consider = 25
+attitude = 64
+speculation = 38
+
+[words.pu_verbatim]
+fr = """
+NOM cœur (physique et psychologique)
+ADJECTIF qui ressent (une émotion, une expérience directe)"""
+de = """
+NOMEN Herz (physisch oder emotional)
+ADJEKTIV fühlend (eine Emotion, eine direkte Erfahrung)"""
+eo = """
+SUBSTANTIVO koro (fizika aŭ emocia)
+ADJEKTIVO sentanta (emocion, rektan sperton)"""
+en = """
+NOUN heart (physical or emotional)
+ADJECTIVE feeling (an emotion, a direct experience)"""
+
+[[words]]
+id = "kule"
+usage_category = "core"
+word = "kule"
+deprecated = false
+commentary = "in addition to its pu-definitions, kule is sometimes used to talk about more general kinds of categories, like type, kind, flavour, gender, etc."
+definitions = "color, pigment; category, genre, flavor; colorful, diverse"
+
+[words.ku_data]
+"LGBTQ+" = 35
+diverse = 36
+colour = 100
+paint = 33
+lesbian = 30
+gay = 30
+spectrum = 27
+
+[words.pu_verbatim]
+eo = "ADJEKTIVO kolora, pigmenta, pentrita"
+fr = "ADJECTIF coloré, pigmenté, peint"
+de = "ADJEKTIV bunt, pigmentiert, gemalt"
+en = "ADJECTIVE colourful, pigmented, painted"
+
+[[words]]
+id = "wan"
+usage_category = "core"
+word = "wan"
+deprecated = false
+commentary = ""
+definitions = "(number) one; singular; combine, join, mix, fuse"
+
+[words.ku_data]
+whole = 38
+blend = 50
+united = 92
+integrate = 36
+part = 22
+portion = 24
+alone = 27
+independent = 24
+slice = 23
+mix = 25
+particular = 25
+unit = 60
+one = 93
+integration = 37
+component = 28
+unity = 90
+bind = 40
+combination = 23
+combine = 44
+combined = 70
+single = 64
+segment = 25
+solo = 40
+primary = 23
+together = 26
+union = 43
+unite = 67
+
+[words.pu_verbatim]
+de = """
+ADJEKTIV einzigartig, vereint
+ZAHL Eins"""
+fr = """
+ADJECTIF unique, uni
+NOMBRE un"""
+en = """
+ADJECTIVE unique, united
+NUMBER one"""
+eo = """
+ADJEKTIVO unika, unueca
+NOMBRO unu"""
+
+[[words]]
+id = "aka"
+usage_category = "sandbox"
+word = "aka"
+deprecated = true
+commentary = 'This word is deprecated by the creator, replaced by "natu".'
+definitions = "cross-like shape, intersection, overlap [alternative form of natu]"
+
+[[words]]
+id = "kala"
+usage_category = "core"
+word = "kala"
+deprecated = false
+commentary = ""
+definitions = "fish, marine animal, sea creature, swimming creature"
+
+[words.ku_data]
+fish = 100
+"sea creature" = 82
+salmon = 62
+
+[words.pu_verbatim]
+fr = "NOM poisson, animal sous-marin"
+en = "NOUN fish, marine animal, sea creature"
+eo = "SUBSTANTIVO fiŝo, mara besto, mara vivaĵo"
+de = "NOMEN Fisch, Seetier, Meerestier"
+
+[[words]]
+id = "jelo"
+usage_category = "core"
+word = "jelo"
+deprecated = false
+commentary = 'Some extend "jelo" to include lime green, but this usage is uncommon.'
+definitions = "yellow, amber, golden, lime yellow, yellowish orange"
+
+[words.ku_data]
+golden = 25
+yellow = 94
+
+[words.pu_verbatim]
+eo = "ADJEKTIVO flava, flaveca"
+de = "ADJEKTIV gelb, gelblich"
+en = "ADJECTIVE yellow, yellowish"
+fr = "ADJECTIF jaune"
+
+[[words]]
+id = "sinpin"
+usage_category = "core"
+word = "sinpin"
+deprecated = false
+commentary = ""
+definitions = "vertical surface e.g. wall, board; front of something e.g. face"
+
+[words.ku_data]
+barrier = 22
+ahead = 24
+"face (n)" = 62
+front = 92
+"chest (anatomy)" = 27
+wall = 50
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO vizaĝo, antaŭo, muro"
+de = "NOMEN Gesicht, Vorderstes, Front, Wand"
+fr = "NOM avant, visage, front, mur"
+en = "NOUN face, foremost, front, wall"
+
+[[words]]
+id = "lon"
+usage_category = "core"
+word = "lon"
+deprecated = false
+commentary = ""
+definitions = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+
+[words.ku_data]
+"right (not wrong)" = 41
+frankly = 25
+indeed = 42
+truly = 60
+yeah = 62
+yes = 71
+mm-hmm = 27
+live = 47
+regarding = 25
+at = 100
+status = 30
+fact = 27
+placement = 29
+life = 40
+real = 100
+upon = 60
+actual = 86
+alive = 56
+physically = 30
+exist = 100
+certain = 30
+honestly = 36
+true = 81
+certainly = 45
+attend = 42
+located = 93
+onto = 36
+location = 35
+living = 73
+reality = 64
+amid = 27
+legitimate = 36
+precisely = 30
+genuine = 60
+existing = 100
+"of course" = 25
+sure = 27
+correctly = 33
+validity = 33
+yep = 87
+physical = 62
+on = 83
+attendance = 46
+exactly = 50
+presence = 89
+truth = 67
+occur = 31
+correct = 33
+availability = 27
+in = 57
+definitely = 40
+existence = 87
+occupy = 50
+position = 55
+accurate = 52
+
+[words.pu_verbatim]
+de = "PRÄPOSITION befindlich in/auf/an, anwesend in/auf/an, real, wahr, existierend"
+en = "PREPOSITION located at, present at, real, true, existing"
+eo = "PREPOZICIO estanta en iu loko, estanta ĉe, reala, vera, ekzistanta"
+fr = "PRÉPOSITION à, situé à, présent à, dans, sur ; réel, vrai, actuel"
+
+[[words]]
+id = "walo"
+usage_category = "core"
+word = "walo"
+deprecated = false
+commentary = ""
+definitions = "light-colored, white, pale, light gray, cream"
+
+[words.ku_data]
+white = 100
+pale = 74
+
+[words.pu_verbatim]
+en = "ADJECTIVE white, whitish; light-coloured, pale"
+eo = "ADJEKTIVO blanka, blankeca; helkolora, pala"
+fr = "ADJECTIF blanc, clair, pâle"
+de = "ADJEKTIV weiß, weißlich; hellfarbig, blass"
+
+[[words]]
+id = "po"
+usage_category = "obscure"
+word = "po"
+deprecated = true
+commentary = ""
+definitions = "(number) four"
+
+[words.ku_data]
+four = 10
+
+[[words]]
+id = "samu"
+usage_category = "sandbox"
+word = "samu"
+deprecated = false
+commentary = "Coined in reference to jan Samu, a Facebook user who attempted to propose a new word."
+definitions = "wanting to create new words"
+
+[words.ku_data]
+"wanting to create new words" = 40
+
+[[words]]
+id = "luka"
+usage_category = "core"
+word = "luka"
+deprecated = false
+commentary = ""
+definitions = "hand, arm, tactile limb, grasping limb; to grasp, interact with, feel using touch; (number) five"
+
+[words.ku_data]
+handful = 29
+tap = 26
+touch = 33
+five = 64
+wrist = 50
+arm = 68
+elbow = 25
+gesture = 27
+reach = 25
+hand = 100
+palm = 32
+
+[words.pu_verbatim]
+en = """
+NOUN arm, hand, tactile organ
+NUMBER five"""
+fr = """
+NOM bras, main, organe du toucher
+NOMBRE cinq"""
+eo = """
+SUBSTANTIVO brako, mano, tuŝorgano
+NOMBRO kvin"""
+de = """
+NOMEN Arm, Hand, Tastorgan
+ZAHL Fünf"""
+
+[[words]]
+id = "pu"
+usage_category = "core"
+word = "pu"
+deprecated = false
+commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+definitions = "interacting with the book Toki Pona: The Language of Good by Sonja Lang"
+
+[words.ku_data]
+officially = 27
+"interact with Toki Pona: The Language of Good" = 82
+
+[words.pu_verbatim]
+en = "ADJECTIVE interacting with the official Toki Pona book"
+eo = "ADJEKTIVO interaganta kun la oficiala libro de Tokipono"
+de = "ADJEKTIV mit dem offiziellen Toki-Pona-Buch interagierend"
+fr = "ADJECTIF interagissant avec le livre officiel du Toki Pona"
+
+[[words]]
+id = "ju"
+usage_category = "sandbox"
+word = "ju"
+deprecated = false
+commentary = ""
+definitions = "(word reserved for future use by Sonja Lang)"
+
+[[words]]
+id = "lete"
+usage_category = "core"
+word = "lete"
+deprecated = false
+commentary = ""
+definitions = "cold, cool, frozen; freeze, chill; raw, uncooked"
+
+[words.ku_data]
+cold = 100
+cool = 25
+frozen = 45
+freeze = 27
+raw = 58
+
+[words.pu_verbatim]
+de = "ADJEKTIV kalt, kühl; ungekocht, roh"
+en = "ADJECTIVE cold, cool; uncooked, raw"
+fr = "ADJECTIF froid, frais ; cru"
+eo = "ADJEKTIVO malvarma; nekuirita, kruda"
+
+[[words]]
+id = "seme"
+usage_category = "core"
+word = "seme"
+deprecated = false
+commentary = ""
+definitions = "(particle) [indicate a question by marking missing info in a sentence]; what, which, who"
+
+[words.ku_data]
+huh = 44
+what = 100
+which = 69
+
+[words.pu_verbatim]
+en = "PARTICLE what? which?"
+eo = "PARTIKULO kio? kiu?"
+de = "PARTIKEL was? welche? welcher? welches?"
+fr = "PARTICULE quoi ? quel ?"
+
+[[words]]
+id = "wawa"
+usage_category = "core"
+word = "wawa"
+deprecated = false
+commentary = ""
+definitions = "power, energy, strength; confident, intense, forceful; amazing, impressive"
+
+[words.ku_data]
+power = 100
+severe = 25
+strengthen = 62
+might = 40
+fast = 30
+reinforce = 63
+bold = 68
+electricity = 33
+powerful = 92
+rapid = 42
+strong = 88
+tough = 35
+energy = 88
+charge = 53
+firmly = 62
+brave = 47
+force = 73
+intense = 71
+compelling = 27
+glory = 25
+boost = 25
+confident = 27
+rapidly = 30
+quickly = 27
+strength = 100
+strongly = 82
+intensity = 65
+electrical = 42
+
+[words.pu_verbatim]
+de = "ADJEKTIV stark, kräftig; zuversichtlich, sicher; energetisch, intensiv"
+eo = "ADJEKTIVO forta, potenca; memfida, nedubanta; energia, intensa"
+fr = "ADJECTIF fort, puissant ; sûr, confiant ; énergique, intense"
+en = "ADJECTIVE strong, powerful; confident, sure; energetic, intense"
+
+[[words]]
+id = "su"
+usage_category = "uncommon"
+word = "su"
+deprecated = false
+commentary = "This word was originally coined in ku as a reserved word for jan Sonja's future use. It was redefined upon the release of the first su book, making its status as a ku word debatable."
+definitions = "interacting with a book from the illustrated story book series that began with The Wonderful Wizard of Oz, produced by Sonja Lang"
+
+[[words]]
+id = "iseki"
+usage_category = "sandbox"
+word = "iseki"
+deprecated = false
+commentary = 'Intended as an alt for namako that removes the "additional, extra" definition. used to emphasize that these details are core to something, and not superfluous.'
+definitions = "flower; adornment, accessory, garnish, spice; ornamental, aesthetic, beauty, flourish"
+
+[[words]]
+id = "lawa"
+usage_category = "core"
+word = "lawa"
+deprecated = false
+commentary = ""
+definitions = "head, mind, brain; control, lead, guide; government, leader; rule, law"
+
+[words.ku_data]
+command = 30
+regime = 25
+jurisdiction = 25
+administration = 33
+judicial = 50
+government = 30
+enforce = 50
+govern = 100
+executive = 36
+brain = 45
+administer = 44
+legal = 50
+legislation = 27
+main = 25
+management = 54
+law = 60
+ownership = 33
+leading = 70
+lead = 57
+head = 100
+ruling = 75
+mind = 50
+psychological = 29
+rule = 60
+control = 77
+conduct = 47
+administrative = 64
+mandate = 36
+drive = 36
+authority = 79
+regulate = 45
+oversee = 50
+institutional = 27
+regulation = 36
+manage = 65
+official = 47
+guide = 36
+regulatory = 70
+cognitive = 36
+dominate = 29
+leadership = 63
+policy = 44
+
+[words.pu_verbatim]
+en = "NOUN head, mind VERB to control, direct, guide, lead, own, plan, regulate, rule"
+de = """
+NOMEN Kopf, Geist (Verstand)
+VERB kontrollieren, führen, anleiten, besitzen, planen, regulieren, beherrschen"""
+eo = """
+SUBSTANTIVO kapo, menso
+VERBO gvidi, direkti, estri, konduki, posedi, plani, reguligi, regi"""
+fr = """
+NOM tête
+VERBE dominer, diriger, guider, mener, posséder, régler"""
+
+[[words]]
+id = "epikule"
+usage_category = "sandbox"
+word = "epikule"
+deprecated = false
+commentary = "Also known as kulepiku. Basically just a compound glyph that happened to be listed as a word."
+definitions = "kule epiku"
+
+[[words]]
+id = "we1"
+usage_category = "sandbox"
+word = "we"
+deprecated = false
+commentary = "Out of use."
+definitions = "(acts as a transition from one complete sentence to another)"
+
+[[words]]
+id = "kalijopilale"
+usage_category = "sandbox"
+word = "kalijopilale"
+deprecated = false
+commentary = ""
+definitions = "member of the order Caryophyllales, including all cacti as well as carnations, beets, and many carnivorous plants"
+
+[[words]]
+id = "masenta"
+usage_category = "sandbox"
+word = "masenta"
+deprecated = false
+commentary = ""
+definitions = "magenta, fuchsia, pink, pinkish"
+
+[[words]]
+id = "ijo"
+usage_category = "core"
+word = "ijo"
+deprecated = false
+commentary = ""
+definitions = "thing, object, entity, being, matter, phenomenon"
+
+[words.ku_data]
+phenomenon = 67
+anything = 50
+entity = 82
+subject = 30
+item = 100
+product = 29
+stuff = 100
+material = 63
+example = 25
+chemical = 32
+element = 38
+asset = 33
+"matter (n)" = 62
+thing = 100
+being = 33
+substance = 53
+something = 100
+stock = 27
+object = 100
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO aĵo, fenomeno, objekto, afero"
+de = "NOMEN Ding, Phänomen, Objekt, Angelegenheit"
+en = "NOUN thing, phenomenon, object, matter"
+fr = "NOM chose, phénomène, objet, matière"
+
+[[words]]
+id = "lo"
+usage_category = "sandbox"
+word = "lo"
+deprecated = false
+commentary = "Previously known as lu. Most of those interested in the word have agreed to change it to lo, to avoid interfering with the reserved word."
+definitions = "(particle) [indicates a prepositional phrase]"
+
+[[words]]
+id = "ala"
+usage_category = "core"
+word = "ala"
+deprecated = false
+commentary = ""
+definitions = "not, nothing, no; (particle) [negates a word or phrase]; (particle) [forms a yes-no question]; (number) zero"
+
+[words.ku_data]
+nothing = 81
+zero = 100
+hardly = 28
+no = 94
+neither = 60
+none = 100
+nor = 30
+not = 100
+
+[words.pu_verbatim]
+eo = "ADJEKTIVO ne, nul"
+de = "ADJEKTIV nein, nicht, kein, nichts, Null"
+fr = "ADJECTIF non, ne, pas, aucun, zéro"
+en = "ADJECTIVE no, not, zero"
+
+[[words]]
+id = "inta"
+usage_category = "sandbox"
+word = "inta"
+deprecated = false
+commentary = 'A particle that allows the speaker to specify the level of information they have about a situation. As a modifier, it means "at least" or "definitely", indicating knowledge of one thing but not necessarily other things.'
+definitions = "at least, definitely; still, yet, even"
+
+[[words]]
+id = "wiwi"
+usage_category = "sandbox"
+word = "wiwi"
+deprecated = false
+commentary = ""
+definitions = "yes absolutely!, (strong) agreement, consent, to approve e <something>"
+
+[[words]]
+id = "ete"
+usage_category = "sandbox"
+word = "ete"
+deprecated = false
+commentary = ""
+definitions = "beyond, exceeding, outside of, more than"
+
+[words.ku_data]
+beyond = 14
+exceed = 20
+
+[[words]]
+id = "apoko"
+usage_category = "sandbox"
+word = "apoko"
+deprecated = false
+commentary = ""
+definitions = 'the 💀 emoji; a Toki Pona adaptation of the meme "I forgor"'
+
+[[words]]
+id = "sona"
+usage_category = "core"
+word = "sona"
+deprecated = false
+commentary = ""
+definitions = "knowledge, information, data; know, be skilled in, be wise about; (preverb) know how to"
+
+[words.ku_data]
+remember = 27
+intelligence = 40
+sure = 36
+insight = 31
+identify = 28
+familiar = 27
+recognition = 55
+educational = 28
+understanding = 93
+understand = 94
+acknowledge = 25
+conscious = 27
+wise = 58
+aware = 83
+experienced = 33
+logical = 27
+awareness = 68
+know = 100
+data = 60
+knowledge = 100
+smart = 38
+information = 100
+cognitive = 27
+known = 62
+recognize = 50
+logic = 25
+clever = 27
+skill = 25
+wisdom = 73
+info = 79
+expertise = 42
+
+[words.pu_verbatim]
+en = """
+VERB to know, be skilled in, be wise about, have information on
+PRE-VERB to know how to"""
+eo = """
+VERBO scii, koni, esti lerta pri, esti saĝa pri, havi informojn pri
+ANTAŬVERBO scipovi"""
+de = """
+VERB wissen, qualifiziert sein in, weise sein über, Informationen
+HILFSVERB wissen wie man etw. tut"""
+fr = """
+VERBE savoir, connaître
+AUXILIAIRE savoir"""
+
+[[words]]
+id = "sikomo"
+usage_category = "sandbox"
+word = "sikomo"
+deprecated = false
+commentary = "Coined in reference to the Travis Scott song ‘Sicko Mode’."
+definitions = "on a higher tier/plane, enlighten(ed), epic; to an exceedingly great extent"
+
+[[words]]
+id = "panke"
+usage_category = "sandbox"
+word = "panke"
+deprecated = false
+commentary = ""
+definitions = "1. pan palisa Panke | 2. something typical of French culture | 3. calque-ing the French language when speaking toki pona."
+
+[[words]]
+id = "omekapo"
+usage_category = "obscure"
+word = "omekapo"
+deprecated = false
+commentary = 'Coined by jan Maliku in reference to the message "o moku e kala pona", which jan Sonja wrote on their copy of Toki Pona: The Language of Good during a Texas meetup.'
+definitions = 'goodbye, farewell, see you later, (literally) "o moku e kala pona" (eat a good fish)'
+
+[[words]]
+id = "pela"
+usage_category = "sandbox"
+word = "pela"
+deprecated = false
+commentary = "A reference to Sacha Baron Cohen's interview with Noah Chomsky."
+definitions = "dog"
+
+[[words]]
+id = "ko"
+usage_category = "core"
+word = "ko"
+deprecated = false
+commentary = 'The "clinging form" definition was elaborated to mean "a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped".'
+definitions = "semi-solid, e.g. paste, powder, goo, sand, soil, clay; squishy, moldable; sticky"
+
+[words.ku_data]
+clay = 60
+mud = 28
+cream = 33
+powder = 73
+dust = 36
+substance = 33
+dough = 30
+goo = 88
+paste = 73
+sand = 38
+semisolid = 86
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO argilo, kunteniĝanta aŭ glueca formo, pasto, duonsolidaĵo, pulvoro"
+de = "NOMEN Lehm, Haftendes, Knete, Teig, Halbfestes, Paste, Puder"
+fr = "NOM argle, pâte, poudre, substance collante, semi-solide"
+en = "NOUN clay, clinging form, dough, semi-solid, paste, powder"
+
+[[words]]
+id = "kepeken"
+usage_category = "core"
+word = "kepeken"
+deprecated = false
+commentary = 'Whether "kepeken" should be used with or without "e" in a predicative position (meaning "to use") remains controversial.'
+definitions = "(preposition) using, by means of"
+
+[words.ku_data]
+use = 93
+equip = 25
+operate = 27
+employ = 50
+used = 40
+interact = 26
+utilize = 75
+via = 60
+
+[words.pu_verbatim]
+fr = "PRÉPOSITION en utilisant, avec, au moyen de"
+eo = "PREPOZICIO uzi, per, uzante"
+en = "PREPOSITION to use, with, by means of"
+de = "PRÄPOSITION mittels, benutzen, mithilfe von, mit Hilfe"
+
+[[words]]
+id = "kikulo"
+usage_category = "sandbox"
+word = "kikulo"
+deprecated = false
+commentary = ""
+definitions = "immature, kikoolol"
+
+[[words]]
+id = "siwala"
+usage_category = "sandbox"
+word = "siwala"
+deprecated = false
+commentary = ""
+definitions = "the quality of being outside of understanding but accepted as reality; the quality of being not wished to be understood by one for the benefits associated with not understanding"
+
+[[words]]
+id = "olala"
+usage_category = "sandbox"
+word = "olala"
+deprecated = false
+commentary = '''this is a hard word to explain and you've got to use it right. It's pretty much linked to anything you could use "oh là  là" or "ouh là là" for. But because it's now a full-fledged toki pona content word, it got even more powerful and versatile. It can be used for joy, surprise, excitement, admiration, compassion, empathy, sadness, disappointment, and even to show you’re interested in someone romantically. However, it's equally important (or more) to know when to *not* use the word, you wouldn’t want to commit a faux-pas!'''
+definitions = 'something "oh là là"'
+
+[[words]]
+id = "ali"
+usage_category = "uncommon"
+word = "ali"
+deprecated = false
+commentary = '"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" has been more common since at least the release of pu. Generally not considered a word in its own right.'
+definitions = "[pronunciation variant of ale]"
+
+[words.ku_data]
+all = 32
+universe = 21
+entire = 27
+
+[[words]]
+id = "nu"
+usage_category = "sandbox"
+word = "nu"
+deprecated = false
+commentary = ""
+definitions = "(word reserved for future use by Sonja Lang)"
+
+[[words]]
+id = "lajotu"
+usage_category = "sandbox"
+word = "lajotu"
+deprecated = false
+commentary = ""
+definitions = "cat"
+
+[[words]]
+id = "jonke"
+usage_category = "obscure"
+word = "jonke"
+deprecated = false
+commentary = "Coined in reference to the Untitled Goose Game fandom."
+definitions = "hjönk, goose sound, goose"
+
+[[words]]
+id = "loka"
+usage_category = "sandbox"
+word = "loka"
+deprecated = false
+commentary = "Coined in response to jan Sonja's survey, as a portmanteau, presumably as a joke."
+definitions = "limb e.g. arm, leg"
+
+[words.ku_data]
+limb = 13
+
+[[words]]
+id = "ki"
+usage_category = "sandbox"
+word = "ki"
+deprecated = false
+commentary = "Provides relativisation of subjects (see WALS 122A), but not relativisation of obliques (see WALS 123A). Unlike ki, more typical relative constructions (usually two clauses linked via ni) support both."
+definitions = "(particle) [relative clause marker]"
+
+[[words]]
+id = "pakala"
+usage_category = "core"
+word = "pakala"
+deprecated = false
+commentary = ""
+definitions = "damaged, broken, botched, harmed, messed up; mistake"
+
+[words.ku_data]
+fucking = 42
+injury = 55
+failure = 57
+goddamn = 75
+snap = 48
+boom = 27
+collapse = 50
+mistake = 82
+damn = 79
+fault = 57
+damage = 81
+destruction = 100
+accident = 73
+destroy = 71
+hurt = 67
+violate = 30
+harm = 64
+crap = 27
+broken = 100
+error = 67
+fuck = 47
+flaw = 53
+injure = 65
+ruin = 75
+fail = 64
+crash = 65
+wound = 33
+rip = 38
+crack = 52
+crush = 33
+strike = 29
+trouble = 40
+explode = 33
+heck = 67
+break = 63
+burst = 75
+offense = 29
+
+[words.pu_verbatim]
+de = "ADJEKTIV kaputt, beschädigt, verletzt"
+en = "ADJECTIVE botched, broken, damaged, harmed, messed up"
+eo = "ADJEKTIVO fuŝita, rompita, damaĝita, difektita"
+fr = "ADJECTIF brisé, cassé, abîmé, bâclé, gâché"
+
+[[words]]
+id = "wasoweli"
+usage_category = "obscure"
+word = "wasoweli"
+deprecated = false
+commentary = 'First used as the name for a species in a mod for Caves of Qud created by akesi kon Nalasuni. Later appeared in ku as exclusively part of a translation for "penguin".'
+definitions = "animal with qualities of both waso and soweli"
+
+[[words]]
+id = "ako"
+usage_category = "sandbox"
+word = "ako"
+deprecated = false
+commentary = "Virtually unknown outside the Korean toki pona community."
+definitions = "(interjection) [general interjection, context-dependent]"
+
+[[words]]
+id = "sipi"
+usage_category = "sandbox"
+word = "sipi"
+deprecated = false
+commentary = "Proposed on a forum and quickly forgotten. Notable only for being an early non pu word proposal."
+definitions = "ego, self, own"
+
+[[words]]
+id = "masalo"
+usage_category = "sandbox"
+word = "masalo"
+deprecated = false
+commentary = ""
+definitions = "gosh! arghhh! / (also: facepalm)"
+
+[[words]]
+id = "en"
+usage_category = "core"
+word = "en"
+deprecated = false
+commentary = '''There are various analyses of the syntactic role of "en". Originally intended to be used as "and", it was changed (via poll in 2002) to just be used with "head nouns". One of the more recent analyses (including 2021's April Fools) treats "en" as a subject marker.'''
+definitions = "(particle) [separates multiple subjects]"
+
+[words.ku_data]
+and = 50
+plus = 50
+
+[words.pu_verbatim]
+fr = "PARTICULE (entre plusieurs sujets)"
+eo = "PARTIKULO (inter pluraj subjektoj)"
+en = "PARTICLE (between multiple subjects)"
+de = "PARTIKEL (zwischen mehreren Subjekten)"
+
+[[words]]
+id = "sutopatikuna"
+usage_category = "obscure"
+word = "sutopatikuna"
+deprecated = false
+commentary = '''Coined by Alexandre Baudry in 2009 in response to jan Sonja coining "kijetesantakalu" as part of 2009's April Fools.'''
+definitions = "platypus"
+
+[words.ku_data]
+platypus = 20
+
+[[words]]
+id = "pini"
+usage_category = "core"
+word = "pini"
+deprecated = false
+commentary = 'Some proficient speakers use pini as a preverb that means "to stop," that goes along with the complimentary open preverb "start to"'
+definitions = "finish, stop, prevent; close, disable, turn off; ended, past; edge, end, conclusion"
+
+[words.ku_data]
+closed = 64
+cease = 70
+interrupt = 32
+cancel = 43
+"close (v)" = 65
+lock = 30
+final = 50
+over = 29
+ending = 80
+outcome = 70
+pause = 33
+end = 100
+result = 40
+previous = 36
+shut = 87
+latter = 55
+finish = 94
+stop = 47
+conclusion = 40
+complete = 47
+conclude = 70
+off = 44
+quit = 55
+
+[words.pu_verbatim]
+de = "ADJEKTIV vorbei, vollendet, beendet, geendet, vergangen"
+fr = "ADJECTIF fini, passé, terminé"
+en = "ADJECTIVE ago, completed, ended, finished, past"
+eo = "ADJEKTIVO antaŭa, finfarita, finita, finiĝinta, pasinta"
+
+[[words]]
+id = "nanpa"
+usage_category = "core"
+word = "nanpa"
+deprecated = false
+commentary = ""
+definitions = "number; (particle) [ordinal number], -th"
+
+[words.ku_data]
+edition = 31
+ranking = 43
+calculate = 35
+percentage = 33
+rank = 44
+percent = 30
+rating = 46
+statistical = 42
+version = 27
+statistics = 30
+measurement = 43
+score = 57
+count = 80
+quantity = 36
+grade = 33
+number = 100
+
+[words.pu_verbatim]
+eo = """
+PARTIKULO -a (kiel en “unua”, “dua”, ktp; indikas pozicion
+SUBSTANTIVO ciferoj, nombroj"""
+de = """
+PARTIKEL -te (Ordinalzahl)
+NOMEN Zahlen"""
+en = """
+PARTICLE -th (ordinal number)
+NOUN numbers"""
+fr = """
+PARTICULE -ième (nombre ordinal)
+NOM nombre"""
+
+[[words]]
+id = "u"
+usage_category = "sandbox"
+word = "u"
+deprecated = false
+commentary = ""
+definitions = "(word reserved for future use by Sonja Lang)"
+
+[[words]]
+id = "misa"
+usage_category = "obscure"
+word = "misa"
+deprecated = false
+commentary = ""
+definitions = "Glires or Eulipotyphla; rat, mouse, squirrel, rabbit, rodent; {~ suli} capybara"
+
+[words.ku_data]
+capybara = 10
+"Glires or Eulipotyphla" = 18
+
+[[words]]
+id = "slape"
+usage_category = "sandbox"
+word = "slape"
+deprecated = false
+commentary = ""
+definitions = "[humorous synonym of lape]"
+
+[[words]]
+id = "kute"
+usage_category = "core"
+word = "kute"
+deprecated = false
+commentary = ""
+definitions = "ear, hearing organ; hear, listen, pay attention to, obey"
+
+[words.ku_data]
+ear = 90
+hearing = 89
+listen = 93
+hear = 100
+
+[words.pu_verbatim]
+de = """
+NOMEN Ohr
+VERB hören, zuhören; aufpassen, gehorchen"""
+eo = """
+SUBSTANTIVO orelo
+VERBO aŭdi, aŭskulti; atenti, obei"""
+fr = """
+NOM oreille
+VERBE entendre, écouter ; faire attention à, obéir"""
+en = """
+NOUN ear
+VERB to hear, listen; pay attention to, obey"""
+
+[[words]]
+id = "oko"
+usage_category = "uncommon"
+word = "oko"
+deprecated = false
+commentary = '''In common usage (both before and after pu), "lukin" and "oko" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use "oko" at all, preferring "lukin" in all circumstances, though some speakers do the opposite and use "oko" exclusively instead.'''
+definitions = "see, look, view, examine, read, watch; visual; eye, seeing organ; (preverb) try to"
+
+[words.ku_data]
+vision = 30
+eye = 68
+
+[words.pu_verbatim]
+fr = """
+NOM œil
+VERBE regarder, voir, examiner, observer, lire, surveiller
+AUXILIAIRE chercher à, essayer de"""
+de = """
+NOMEN Kopf, Geist (Verstand)
+VERB kontrollieren, führen, anleiten, besitzen, planen, regulieren, beherrschen
+HILFSVERB suchen, anstreben, versuchen"""
+eo = """
+SUBSTANTIVO okulo
+VERBO rigardi, vidi, ekzameni, observi, legi, spekti
+ANTAŬVERBO provi"""
+en = """
+NOUN eye
+VERB to look at, see, examine, observe, read, watch
+PRE-VERB to seek, look for, try to"""
+
+[[words]]
+id = "tonsi"
+usage_category = "common"
+word = "tonsi"
+deprecated = false
+commentary = '''
+* - Broader in meaning, somewhat less commonly accepted.
+Widely regarded in the community to be a crucial addition to toki pona. Occasionally referred to as an "honorary pu word" to highlight its status, or equated to a pu word outright.'''
+definitions = "nonbinary, gender nonconforming, genderqueer, transgender*"
+
+[words.ku_data]
+"gender non-conforming person" = 53
+"non-binary person" = 59
+"intersex person" = 36
+"transgender person" = 56
+
+[[words]]
+id = "kalama"
+usage_category = "core"
+word = "kalama"
+deprecated = false
+commentary = ""
+definitions = "to produce sound; sound, e.g. sing, thunder, drum, clap, laugh, beep"
+
+[words.ku_data]
+sound = 100
+noise = 79
+tone = 50
+bang = 27
+
+[words.pu_verbatim]
+eo = "VERBO fari sonon; reciti, diri laŭte aŭ voĉe"
+en = "VERB to produce a sound; recite, utter aloud"
+de = "VERB Geräusche machen; vortragen, laut aussprechen"
+fr = "VERBE émettre un son ; réciter, proférer"
+
+[[words]]
+id = "ipi"
+usage_category = "sandbox"
+word = "ipi"
+deprecated = true
+commentary = 'In a poll in 2002, "ipi" was proposed as a replacement for the now-archaic third-person pronoun "iki". However, it failed to get enough votes.'
+definitions = "he, she, it, they [polled as a replacement third-person pronoun in 2002]"
+
+[[words]]
+id = "insa"
+usage_category = "core"
+word = "insa"
+deprecated = false
+commentary = ""
+definitions = "inside, center, between, middle, midpoint, internal"
+
+[words.ku_data]
+amid = 27
+stomach = 41
+core = 67
+between = 27
+belly = 54
+centre = 91
+content = 27
+inner = 100
+inside = 58
+guts = 71
+insert = 31
+central = 60
+internal = 100
+middle = 56
+interior = 93
+within = 35
+"internal organ" = 38
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO centro, enhavo, eno, inter; ena organo, ventro, stomako"
+de = "NOMEN Zentrum, Inhalt, Inneres, zwischen; inneres Organ, Magen"
+fr = "NOM centre, contenu, intérieur, entre ; estomac, viscères"
+en = "NOUN centre, content, inside, between; internal organ, stomach"
+
+[[words]]
+id = "loje"
+usage_category = "core"
+word = "loje"
+deprecated = false
+commentary = ""
+definitions = "red, magenta, scarlet, pink, rust-colored, reddish orange"
+
+[words.ku_data]
+red = 95
+
+[words.pu_verbatim]
+fr = "ADJECTIF rouge"
+eo = "ADJEKTIVO ruĝa, ruĝeca"
+de = "ADJEKTIV rot, rötlich"
+en = "ADJECTIVE red, reddish"
+
+[[words]]
+id = "tawa"
+usage_category = "core"
+word = "tawa"
+deprecated = false
+commentary = ""
+definitions = "motion, e.g. walking, shaking, flight, travel; (preposition) to, for, going to, from the perspective of"
+
+[words.ku_data]
+advance = 56
+go = 100
+movement = 94
+walk = 58
+toward = 100
+transportation = 60
+until = 30
+motion = 100
+transfer = 29
+mobile = 30
+march = 38
+forward = 26
+towards = 93
+to = 93
+cross = 29
+till = 27
+migration = 46
+slide = 36
+"according to" = 33
+pass = 50
+onto = 55
+transport = 50
+attend = 25
+drift = 35
+progress = 25
+transit = 80
+approach = 27
+walking = 47
+for = 81
+forth = 36
+trip = 60
+travel = 69
+push = 43
+"from the perspective of" = 44
+move = 100
+proceed = 36
+momentum = 25
+departure = 45
+
+[words.pu_verbatim]
+en = """
+PREPOSITION going to, toward; for; from the perspective of
+ADJECTIVE moving"""
+eo = """
+PREPOZICIO al, iranta al, en la direkto al; por, al; laŭ la vidpunkto
+ADJEKTIVO moviĝanta"""
+fr = """
+PRÉPOSITION à, allant à, vers, pour, du point de vue de
+ADJECTIF en mouvement, animé"""
+de = """
+PRÄPOSITION sich bewegend zu, gerichtet auf; um zu; aus der
+ADJEKTIV sich bewegend, beweglich"""
+
+[[words]]
+id = "ale"
+usage_category = "core"
+word = "ale"
+deprecated = false
+commentary = '''
+"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" remains more common.
+The majority of speakers report not understanding the "abundant, bountiful, plentiful" meaning, at least out of context.
+"20, 120" were non-pu meanings previously in use in the community alongside 100; they are virtually unheard of nowadays.'''
+definitions = "all, every, everything, entirety, universe; (number) one hundred"
+
+[words.ku_data]
+totally = 35
+entirely = 50
+altogether = 44
+countless = 27
+fully = 32
+everything = 77
+all = 68
+any = 30
+entire = 64
+full = 36
+thoroughly = 30
+hundred = 21
+complete = 26
+comprehensive = 42
+completely = 58
+general = 27
+universe = 50
+absolute = 29
+every = 80
+universal = 60
+whole = 25
+each = 33
+total = 53
+
+[words.pu_verbatim]
+fr = """
+ADJECTIF tous, abondants, innombrables
+NOM tout, abondance, la vie, l'univers
+NOMBRE 100"""
+en = """
+ADJECTIVE all; abundant, countless, bountiful, every, plentiful
+NOUN abundance, everything, life, universe
+NUMBER 100"""
+eo = """
+ADJEKTIVO ĉiuj; abunda, nenombrebla, ĉiu
+SUBSTANTIVO abundo, ĉio, vivo, universo
+NOMBRO 100"""
+de = """
+ADJEKTIV alle, jede/r/s; im Überfluss, zahllos, reichlich
+NOMEN Überfluss, alles, Leben, Universum
+ZAHL 100"""
+
+[[words]]
+id = "me"
+usage_category = "sandbox"
+word = "me"
+deprecated = false
+commentary = ""
+definitions = "[question particle modifier]"
+
+[[words]]
+id = "melome"
+usage_category = "obscure"
+word = "melome"
+deprecated = false
+commentary = ""
+definitions = "lesbian, sapphic, WLW"
+
+[[words]]
+id = "musi"
+usage_category = "core"
+word = "musi"
+deprecated = false
+commentary = ""
+definitions = "fun, game, entertainment, art, play, amusing, interesting, comical, silly"
+
+[words.ku_data]
+entertainment = 100
+humour = 36
+artistic = 50
+fascinating = 38
+play = 87
+playoffs = 25
+enjoy = 27
+creative = 27
+fun = 100
+game = 86
+funny = 91
+interesting = 31
+art = 58
+comedy = 83
+irony = 28
+sport = 27
+
+[words.pu_verbatim]
+en = "ADJECTIVE artistic, entertaining, frivolous, playful, recreational"
+eo = "ADJEKTIVO arta, amuza, frivola, ludeca, rilata al amuziĝo"
+fr = "ADJECTIF artistique, divertissant, frivole, pour s'amuser"
+de = "ADJEKTIV künstlerisch, unterhaltend, albern, verspielt, freizeitlich"
+
+[[words]]
+id = "suwili"
+usage_category = "sandbox"
+word = "suwili"
+deprecated = false
+commentary = ""
+definitions = "cute animal"
+
+[[words]]
+id = "teki"
+usage_category = "sandbox"
+word = "teki"
+deprecated = false
+commentary = ""
+definitions = "case, circumstance, situation, event, state (of affairs, being), status"
+
+[[words]]
+id = "penpo"
+usage_category = "sandbox"
+word = "penpo"
+deprecated = false
+commentary = '''Coined in reference to ma pona pi toki pona's "tenpo pi toki pona taso" event, shortening it to "tenpo penpo".'''
+definitions = '(equivalent to "(pi) toki pona taso")'
+
+[[words]]
+id = "o"
+usage_category = "core"
+word = "o"
+deprecated = false
+commentary = ""
+definitions = "(particle) [marks the end of a vocative (who is being spoken to)], [marks the start of an imperative (command, wish, instruction)], should"
+
+[words.ku_data]
+ought = 29
+should = 37
+dare = 9
+dear = 6
+hey = 50
+must = 24
+please = 16
+mandate = 9
+shall = 42
+let = 10
+
+[words.pu_verbatim]
+fr = "PARTICULE hé ! ô ! (vocatif ou impératif)"
+en = "PARTICLE hey! O! (vocative or imperative)"
+eo = "PARTIKULO he! (vokativo aŭ imperativo)"
+de = "PARTIKEL hey! O! (Vokativ oder Imperativ)"
+
+[[words]]
+id = "ken"
+usage_category = "core"
+word = "ken"
+deprecated = false
+commentary = ""
+definitions = "can, may, ability, permission; possibility, maybe; allow, enable; (preverb) to be able to"
+
+[words.ku_data]
+liberty = 36
+capability = 92
+viable = 33
+perhaps = 40
+capable = 90
+eligible = 80
+may = 88
+likelihood = 60
+privilege = 31
+possibly = 50
+able = 100
+chance = 57
+prospect = 27
+opportunity = 53
+option = 33
+could = 81
+likely = 30
+available = 53
+possibility = 75
+allow = 30
+permission = 69
+potential = 94
+ability = 93
+odds = 45
+enable = 33
+maybe = 53
+might = 33
+possible = 86
+probability = 56
+can = 79
+freedom = 27
+patentially = 40
+
+[words.pu_verbatim]
+en = """
+PRE-VERB to be able to, be allowed to, can, may
+ADJECTIVE possible"""
+fr = """
+AUXILIAIRE pouvoir
+ADJECTIF possible"""
+de = """
+HILFSVERB etw. können, etw. dürfen
+ADJEKTIV möglich"""
+eo = """
+ANTAŬVERBO povi, rajti
+ADJEKTIVO ebla"""
+
+[[words]]
+id = "konsi"
+usage_category = "sandbox"
+word = "konsi"
+deprecated = false
+commentary = "Virtually unknown outside the Korean toki pona community. Apparently used humorously."
+definitions = "to notify, to let know"
+
+[[words]]
+id = "kulaso"
+usage_category = "sandbox"
+word = "kulaso"
+deprecated = false
+commentary = ""
+definitions = "green, greenish"
+
+[[words]]
+id = "soto"
+usage_category = "obscure"
+word = "soto"
+deprecated = false
+commentary = ""
+definitions = "left, left side, port side"
+
+[words.ku_data]
+"left (not right)" = 8
+
+[[words]]
+id = "lipasa"
+usage_category = "sandbox"
+word = "lipasa"
+deprecated = false
+commentary = '"Coined" by kala Asi for a small-scale survey to see if people would select it.'
+definitions = "[fake word that doesn't exist, for catching dishonestly filled surveys]"
+
+[[words]]
+id = "iki"
+usage_category = "sandbox"
+word = "iki"
+deprecated = true
+commentary = 'In a poll in 2002, "iki" was deemed too similar to "ike" and replaced by "ona".'
+definitions = "he, she, it, they [third-person pronoun in 2002, replaced by ona in a poll]"
+
+[[words]]
+id = "meli"
+usage_category = "common"
+word = "meli"
+deprecated = false
+commentary = ""
+definitions = "woman, female, wife, girlfriend"
+
+[words.ku_data]
+girl = 50
+wife = 40
+"ma’am" = 27
+"cisgender woman" = 31
+female = 100
+lady = 79
+"transgender woman" = 29
+woman = 77
+
+[words.pu_verbatim]
+de = "NOMEN Frau, Weibchen, feminine Person; Ehefrau"
+en = "NOUN woman, female, feminine person; wife"
+eo = "SUBSTANTIVO virino, ino; edzino"
+fr = "NOM femme, femelle ; épouse"
+
+[[words]]
+id = "owe"
+usage_category = "obscure"
+word = "owe"
+deprecated = false
+commentary = ""
+definitions = "totalitarian, Orwellian; of or relating to Big Brother from the book Ninety Eighty-Four"
+
+[[words]]
+id = "nasa"
+usage_category = "core"
+word = "nasa"
+deprecated = false
+commentary = ""
+definitions = "strange, unusual, silly, abnormal, unexpected; drunk, intoxicated"
+
+[words.ku_data]
+drunk = 64
+odd = 83
+confuse = 27
+psychoactive = 31
+ridiculous = 36
+unusual = 88
+weird = 100
+silly = 58
+suspicious = 25
+wild = 50
+nonsense = 27
+strange = 88
+
+[words.pu_verbatim]
+de = "ADJEKTIV ungewöhnlich, seltsam, merkwürdig, sonderbar; albern, närrisch; betrunken, berauscht"
+fr = "ADJECTIF étrange, insolite ; fou, bête, idiot ; ivre"
+en = "ADJECTIVE unusual, strange; foolish, crazy; drunk, intoxicated"
+eo = "ADJEKTIVO nekutima, stranga; bufona, malserioza, stulteta; ebria"
+
+[[words]]
+id = "nimisin"
+usage_category = "uncommon"
+word = "nimisin"
+deprecated = false
+commentary = 'Mostly used in conversations in English. Likely was popularised by the :nimisin: emote in ma pona, which was originally used to notify Atawan (maintainer of "nimi ale") about newly coined words. In common speech, the meaning got extended to include most or all non-pu words, regardless if they were coined recently or not.'
+definitions = "any non-pu word; any new word; any joke word"
+
+[[words]]
+id = "te"
+usage_category = "obscure"
+word = "te"
+deprecated = false
+commentary = 'May be paired with "to", or used on its own. It is unclear how accepted either approach is among te / to users.'
+definitions = "(particle) [opens a quote]"
+
+[words.ku_data]
+"(opening quotation particle)" = 7
+
+[[words]]
+id = "loku"
+usage_category = "sandbox"
+word = "loku"
+deprecated = false
+commentary = ""
+definitions = "the digit 6"
+
+[[words]]
+id = "kin"
+usage_category = "common"
+word = "kin"
+deprecated = false
+commentary = '''
+In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.
+Underwent significant changes in usage in 2002, alongside "en" and (now obsolete) "kan".'''
+definitions = "(particle) [after phrase or at sentence start] too, also, as well, additionally"
+
+[words.ku_data]
+especially = 25
+also = 79
+indeed = 25
+too = 73
+
+[words.pu_verbatim]
+fr = "PARTICULE (accent, émotion ou confirmation)"
+de = "PARTIKEL (Betonung, Emotion oder Bestätigung)"
+en = "PARTICLE (emphasis, emotion or confirmation)"
+eo = "PARTIKULO (emfazo, emocio aŭ konfirmo)"
+
+[[words]]
+id = "enko"
+usage_category = "sandbox"
+word = "enko"
+deprecated = true
+commentary = '''
+Considered deprecated by the author: "mi pali e nimi enko a a
+open la pilin mi li sama
+nimi enko li pona, jan mute o kepeken
+taso kepeken pi toki pona la mi kama sona
+nimi ante li ken toki e wile toki pi nimi enko
+la ona li suli ala"'''
+definitions = "(spatial equivalents of tenpo constructions) space, place, distance, size (length, width, height, depth, area, volume)"
+
+[[words]]
+id = "kosikosa"
+usage_category = "sandbox"
+word = "kosikosa"
+deprecated = false
+commentary = "kusikusa as an alternative spelling"
+definitions = "so-so / meso / sama pi lili taso"
+
+[[words]]
+id = "kapesi"
+usage_category = "obscure"
+word = "kapesi"
+deprecated = false
+commentary = ""
+definitions = "brown, gray, beige"
+
+[words.ku_data]
+brown = 24
+grey = 7
+
+[[words]]
+id = "mani"
+usage_category = "core"
+word = "mani"
+deprecated = false
+commentary = ""
+definitions = "money, currency; thing of value e.g. gold, investment, livestock"
+
+[words.ku_data]
+dollar = 67
+pension = 40
+wage = 50
+compensation = 33
+fiscal = 54
+subsidy = 31
+profit = 31
+treasure = 73
+revenue = 38
+worth = 70
+cattle = 68
+income = 31
+salary = 38
+fee = 50
+currency = 82
+expense = 39
+fund = 39
+monetary = 83
+cow = 30
+wealthy = 25
+toll = 30
+value = 32
+cash = 93
+payment = 29
+price = 33
+money = 100
+"large domesticated animal" = 27
+funding = 57
+economic = 39
+financial = 64
+cost = 47
+wealth = 71
+credit = 36
+budget = 38
+valuable = 43
+earnings = 33
+
+[words.pu_verbatim]
+fr = "NOM argent, richesse ; grand animal domestiqué"
+eo = "SUBSTANTIVO mono, riĉaĵoj, ŝparaĵo, kontanta mono; bruto, granda"
+de = "NOMEN Geld, Bargeld, Erspartes, Reichtum; großes domestiziertes"
+en = "NOUN money, cash, savings, wealth; large domesticated animal"
+
+[[words]]
+id = "nele"
+usage_category = "sandbox"
+word = "nele"
+deprecated = false
+commentary = "Meant to be antonymous to the 'cover, layer of privacy' meanings of 'len'. It can be applied both literally and metaphorically."
+definitions = "transparent material/object, lack of privacy; clear, transparent, unobstructed; to make clear, to make transparent, to remove obstructions"
+
+[[words]]
+id = "esun"
+usage_category = "core"
+word = "esun"
+deprecated = false
+commentary = 'According to jan Sonja, "esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa".'
+definitions = "trade, barter, exchange, swap, buy, sell; market, shop, fair, bazaar, place of business"
+
+[words.ku_data]
+enterprise = 27
+financial = 29
+buy = 65
+deal = 75
+purchase = 67
+sales = 67
+sell = 57
+shopping = 88
+transaction = 64
+exchange = 58
+franchise = 25
+trading = 91
+commercial = 36
+commerce = 69
+store = 36
+retail = 56
+trade = 88
+shop = 46
+business = 48
+market = 62
+sale = 60
+economy = 25
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO bazaro, vendejo, foiro, komerca transakcio"
+fr = "NOM marché, boutique, foire, magasin, commerce"
+de = "NOMEN Markt, Laden, Basar, Geschäft, Handel"
+en = "NOUN market, shop, fair, bazaar, business transaction"
+
+[[words]]
+id = "kikolo"
+usage_category = "sandbox"
+word = "kikolo"
+deprecated = false
+commentary = ""
+definitions = "funny / laughter, to laugh"
+
+[[words]]
+id = "jume"
+usage_category = "sandbox"
+word = "jume"
+deprecated = false
+commentary = 'Experimental, to see how the meaning could be expanded, but never actually used. No set of meanings was ever settled on before stopping the experiment, but one potential meaning the creator particularly liked was "fantasy" or "unreality", without a negative connotation.'
+definitions = "dream"
+
+[[words]]
+id = "antikontitutonelema"
+usage_category = "sandbox"
+word = "antikontitutonelema"
+deprecated = false
+commentary = 'several -ti- syllables. If desired, one can change one (especially the first) or all “ti” to "te" for a more classical toki pona phonology.'
+definitions = "a big mess, to mess up in a big way."
+
+[[words]]
+id = "ten"
+usage_category = "sandbox"
+word = "ten"
+deprecated = false
+commentary = "Out of use."
+definitions = "[shortened variant of tenpo]"
+
+[[words]]
+id = "kalamARR"
+usage_category = "sandbox"
+word = "kalamARR"
+deprecated = false
+commentary = ""
+definitions = "(pirate noise)"
+
+[[words]]
+id = "pimeja"
+usage_category = "core"
+word = "pimeja"
+deprecated = false
+commentary = ""
+definitions = "dark, unlit; dark color, e.g. black, purple, brown"
+
+[words.ku_data]
+darkness = 100
+shade = 47
+shadow = 50
+black = 100
+dark = 100
+
+[words.pu_verbatim]
+de = "ADJEKTIV schwarz, dunkel, unbeleuchtet"
+fr = "ADJECTIF noir, foncé, sombre"
+en = "ADJECTIVE black, dark, unlit"
+eo = "ADJEKTIVO nigra, malhela, malluma"
+
+[[words]]
+id = "tuli"
+usage_category = "sandbox"
+word = "tuli"
+deprecated = true
+commentary = ""
+definitions = "(number) three"
+
+[[words]]
+id = "namako"
+usage_category = "common"
+word = "namako"
+deprecated = false
+commentary = '''In common usage (both before and after pu), "sin" and "namako" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use "namako" at all, preferring "sin" in all circumstances.'''
+definitions = "spice, ornament, adornment; extra, additional"
+
+[words.ku_data]
+salt = 32
+extra = 65
+adornment = 50
+special = 27
+additional = 50
+extension = 38
+bonus = 37
+fancy = 31
+spice = 82
+
+[words.pu_verbatim]
+en = "ADJECTIVE new, fresh; additional, another, extra"
+de = "ADJEKTIV neu, frisch; zusätzlich, weitere/r/s, noch ein"
+fr = "ADJECTIF nouveau, frais ; encore un, de plus"
+eo = "ADJEKTIVO nova, freŝa; plia, aldona, kroma"
+
+[[words]]
+id = "sitelen"
+usage_category = "core"
+word = "sitelen"
+deprecated = false
+commentary = ""
+definitions = "image, picture, representation, symbol, mark, writing"
+
+[words.ku_data]
+picture = 100
+graph = 27
+written = 73
+depict = 68
+illustrate = 75
+mark = 47
+portray = 45
+painting = 75
+pattern = 28
+"letter (of alphabet)" = 24
+text = 33
+representation = 50
+writing = 75
+draw = 67
+image = 97
+illustration = 86
+note = 30
+poster = 27
+symbol = 89
+write = 75
+photograph = 64
+icon = 53
+sign = 29
+render = 36
+photo = 85
+drawing = 88
+record = 40
+portrait = 55
+compose = 25
+graphic = 93
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO bildo, figuro, simbolo, markaĵo, skribaĵo"
+en = "NOUN image, picture, representation, symbol, mark, writing"
+fr = "NOM image, représentation, symbole, marque, écriture"
+de = "NOMEN Bild, Abbildung, Repräsentation, Symbol, Zeichen, Schrift"
+
+[[words]]
+id = "unpa"
+usage_category = "core"
+word = "unpa"
+deprecated = false
+commentary = 'Also defined as "have marital relations with" in pu; removed due to potential confusion.'
+definitions = "sex, to have sex with"
+
+[words.ku_data]
+sex = 100
+sexually = 92
+fuck = 40
+fucking = 42
+sexual = 95
+
+[words.pu_verbatim]
+eo = "VERBO seksumi, amori"
+de = "VERB Sex haben mit, Geschlechtsverkehr haben mit"
+fr = "VERBE avoir des rapports sexuels ou conjugaux avec"
+en = "VERB to have sexual or marital relations with"
+
+[[words]]
+id = "majuna"
+usage_category = "uncommon"
+word = "majuna"
+deprecated = false
+commentary = ""
+definitions = "old, aged, ancient"
+
+[words.ku_data]
+elder = 15
+historical = 20
+ancient = 17
+elderly = 36
+old = 33
+senior = 21
+
+[[words]]
+id = "kili"
+usage_category = "core"
+word = "kili"
+deprecated = false
+commentary = 'In post-ku 2021, metaphorical definitions for kili have been suggested, including but not limited to "offspring" and "product", and are moderately popular. It is not yet clear whether this will remain in use long-term.'
+definitions = "fruit, vegetable, mushroom"
+
+[words.ku_data]
+fungus = 33
+apple = 82
+onion = 28
+nut = 29
+tomato = 27
+vegetable = 94
+fruit = 95
+kumquat = 42
+bean = 29
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO frukto, legomo, manĝebla fungo"
+fr = "NOM fruit, légume, champignon"
+de = "NOMEN Frucht, Gemüse, Pilz"
+en = "NOUN fruit, vegetable, mushroom"
+
+[[words]]
+id = "meso"
+usage_category = "uncommon"
+word = "meso"
+deprecated = false
+commentary = ""
+definitions = "midpoint, medium, mediocre; neither one not the other, neither fully is nor isn't"
+
+[words.ku_data]
+moderate = 50
+medium = 47
+intermediate = 29
+average = 53
+ordinary = 29
+
+[[words]]
+id = "aku"
+usage_category = "sandbox"
+word = "aku"
+deprecated = false
+commentary = ""
+definitions = "shocking, surprising, unexpected; sour, bitter, acidic"
+
+[[words]]
+id = "kepen"
+usage_category = "sandbox"
+word = "kepen"
+deprecated = false
+commentary = "Coined as a shortened version of kepeken by jan Tomen in 2017. Did not see significant use until 2020."
+definitions = "[shortened variant of kepeken]"
+
+[[words]]
+id = "nu1"
+usage_category = "sandbox"
+word = "nu"
+deprecated = false
+commentary = ""
+definitions = "new"
+
+[[words]]
+id = "noka"
+usage_category = "core"
+word = "noka"
+deprecated = false
+commentary = "noka can also mean any action involving the foot or leg, e.g. to kick, to step on, to touch with the leg."
+definitions = "foot, leg, organ of locomotion, roots"
+
+[words.ku_data]
+heel = 38
+lap = 55
+base = 31
+foot = 67
+ankle = 50
+kick = 43
+knee = 33
+leg = 93
+
+[words.pu_verbatim]
+fr = "NOM pied, jambe, organe de locomotion ; bas, dessous"
+eo = "SUBSTANTIVO piedo, kruro, moviĝa organo; malsupro, malsupra"
+de = "NOMEN Fuß, Bein, Fortbewegungsorgan; Unterseite, Unterteil"
+en = "NOUN foot, leg, organ of locomotion; bottom, lower part"
+
+[[words]]
+id = "apelo"
+usage_category = "sandbox"
+word = "apelo"
+deprecated = false
+commentary = "the drinks need not be alcoholic, usually involve snacks too."
+definitions = "unwinding with friends over a drink/cocktail (or two)"
+
+[[words]]
+id = "soweli"
+usage_category = "core"
+word = "soweli"
+deprecated = false
+commentary = ""
+definitions = "fuzzy creature, land animal, beast"
+
+[words.ku_data]
+animal = 95
+"mouse (2020)" = 30
+procyonid = 26
+horse = 32
+capybara = 40
+tiger = 29
+beast = 43
+creature = 71
+goat = 56
+llama = 58
+deer = 87
+pig = 40
+"large domesticated animal" = 27
+wolf = 36
+dog = 67
+Musteloidea = 50
+cat = 61
+rabbit = 25
+lion = 42
+Hominidae = 27
+monkey = 26
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO besto, surtera mamulo"
+de = "NOMEN Tier, Biest, Landsäugetier"
+fr = "NOM animal, mammifère terrestre"
+en = "NOUN animal, beast, land mammal"
+
+[[words]]
+id = "ka"
+usage_category = "sandbox"
+word = "ka"
+deprecated = false
+commentary = ""
+definitions = "(replacement for li, marked for future tense)"
+
+[[words]]
+id = "peto"
+usage_category = "sandbox"
+word = "peto"
+deprecated = true
+commentary = "This word is deprecated by the creator."
+definitions = "cry, tears; sad, sadness"
+
+[words.ku_data]
+cry = 7
+
+[[words]]
+id = "linluwi"
+usage_category = "uncommon"
+word = "linluwi"
+deprecated = false
+commentary = ""
+definitions = "bonded things which are stronger through their bonds e.g. network, internet, connection; weave, braid, interlace"
+
+[words.ku_data]
+network = 25
+Internet = 15
+net = 7
+virtual = 13
+web = 9
+connection = 8
+digital = 8
+
+[[words]]
+id = "silapa"
+usage_category = "sandbox"
+word = "silapa"
+deprecated = false
+commentary = '''
+Customarily written on multiple lines with a long "neck" composed of the letter "i" (originally the first "a"), like so:
+si
+ i
+ ilapa'''
+definitions = "giraffe"
+
+[[words]]
+id = "pipolo"
+usage_category = "sandbox"
+word = "pipolo"
+deprecated = false
+commentary = ""
+definitions = "something that is supposed to be “kikolo” but isn't"
+
+[[words]]
+id = "lukin"
+usage_category = "core"
+word = "lukin"
+deprecated = false
+commentary = '''In common usage (both before and after pu), "lukin" and "oko" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use "oko" at all, preferring "lukin" in all circumstances. The usage of "alasa" as a preverb meaning "try to" is more common than "lukin". In pu, only "lukin" has this meaning. A very common beginner mistake is treating "lukin" as if it means "appearance", due to the mistakenly equating the "visual" meaning as in "pona lukin (visually good)" to mean "looks good".'''
+definitions = "see, look, view, examine, read, watch; visual; eye, seeing organ; (preverb) try to"
+
+[words.ku_data]
+see = 100
+notice = 53
+surveillance = 50
+impression = 33
+observe = 92
+"regard (v)" = 29
+monitor = 25
+perceive = 36
+try = 36
+seek = 26
+view = 74
+vision = 60
+scan = 67
+reading = 31
+detect = 46
+"look at" = 86
+read = 27
+appearance = 50
+apparent = 27
+inspection = 60
+examine = 60
+eye = 26
+attention = 50
+examination = 47
+observation = 83
+assess = 40
+perception = 36
+investigation = 25
+visual = 64
+gaze = 83
+sight = 85
+glance = 33
+check = 77
+stare = 38
+watch = 65
+visible = 27
+encounter = 25
+
+[words.pu_verbatim]
+eo = """
+SUBSTANTIVO okulo
+VERBO rigardi, vidi, ekzameni, observi, legi, spekti
+ANTAŬVERBO provi"""
+fr = """
+NOM œil
+VERBE regarder, voir, examiner, observer, lire, surveiller
+AUXILIAIRE chercher à, essayer de"""
+de = """
+NOMEN Kopf, Geist (Verstand)
+VERB kontrollieren, führen, anleiten, besitzen, planen, regulieren, beherrschen
+HILFSVERB suchen, anstreben, versuchen"""
+en = """
+NOUN eye
+VERB to look at, see, examine, observe, read, watch
+PRE-VERB to seek, look for, try to"""
+
+[[words]]
+id = "poki"
+usage_category = "core"
+word = "poki"
+deprecated = false
+commentary = 'poki is sometimes used as "category" or to express types of things. One example is roles or groups, in discord chat contexts'
+definitions = "container e.g. bag, bowl, box, cup, cupboard, drawer, folder"
+
+[words.ku_data]
+cell = 26
+drawer = 50
+locker = 50
+trunk = 29
+bottle = 65
+sack = 40
+box = 90
+bucket = 67
+package = 89
+purse = 31
+pitcher = 27
+cup = 36
+cabinet = 61
+cage = 33
+basket = 71
+storage = 50
+classify = 55
+container = 100
+bag = 87
+jar = 92
+bowl = 42
+pack = 33
+pot = 64
+case = 45
+
+[words.pu_verbatim]
+fr = "NOM sac, bol, récipient, tasse, placard, tiroir, vase"
+eo = "SUBSTANTIVO ujo, sako, bovlo, skatolo, taso, ŝranko, tirkesto"
+de = "NOMEN Behältnis, Beutel, Schale, Kiste, Tasse, Karton, Schublade, Gefäß"
+en = "NOUN container, bag, bowl, box, cup, cupboard, drawer, vessel"
+
+[[words]]
+id = "onono"
+usage_category = "sandbox"
+word = "onono"
+deprecated = false
+commentary = ""
+definitions = "calling attention to urgency"
+
+[[words]]
+id = "len"
+usage_category = "core"
+word = "len"
+deprecated = false
+commentary = ""
+definitions = "cloth, clothing, fabric, textile; covered, hidden, secret, private"
+
+[words.ku_data]
+coverage = 25
+canvas = 25
+cloth = 100
+privacy = 67
+silk = 27
+private = 32
+wrap = 31
+shirt = 42
+"suit (n)" = 26
+cover = 64
+wear = 45
+flag = 25
+hide = 37
+clothes = 93
+costume = 30
+hidden = 25
+blanket = 36
+clothing = 100
+cotton = 33
+fabric = 92
+jacket = 47
+outfit = 74
+t-shirt = 40
+underwear = 25
+dress = 58
+
+[words.pu_verbatim]
+en = "NOUN cloth, clothing, fabric, textile; cover, layer of privacy"
+fr = "NOM tissu, vêtement, textile ; couverture, rideau d'intimité"
+de = "NOMEN Stoff, Kleidung, Gewebe, Textil; Abdeckung, Privatsphäre"
+eo = "SUBSTANTIVO ŝtofo, vestaĵo, teksaĵo; kovraĵo, tavolo de privateco"
+
+[[words]]
+id = "nalanja"
+usage_category = "sandbox"
+word = "nalanja"
+deprecated = false
+commentary = ""
+definitions = "orange (color)"
+
+[[words]]
+id = "se"
+usage_category = "sandbox"
+word = "se"
+deprecated = false
+commentary = ""
+definitions = "the digit 4"
+
+[[words]]
+id = "linja"
+usage_category = "core"
+word = "linja"
+deprecated = false
+commentary = ""
+definitions = "long, flexible thing, e.g. rope, yarn, hair, fur, line, strand"
+
+[words.ku_data]
+cable = 43
+chain = 27
+connection = 38
+fibre = 54
+ray = 36
+hair = 30
+connect = 27
+string = 100
+straight = 25
+cord = 100
+thread = 65
+rope = 92
+sequence = 29
+wire = 33
+line = 100
+row = 36
+link = 43
+streak = 36
+
+[words.pu_verbatim]
+fr = "NOM objet long et flexible : corde, cheveu, fil, ligne"
+de = "NOMEN langes/flexibles Ding; Schnur, Haar, Seil, Faden, Garn"
+eo = "SUBSTANTIVO io longa kaj fleksebla; kordo, haro, ŝnuro, fadeno"
+en = "NOUN long and flexible thing; cord, hair, rope, thread, yarn"
+
+[[words]]
+id = "pulaso"
+usage_category = "sandbox"
+word = "pulaso"
+deprecated = false
+commentary = ""
+definitions = "blue, blueish, indigo, navy blue, ultramarine"
+
+[[words]]
+id = "kolo"
+usage_category = "sandbox"
+word = "kolo"
+deprecated = false
+commentary = ""
+definitions = "pig"
+
+[[words]]
+id = "jo"
+usage_category = "core"
+word = "jo"
+deprecated = false
+commentary = ""
+definitions = "hold, carry, possess, contain, own"
+
+[words.ku_data]
+bring = 29
+carry = 90
+contain = 75
+grip = 27
+consist = 42
+equip = 31
+include = 42
+possession = 68
+have = 100
+own = 73
+possess = 95
+hold = 71
+grasp = 33
+comprise = 41
+ownership = 67
+
+[words.pu_verbatim]
+en = "VERB to have, carry, contain, hold"
+de = "VERB haben, tragen, beinhalten, halten"
+fr = "VERBE avoir, porter, contenir, tenir"
+eo = "VERBO havi, porti, enhavi, teni"
+
+[[words]]
+id = "we"
+usage_category = "sandbox"
+word = "we"
+deprecated = false
+commentary = ""
+definitions = "guy, pal, friend, buddy"
+
+[[words]]
+id = "poka"
+usage_category = "core"
+word = "poka"
+deprecated = false
+commentary = ""
+definitions = "hip, side; next to, nearby, vicinity"
+
+[words.ku_data]
+alongside = 25
+side = 100
+closely = 40
+sidebar = 25
+beside = 57
+"left (not right)" = 25
+aside = 45
+hip = 67
+
+[words.pu_verbatim]
+de = "NOMEN Hüfte, Seite; nah bei, in der Nähe, Umgebung"
+en = "NOUN hip, side; next to, nearby, vicinity"
+eo = "SUBSTANTIVO kokso, flanko; apud, proksime de, proksimaĵo"
+fr = "NOM hanche, côté ; proximité"
+
+[[words]]
+id = "leko"
+usage_category = "common"
+word = "leko"
+deprecated = false
+commentary = ""
+definitions = "square, cube, block, blocky object e.g. bricks, stairs"
+
+[words.ku_data]
+stair = 39
+cube = 50
+polyhedron = 30
+brick = 31
+square = 64
+block = 43
+
+[[words]]
+id = "pi"
+usage_category = "core"
+word = "pi"
+deprecated = false
+commentary = 'The usage of "pi" to mean "of" (marking a possessor) is heavily discouraged nowadays, preferring it to only be used for regrouping within phrases.'
+definitions = "(particle) [group the following words into one modifier for the previous word]"
+
+[words.ku_data]
+about = 9
+concerning = 20
+
+[words.pu_verbatim]
+en = "PARTICLE of"
+eo = "PARTIKULO de"
+de = "PARTIKEL von, des, der (teils wie Genitiv)"
+fr = "PARTICULE de"
+
+[[words]]
+id = "suno"
+usage_category = "core"
+word = "suno"
+deprecated = false
+commentary = ""
+definitions = "light, shine, glow, radiance; sun, light source; brightness"
+
+[words.ku_data]
+sun = 94
+light = 77
+shine = 60
+sunlight = 75
+solar = 93
+bright = 64
+
+[words.pu_verbatim]
+en = "NOUN sun; light brightness, glow, radiance, shine; light source"
+fr = "NOM soleil, lumière, lueur, brillant"
+de = "NOMEN Sonne; Licht, Helligkeit, (Licht-)Schein, Glanz; Lichtquelle"
+eo = "SUBSTANTIVO suno; lumo, heleco, ardeco, brilo; lumfonto"
+
+[[words]]
+id = "sipije"
+usage_category = "sandbox"
+word = "sipije"
+deprecated = false
+commentary = ""
+definitions = "autism"
+
+[[words]]
+id = "api"
+usage_category = "sandbox"
+word = "api"
+deprecated = false
+commentary = ""
+definitions = "🐝; bee"
+
+[[words]]
+id = "kulu"
+usage_category = "sandbox"
+word = "kulu"
+deprecated = false
+commentary = ""
+definitions = "[shortened variant of kulupu]; six (particularly in seximal base)"
+
+[[words]]
+id = "suke"
+usage_category = "sandbox"
+word = "suke"
+deprecated = false
+commentary = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
+definitions = "[typo of sike]"
+
+[[words]]
+id = "tu"
+usage_category = "core"
+word = "tu"
+deprecated = false
+commentary = ""
+definitions = "(number) two; separate, divide, split"
+
+[words.ku_data]
+cut = 38
+divide = 35
+pair = 88
+twice = 50
+both = 64
+two = 100
+couple = 50
+double = 80
+
+[words.pu_verbatim]
+eo = "NOMBRO du"
+fr = "NOMBRE deux"
+de = "ZAHL Zwei"
+en = "NUMBER two"
+
+[[words]]
+id = "telo"
+usage_category = "core"
+word = "telo"
+deprecated = false
+commentary = ""
+definitions = "liquids e.g. water, gasoline, soda, lava, soup, oil, ink"
+
+[words.ku_data]
+pool = 42
+wet = 73
+shower = 30
+water = 94
+lake = 29
+drink = 33
+wash = 52
+fluid = 100
+pond = 45
+
+[words.pu_verbatim]
+fr = "NOM eau, liquide, fluide, substance mouillée, boisson"
+de = "NOMEN Wasser, Flüssigkeit, Fluid, nasse Substanz; Getränk"
+en = "NOUN water, liquid, fluid, wet substance; beverage"
+eo = "SUBSTANTIVO akvo, likvo, fluaĵo, malseka substanco; trinkaĵo"
+
+[[words]]
+id = "kasi"
+usage_category = "core"
+word = "kasi"
+deprecated = false
+commentary = ""
+definitions = "plant, vegetation; herb, leaf"
+
+[words.ku_data]
+bush = 61
+herb = 40
+plant = 95
+tree = 32
+
+[words.pu_verbatim]
+en = "NOUN plant, vegetation; herb, leaf"
+eo = "SUBSTANTIVO planto, vegetaĵo; herbo, folio"
+fr = "NOM plante, végétation ; herbe, feuille"
+de = "NOMEN Pflanze, Vegetation; Kraut, Blatt"
+
+[[words]]
+id = "sewi"
+usage_category = "core"
+word = "sewi"
+deprecated = false
+commentary = ""
+definitions = "up, top, above, highest part; divine, sacred, supernatural; awesome, inspiring, excelling"
+
+[words.ku_data]
+weather = 25
+divine = 100
+spiritual = 50
+religious = 25
+supreme = 50
+upper = 100
+high = 60
+top = 76
+sacred = 80
+above = 36
+God = 39
+holy = 73
+magical = 30
+upstairs = 25
+elevated = 69
+sky = 71
+summit = 27
+superior = 36
+highly = 47
+arise = 25
+peak = 43
+raise = 50
+rise = 37
+
+[words.pu_verbatim]
+de = """
+NOMEN Bereich über etw., höchster Teil, etwas hoch Gelegenes
+ADJEKTIV ehrfurchtgebietend, göttlich, heilig, übernatürlich"""
+fr = """
+NOM dessus, le haut, chose élevée
+ADJECTIF divin, sacré, surnaturel, qui inspire le respect et la crainte"""
+en = """
+NOUN area above, highest part, something elevated
+ADJECTIVE awe-inspiring, divine, sacred, supernatural"""
+eo = """
+SUBSTANTIVO spaco super io, plej alta parto de io, io pli alta
+ADJEKTIVO miriga, dia, sankta, supernatura"""
+
+[[words]]
+id = "sin"
+usage_category = "core"
+word = "sin"
+deprecated = false
+commentary = '''In common usage (both before and after pu), "sin" and "namako" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use "namako" at all, preferring "sin" in all circumstances.'''
+definitions = "new, fresh, update; repeat, do again"
+
+[words.ku_data]
+another = 27
+new = 100
+fresh = 87
+"back (i.e. as before or returned)" = 40
+newly = 92
+recent = 27
+innovative = 32
+repeat = 26
+unprecedented = 33
+young = 23
+innovation = 25
+additionally = 27
+modern = 30
+again = 40
+
+[words.pu_verbatim]
+de = "ADJEKTIV neu, frisch; zusätzlich, weitere/r/s, noch ein"
+eo = "ADJEKTIVO nova, freŝa; plia, aldona, kroma"
+fr = "ADJECTIF nouveau, frais ; encore un, de plus"
+en = "ADJECTIVE new, fresh; additional, another, extra"
+
+[[words]]
+id = "yutu"
+usage_category = "sandbox"
+word = "yutu"
+deprecated = false
+commentary = 'The "y" was a typo and was meant to be "j", but got kept in anyway; compare "yupekosi".'
+definitions = "the star emoji used for the starboard #pona-kulupu in the ma pona pi toki pona Discord server"
+
+[[words]]
+id = "jalan"
+usage_category = "sandbox"
+word = "jalan"
+deprecated = true
+commentary = 'In a poll in 2002, "jalan" was proposed as a replacement for "noka". However, it failed to get enough votes.'
+definitions = "foot, leg [polled as a replacement for noka in 2002]"
+
+[[words]]
+id = "papa1"
+usage_category = "sandbox"
+word = "papa"
+deprecated = false
+commentary = ""
+definitions = "spinning iridium object, accelerating exponentially"
+
+[[words]]
+id = "taki"
+usage_category = "obscure"
+word = "taki"
+deprecated = false
+commentary = ""
+definitions = "sticky, magnetic; bond, attract, attach, clip"
+
+[words.ku_data]
+bond = 10
+attach = 8
+attract = 8
+clip = 4
+
+[[words]]
+id = "kiwen"
+usage_category = "core"
+word = "kiwen"
+deprecated = false
+commentary = 'This word was coined in a poll in 2002, replacing the compound phrase "wawa ma".'
+definitions = "hard object e.g. metal, stone, wood"
+
+[words.ku_data]
+silver = 31
+concrete = 60
+plastic = 25
+steel = 56
+firm = 44
+"hard object" = 79
+solid = 100
+stiff = 44
+stone = 84
+iron = 50
+rock = 93
+metal = 57
+
+[words.pu_verbatim]
+en = "NOUN hard object, metal, rock, stone"
+de = "NOMEN hartes Objekt, Metall, Fels, Stein"
+eo = "SUBSTANTIVO malmolaĵo, metalo, roko, ŝtono"
+fr = "NOM objet dur, métal, pierre"
+
+[[words]]
+id = "kipisi"
+usage_category = "common"
+word = "kipisi"
+deprecated = false
+commentary = ""
+definitions = "split, cut, slice; piece, part; sharp, pointy"
+
+[words.ku_data]
+divide = 55
+rip = 31
+division = 65
+part = 33
+separate = 25
+slice = 62
+portion = 38
+segment = 50
+cut = 56
+sector = 25
+chop = 50
+split = 69
+separation = 30
+piece = 35
+clip = 30
+percentage = 25
+carve = 27
+section = 42
+chunk = 28
+half = 31
+
+[[words]]
+id = "eliki"
+usage_category = "sandbox"
+word = "eliki"
+deprecated = false
+commentary = "an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
+definitions = "trial, adversity; bittersweet; an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
+
+[[words]]
+id = "ke"
+usage_category = "sandbox"
+word = "ke"
+deprecated = false
+commentary = ""
+definitions = "(acknowledgement or acceptance)"
+
+[words.ku_data]
+alright = 9
+
+[[words]]
+id = "natu"
+usage_category = "sandbox"
+word = "natu"
+deprecated = false
+commentary = ""
+definitions = "relationship, correlation, commonality; cross, knot, junction, intersection; to overlap, to fold; to overstep, to exceed to a point"
+
+[[words]]
+id = "mu"
+usage_category = "core"
+word = "mu"
+deprecated = false
+commentary = ""
+definitions = "(animal noise or communication, onomatopoeia)"
+
+[words.ku_data]
+"animal vocalization" = 93
+purr = 92
+cock-a-doodle-doo = 58
+neigh = 88
+woof = 100
+ribbit = 93
+meow = 100
+
+[words.pu_verbatim]
+eo = "PARTIKULO (bleko, aŭ alia besta sono aŭ komunikaĵo)"
+en = "PARTICLE (animal noise or communication)"
+de = "PARTIKEL (Tierlaut oder -kommunikation)"
+fr = "PARTICULE (cri ou communication d'un animal)"
+
+[[words]]
+id = "wile"
+usage_category = "core"
+word = "wile"
+deprecated = false
+commentary = ""
+definitions = "want, desire, wish, require; (preverb) want to"
+
+[words.ku_data]
+deserve = 30
+consent = 35
+motivation = 75
+objective = 33
+should = 53
+want = 100
+desire = 87
+wish = 94
+yearn = 71
+preference = 79
+will = 81
+willingness = 67
+choose = 35
+enthusiasm = 25
+prefer = 67
+opt = 36
+dependent = 31
+dare = 36
+select = 38
+strive = 27
+interested = 36
+pick = 33
+obligation = 56
+necessity = 73
+request = 47
+depend = 32
+require = 90
+required = 61
+selection = 29
+decision = 54
+urge = 33
+hope = 67
+shall = 33
+intent = 80
+goal = 40
+necessary = 70
+elect = 31
+expectation = 33
+supposed = 25
+would = 38
+ambition = 67
+eager = 50
+criteria = 36
+demand = 50
+motive = 38
+intention = 84
+incentive = 27
+choice = 27
+interest = 25
+agenda = 41
+need = 88
+must = 59
+requirement = 64
+determination = 33
+intend = 93
+ought = 71
+willing = 83
+
+[words.pu_verbatim]
+en = "PRE-VERB must, need, require, should, want, wish"
+eo = "ANTAŬVERBO devi, bezoni, devus …i, voli, deziri"
+de = "HILFSVERB müssen, brauchen, sollen, wollen, wünschen"
+fr = "AUXILIAIRE devoir, avoir besoin de, vouloir"
+
+[[words]]
+id = "omekalike"
+usage_category = "sandbox"
+word = "omekalike"
+deprecated = false
+commentary = ""
+definitions = '(proper name) a song by jan Usawi, (literally) "o moku e kala ike" (eat a bad fish)'
+
+[[words]]
+id = "pana"
+usage_category = "core"
+word = "pana"
+deprecated = false
+commentary = ""
+definitions = "give, send, emit, provide, put, release"
+
+[words.ku_data]
+provision = 36
+add = 29
+distribute = 65
+donate = 57
+bring = 29
+apply = 30
+present = 29
+transfer = 71
+insert = 25
+yield = 50
+publish = 37
+gift = 36
+contribution = 31
+donation = 33
+input = 40
+convey = 44
+offering = 47
+introduce = 26
+grant = 85
+shared = 36
+give = 100
+assign = 47
+provide = 73
+attach = 33
+share = 50
+devote = 33
+submit = 78
+export = 36
+spend = 35
+delivery = 82
+supply = 40
+release = 37
+distribution = 58
+post = 31
+show = 26
+put = 93
+spread = 33
+contribute = 53
+appoint = 55
+administer = 33
+serving = 33
+deliver = 90
+toss = 30
+install = 28
+dedicate = 25
+transmission = 30
+exhibit = 25
+output = 52
+lend = 40
+deploy = 47
+emission = 40
+given = 50
+offer = 40
+pour = 37
+added = 31
+send = 80
+serve = 35
+deposit = 45
+publishing = 50
+
+[words.pu_verbatim]
+eo = "VERBO doni, sendi, eligi, ellasi, provizi, meti"
+en = "VERB to give, send, emit, provide, put, release"
+de = "VERB geben, senden, ausstrahlen, emittieren, liefern, setzen, stellen, legen, freilassen"
+fr = "VERBE donner, envoyer, mettre, fournir, émettre, lâcher"
+
+[[words]]
+id = "se1"
+usage_category = "sandbox"
+word = "se"
+deprecated = false
+commentary = ""
+definitions = "one's own"
+
+[[words]]
+id = "potesu"
+usage_category = "sandbox"
+word = "potesu"
+deprecated = false
+commentary = ""
+definitions = "totally radical"
+
+[[words]]
+id = "nasin"
+usage_category = "core"
+word = "nasin"
+deprecated = false
+commentary = ""
+definitions = "method, doctrine, tradition; path, road, way"
+
+[words.ku_data]
+avenue = 80
+format = 52
+composition = 25
+lane = 43
+mode = 69
+order = 33
+protocol = 33
+direction = 73
+procedure = 35
+strategy = 30
+street = 71
+technique = 67
+track = 53
+style = 39
+way = 100
+trail = 70
+channel = 32
+course = 55
+journey = 44
+manner = 80
+orientation = 70
+tendency = 25
+ideology = 50
+aisle = 44
+doctrine = 92
+angle = 25
+layout = 56
+policy = 25
+system = 56
+guideline = 39
+norm = 40
+road = 100
+routine = 31
+custom = 45
+path = 83
+route = 75
+passage = 54
+regular = 38
+tactic = 48
+plan = 33
+pattern = 28
+method = 91
+theme = 27
+process = 54
+
+[words.pu_verbatim]
+en = "NOUN way, custom, doctrine, method, path, road"
+eo = "SUBSTANTIVO maniero, kutimo, doktrino, metodo, vojo, irejo"
+de = "NOMEN Art und Weise, Brauch, Doktrin, Methode, Weg, Pfad, Straße"
+fr = "NOM chemin, voie ; manière, façon ; coutume, méthode, doctrine"
+
+[[words]]
+id = "sikako"
+usage_category = "sandbox"
+word = "sikako"
+deprecated = false
+commentary = 'sikeko is a common misspelling from tokiponists who believe "sikako" derives from "sike ko".'
+definitions = "snail, gastropods, or “similar” animals"
+
+[[words]]
+id = "pali"
+usage_category = "core"
+word = "pali"
+deprecated = false
+commentary = ""
+definitions = "work, activity; create, build, design; put effort toward, take action on"
+
+[words.ku_data]
+project = 67
+processing = 43
+functional = 35
+prepare = 33
+undertake = 29
+service = 48
+accomplishment = 31
+development = 38
+enact = 50
+construct = 94
+operating = 69
+construction = 33
+achieve = 33
+practice = 38
+production = 91
+accomplish = 47
+activity = 93
+assemble = 58
+employment = 40
+behavioural = 28
+operate = 47
+productive = 27
+actively = 40
+creation = 50
+develop = 60
+perform = 50
+plan = 25
+operation = 50
+role = 35
+job = 92
+industry = 36
+compose = 58
+undergo = 31
+occupation = 81
+procedure = 35
+behaviour = 43
+act = 57
+busy = 29
+career = 41
+create = 84
+do = 100
+execute = 67
+labour = 90
+execution = 36
+action = 87
+craft = 64
+function = 83
+invent = 36
+manipulate = 25
+manufacturing = 64
+participation = 25
+task = 86
+assignment = 53
+behave = 43
+work = 100
+working = 90
+profession = 55
+effort = 48
+make = 93
+generate = 60
+implementation = 45
+industrial = 27
+interact = 32
+produce = 93
+build = 92
+commit = 50
+implement = 47
+
+[words.pu_verbatim]
+fr = "VERBE fair, agir sur, travailler, construire, préparer"
+eo = "VERBO fari, agi por atingi aŭ plenumi ion, prilabori; konstrui, fari, prepari"
+en = "VERB to do, take action on, work on; build, make, prepare"
+de = "VERB tun, arbeiten an; bauen, machen, herstellen"
+
+[[words]]
+id = "wuwojiti"
+usage_category = "obscure"
+word = "wuwojiti"
+deprecated = false
+commentary = 'May be seen not as a word in toki pona, but as a kind of memorisation tool in English to refer to the "banned" syllables. Occasionally extended to wuwojitinmanna to include the illegal consecutive nasal consonants.'
+definitions = 'to use one or more of the "banned" syllables wu, wo, ji, or ti; to break toki pona phonotactics'
+
+[[words]]
+id = "taso"
+usage_category = "core"
+word = "taso"
+deprecated = false
+commentary = 'Some proficient speakers use taso as a connector between sentences (X taso Y), similar to "X, but Y," as though taso behaved like la grammatically.'
+definitions = "only, exclusively; (particle) [marks a sentence as qualifying or contradictory], but, however"
+
+[words.ku_data]
+despite = 69
+merely = 58
+whereas = 45
+although = 80
+but = 100
+except = 53
+solely = 82
+however = 82
+nonetheless = 67
+yet = 50
+regardless = 33
+just = 71
+mere = 64
+exclusive = 70
+sole = 50
+only = 100
+though = 79
+exclusively = 80
+exception = 27
+nevertheless = 50
+
+[words.pu_verbatim]
+en = """
+PARTICLE but, however
+ADJECTIVE only"""
+de = """
+PARTIKEL aber, jedoch
+ADJEKTIV nur, lediglich, alleinig"""
+eo = """
+PARTIKULO sed, tamen
+ADJEKTIVO nur"""
+fr = """
+PARTICULE mais, cependant
+ADJECTIF seulement"""
+
+[[words]]
+id = "ante"
+usage_category = "core"
+word = "ante"
+deprecated = false
+commentary = ""
+definitions = "different, altered; modify, change; other; difference"
+
+[words.ku_data]
+alternative = 76
+convert = 75
+distinct = 69
+modify = 90
+transformation = 70
+replace = 50
+transform = 60
+differently = 69
+vary = 67
+another = 47
+switch = 50
+alter = 94
+counterpart = 29
+contrast = 55
+distinguish = 37
+amendment = 36
+conversion = 46
+difference = 71
+variation = 60
+adapt = 40
+adaptation = 25
+adjustment = 42
+separate = 30
+else = 47
+transition = 33
+shift = 25
+change = 75
+changing = 100
+unlike = 33
+different = 100
+other = 100
+distinction = 55
+edit = 73
+adjust = 37
+diversity = 26
+affect = 40
+opposed = 33
+
+[words.pu_verbatim]
+en = "ADJECTIVE different, altered, changed, other"
+fr = "ADJECTIF différent, changé, autre"
+de = "ADJEKTIV unterschiedlich, verändert, modifiziert, anders"
+eo = "ADJEKTIVO malsama, ŝanĝita, alia"
+
+[[words]]
+id = "wekama"
+usage_category = "obscure"
+word = "wekama"
+deprecated = false
+commentary = ""
+definitions = "leave and come back, be temporarily absent with the expectation of returning"
+
+[[words]]
+id = "kolin"
+usage_category = "sandbox"
+word = "kolin"
+deprecated = false
+commentary = ""
+definitions = "gloopy love"
+
+[[words]]
+id = "anpa"
+usage_category = "core"
+word = "anpa"
+deprecated = false
+commentary = 'In common usage (both before and after pu), "anpa" has the meaning of "place that is down". In pu, "noka" has that meaning instead.'
+definitions = "bottom, underside; below, beneath; defeated, humble, lowly"
+
+[words.ku_data]
+bottom = 79
+down = 96
+below = 58
+under = 35
+bow = 30
+beneath = 57
+defeat = 58
+lower = 70
+underlying = 25
+
+[words.pu_verbatim]
+en = "ADJECTIVE bowing down, downward, humble, lowly, dependent"
+de = "ADJEKTIV sich unterwerfend, herunter, bescheiden, demütig, abhängig"
+eo = "ADJEKTIVO klinanta sin, malsupren, humila, modesta, dependa"
+fr = "ADJECTIF incliné vers le bas, humble, qui dépend"
+
+[[words]]
+id = "eki"
+usage_category = "sandbox"
+word = "eki"
+deprecated = true
+commentary = 'It is recommended to use "natu" instead.'
+definitions = "cross-like shape, intersection, overlap [alternative form of natu]"
+
+[[words]]
+id = "lenke"
+usage_category = "sandbox"
+word = "lenke"
+deprecated = false
+commentary = ""
+definitions = "the digit 0"
+
+[[words]]
+id = "saja"
+usage_category = "sandbox"
+word = "saja"
+deprecated = false
+commentary = ""
+definitions = "trees, wood, order, taxonomy"
+
+[[words]]
+id = "sulaso"
+usage_category = "sandbox"
+word = "sulaso"
+deprecated = false
+commentary = ""
+definitions = "cyan, turquoise, teal, aquamarine, sky blue, light blue, light blueish"
+
+[[words]]
+id = "kasan"
+usage_category = "sandbox"
+word = "kasan"
+deprecated = false
+commentary = ""
+definitions = "legume, seed, nut, bean, soy, lentils, hard shelled fruit"
+
+[[words]]
+id = "anu"
+usage_category = "core"
+word = "anu"
+deprecated = false
+commentary = 'The usage of "anu" as a content word meaning "choose" remains controversial.'
+definitions = "(particle) [separates multiple possibilities, replacing another particle], or"
+
+[words.ku_data]
+choice = 47
+decide = 31
+or = 100
+whether = 60
+either = 31
+select = 31
+selection = 36
+
+[words.pu_verbatim]
+de = "PARTIKEL oder"
+en = "PARTICLE or"
+fr = "PARTICULE ou"
+eo = "PARTIKULO aŭ"
+
+[[words]]
+id = "n"
+usage_category = "common"
+word = "n"
+deprecated = false
+commentary = ""
+definitions = "(interjection) hm, uh, mm, er, umm, [indicate thinking or pause]"
+
+[words.ku_data]
+hmm = 33
+um = 47
+mmm = 40
+
+[[words]]
+id = "tenpo"
+usage_category = "core"
+word = "tenpo"
+deprecated = false
+commentary = ""
+definitions = "time, event, situation, moment, period, duration"
+
+[words.ku_data]
+hour = 47
+moment = 56
+scenario = 42
+season = 39
+circumstance = 50
+interval = 31
+instance = 25
+period = 38
+date = 50
+occasion = 65
+session = 71
+situation = 31
+phase = 64
+appointment = 44
+timing = 72
+time = 100
+event = 40
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO tempo, daŭro, momento, okazo, fojo, periodo, situacio"
+en = "NOUN time, duration, moment, occasion, period, situation"
+fr = "NOM temps, durée, moment, occasion, période, situation"
+de = "NOMEN Zeit, Dauer, Moment, Gelegenheit, Zeitraum, Situation"
+
+[[words]]
+id = "isipin"
+usage_category = "obscure"
+word = "isipin"
+deprecated = false
+commentary = ""
+definitions = "to think, brainstorm, rationalize, conclude, ponder"
+
+[words.ku_data]
+consciousness = 18
+theory = 13
+think = 29
+imagination = 15
+
+[[words]]
+id = "lokon"
+usage_category = "sandbox"
+word = "lokon"
+deprecated = false
+commentary = ""
+definitions = '[word made as a compromise between "lukin" and "oko"]'
+
+[[words]]
+id = "teje"
+usage_category = "obscure"
+word = "teje"
+deprecated = false
+commentary = ""
+definitions = "right, right side, starboard"
+
+[words.ku_data]
+"right (not left)" = 9
+
+[[words]]
+id = "ike"
+usage_category = "core"
+word = "ike"
+deprecated = false
+commentary = ""
+definitions = "negative quality, e.g. bad, unpleasant, harmful, unneeded"
+
+[words.ku_data]
+bad = 100
+tragic = 50
+awkward = 40
+badly = 81
+cruel = 46
+complicated = 39
+chaos = 27
+nasty = 31
+problem = 70
+corruption = 30
+harsh = 82
+disorder = 26
+toxic = 27
+awful = 55
+unfortunate = 60
+poorly = 59
+corrupt = 30
+issue = 42
+negative = 73
+offensive = 57
+"mean (adj)" = 77
+terrible = 61
+danger = 29
+hostile = 33
+wrong = 43
+difficulty = 31
+trouble = 53
+harm = 29
+evil = 75
+complex = 29
+inappropriate = 42
+vice = 36
+difficult = 27
+unfair = 40
+"hard (difficult)" = 29
+horrible = 67
+complexity = 42
+cursed = 29
+challenging = 29
+
+[words.pu_verbatim]
+fr = "ADJECTIF mauvais, négatif ; superflu, non pertinent"
+de = "ADJEKTIV schlecht, negativ; nicht essenziell, irrelevant"
+en = "ADJECTIVE bad, negative; non-essential, irrelevant"
+eo = "ADJEKTIVO malbona, negativa; neesenca, malgrava"
+
+[[words]]
+id = "take"
+usage_category = "sandbox"
+word = "take"
+deprecated = false
+commentary = ""
+definitions = "the digit 7"
+
+[[words]]
+id = "utala"
+usage_category = "core"
+word = "utala"
+deprecated = false
+commentary = ""
+definitions = "fight, compete, battle; competition, challenge; struggle, strive"
+
+[words.ku_data]
+tackle = 40
+fight = 100
+aggressive = 36
+contest = 56
+punch = 33
+strike = 29
+hostile = 33
+conflict = 93
+competitive = 40
+struggle = 60
+attack = 82
+versus = 69
+hit = 63
+resist = 36
+competition = 38
+challenge = 64
+battle = 100
+compete = 67
+assault = 88
+opposition = 30
+war = 58
+against = 29
+combat = 94
+oppose = 50
+violence = 63
+riot = 30
+beat = 35
+fighting = 100
+dispute = 50
+confront = 31
+opposed = 33
+contend = 90
+violent = 67
+
+[words.pu_verbatim]
+eo = "VERBO batali, defii, konkuri kontraŭ, lukti kontraŭ"
+fr = "VERBE se battre contre, lutter contre"
+de = "VERB bekämpfen, herausfordern, antreten gegen, gegen etw."
+en = "VERB to battle, challenge, compete against struggle against"
+
+[[words]]
+id = "pan"
+usage_category = "core"
+word = "pan"
+deprecated = false
+commentary = ""
+definitions = "grains, starchy foods, baked goods e.g. rice, sorghum, bread, noodles, masa, porridge, injera"
+
+[words.ku_data]
+carbohydrate = 25
+rice = 53
+bread = 100
+corn = 30
+wheat = 67
+grain = 81
+
+[words.pu_verbatim]
+en = "NOUN cereal, grain; barley, corn, oat, rice, wheat; bread, pasta"
+de = "NOMEN Getreide, Korn; Gerste, Mais, Hafer, Reis, Weizen; Brot, Nudeln"
+fr = "NOM céréale ; riz, blé, orge, maïs, avoine ; pain, pâtes"
+eo = "SUBSTANTIVO greno, cerealo; aveno, hordeo, maizo, rizo, tritiko; pano, pastaĵo"
+
+[[words]]
+id = "kiki"
+usage_category = "obscure"
+word = "kiki"
+deprecated = false
+commentary = '''The word is loaned from the 2001 Vilanyur S Ramachandran & Edward Hubbard version of Wolfgang Köhler's 1912 psycholinguistic experiment. The experiment studied sound symbolism on the words "bouba" and "kiki".'''
+definitions = "spiky, sharp; angle, point; triangular"
+
+[words.ku_data]
+spiky = 21
+point = 6
+angle = 8
+sharp = 14
+
+[[words]]
+id = "umesu"
+usage_category = "sandbox"
+word = "umesu"
+deprecated = false
+commentary = "Created for the game Acrophobia (musi Ako) in response to the fact that there are few words starting with 'u' in Toki Pona."
+definitions = "amaze people by being on the top of the leaderboard of a toki pona game"
+
+[[words]]
+id = "to"
+usage_category = "obscure"
+word = "to"
+deprecated = false
+commentary = 'May be paired with "te", or used on its own. It is unclear how accepted either approach is among te / to users.'
+definitions = "(particle) [closes a quote]"
+
+[words.ku_data]
+"(closing quotation particle)" = 7
+
+[[words]]
+id = "i"
+usage_category = "sandbox"
+word = "i"
+deprecated = true
+commentary = 'In a poll in 2002, "i" was proposed as a replacement for the now-archaic third-person pronoun "iki". However, it failed to get enough votes.'
+definitions = "he, she, it, they [polled as a replacement third-person pronoun in 2002]"
+
+[[words]]
+id = "kama"
+usage_category = "core"
+word = "kama"
+deprecated = false
+commentary = ""
+definitions = "arrive, approach, summon; future; event; (preverb) to become"
+
+[words.ku_data]
+upcoming = 71
+visit = 31
+next = 36
+event = 27
+come = 91
+trigger = 29
+become = 78
+arrive = 88
+happen = 62
+emerge = 67
+emerging = 69
+phenomenon = 27
+arise = 33
+induce = 31
+arrival = 90
+developmental = 33
+coming = 93
+occur = 54
+
+[words.pu_verbatim]
+fr = """
+ADJECTIF qui arrive, qui vent, futur, venu
+AUXILIAIRE devenir, arriver à, réussir à"""
+en = """
+ADJECTIVE arriving, coming, future, summoned
+PRE-VERB to become, manage to, succeed in"""
+eo = """
+ADJEKTIVO alvenanta, venonta, estonteca, venigita
+ANTAŬVERBO iĝi, sukcesi, elturniĝi pri"""
+de = """
+ADJEKTIV ankommend, kommend, zukünftig, vorgeladen, beschworen
+HILFSVERB etw. werden, etw. schaffen, etw. erreichen"""
+
+[[words]]
+id = "ini"
+usage_category = "sandbox"
+word = "ini"
+deprecated = false
+commentary = ""
+definitions = "the digit 2"
+
+[[words]]
+id = "san"
+usage_category = "obscure"
+word = "san"
+deprecated = false
+commentary = """
+More popular than the synonymous (and older) tuli.
+san was also part of a set of 10 digit words created by jan Lenoka: lenke, jatu, ini, san, se, nun, loku, take, patu, kajo (0 through 9). All of these coinages except for san lack notability to be included in the dictionary."""
+definitions = "(number) three"
+
+[words.ku_data]
+three = 4
+
+[[words]]
+id = "kapa"
+usage_category = "sandbox"
+word = "kapa"
+deprecated = true
+commentary = 'In a poll in 2002, "kapa" was proposed as a replacement for "nena". However, it failed to get enough votes.'
+definitions = "extrusion, protrusion, hill, mountain, button [polled as a replacement for nena in 2002]"
+
+[[words]]
+id = "tona"
+usage_category = "sandbox"
+word = "tona"
+deprecated = false
+commentary = ""
+definitions = "toner"
+
+[[words]]
+id = "epiku"
+usage_category = "uncommon"
+word = "epiku"
+deprecated = false
+commentary = ""
+definitions = "epic, cool, awesome, amazing"
+
+[words.ku_data]
+awesome = 29
+epic = 50
+amazing = 28
+
+[[words]]
+id = "nun"
+usage_category = "sandbox"
+word = "nun"
+deprecated = false
+commentary = ""
+definitions = "the digit 5"
+
+[[words]]
+id = "toki"
+usage_category = "core"
+word = "toki"
+deprecated = false
+commentary = ""
+definitions = "communicate, say, think; conversation, story; language"
+
+[words.ku_data]
+expression = 42
+declaration = 33
+communicate = 100
+message = 61
+phrase = 41
+commentary = 50
+claim = 27
+negotiate = 30
+comment = 67
+contact = 50
+consult = 25
+refer = 62
+describe = 30
+respond = 50
+tell = 93
+answer = 43
+discourse = 75
+speak = 100
+interview = 44
+suggestion = 25
+state = 31
+disclose = 50
+reporting = 56
+tale = 46
+testify = 43
+verbal = 47
+speech = 100
+dialogue = 60
+proposal = 47
+say = 100
+suggest = 33
+proposition = 25
+counsel = 25
+express = 60
+declare = 44
+feedback = 26
+reply = 39
+accuse = 25
+quote = 32
+response = 39
+conversation = 100
+coverage = 25
+excuse = 40
+talk = 100
+call = 56
+discuss = 83
+confess = 33
+hey = 40
+remark = 60
+narrative = 53
+communication = 100
+mention = 73
+preach = 31
+hi = 88
+specify = 27
+statement = 92
+hello = 100
+interaction = 33
+language = 94
+admit = 47
+discussion = 82
+greet = 36
+report = 42
+story = 44
+
+[words.pu_verbatim]
+en = "VERB to communicate, say, speak, say, talk, use language, think"
+fr = "VERBE communiquer, dire, parler, penser"
+eo = "VERBO komuniki, diri, paroli, uzi lingvon, pensi"
+de = "VERB kommunizieren, sagen, sprechen, reden, Sprache nutzen, denken"
+
+[[words]]
+id = "suli"
+usage_category = "core"
+word = "suli"
+deprecated = false
+commentary = ""
+definitions = "big, heavy, large, long, tall, wide; important, relevant"
+
+[words.ku_data]
+size = 67
+depth = 32
+stretch = 37
+broad = 70
+extent = 55
+heavy = 65
+deeply = 29
+substantial = 69
+expansion = 33
+growth = 27
+crucial = 75
+thick = 62
+importantly = 47
+importance = 100
+remarkable = 25
+enormous = 37
+long = 69
+profound = 30
+extension = 31
+significantly = 80
+widely = 29
+big = 100
+major = 60
+huge = 79
+vast = 77
+significant = 87
+great = 53
+dominant = 27
+critical = 33
+density = 29
+volume = 31
+massive = 40
+fundamental = 38
+essential = 40
+emphasis = 27
+extend = 37
+height = 50
+important = 92
+large = 100
+severe = 44
+giant = 65
+prominent = 73
+grand = 80
+emphasize = 38
+greatly = 47
+tremendous = 56
+vital = 50
+considerable = 63
+mainly = 25
+significance = 67
+weight = 77
+grow = 27
+wide = 64
+length = 50
+fat = 70
+dramatically = 42
+age = 31
+extended = 64
+heavily = 36
+largely = 40
+mass = 42
+relevant = 40
+magnitude = 54
+super = 27
+influential = 28
+"matter (v)" = 86
+dramatic = 27
+expand = 33
+extensive = 73
+tall = 77
+
+[words.pu_verbatim]
+en = "ADJECTIVE big, heavy, large, long, tall; important; adult"
+de = "ADJEKTIV groß, schwer, lang, hoch; wichtig; erwachsen"
+fr = "ADJECTIF grand, lourd, long ; important ; adulte"
+eo = "ADJEKTIVO granda, peza, longa, alta; grava; plenkreska"
+
+[[words]]
+id = "kijetesantakalu"
+usage_category = "common"
+word = "kijetesantakalu"
+deprecated = false
+commentary = "Coined as an April Fools joke in 2009."
+definitions = "raccoon, kinkajou; any procyonid; any musteloid"
+
+[words.ku_data]
+Musteloidea = 30
+procyonid = 53
+
+[[words]]
+id = "wawajete"
+usage_category = "sandbox"
+word = "wawajete"
+deprecated = false
+commentary = "Coined in reference to wuwojiti, a sequence of all phonotactically unviable CV syllables in toki pona."
+definitions = "something that appears to break the rules but doesn't; faux edginess, provocation"
+
+[[words]]
+id = "supa"
+usage_category = "core"
+word = "supa"
+deprecated = false
+commentary = ""
+definitions = "flat horizontal surface, especially to put or rest things on e.g. bed, floor, desk, plate, table, platform, stage"
+
+[words.ku_data]
+couch = 40
+desk = 43
+chair = 29
+"lie (be in flat position)" = 47
+deck = 40
+flat = 47
+surface = 30
+tablet = 33
+shelf = 80
+platform = 86
+level = 44
+counter = 28
+stage = 38
+seat = 38
+bench = 38
+furniture = 50
+board = 67
+pad = 25
+table = 83
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO horizontala surfaco, io sur kio oni metas ion alian"
+en = "NOUN horizontal surface, thing to put or rest something on"
+fr = "NOM surface horizontale sur laquelle on pose quelque chose"
+de = "NOMEN horizontale Oberfläche, Ding auf dem man etw. ablegt"
+
+[[words]]
+id = "Pingo"
+usage_category = "sandbox"
+word = "Pingo"
+deprecated = false
+commentary = ""
+definitions = "car"
+
+[words.ku_data]
+car = 6
+
+[[words]]
+id = "molusa"
+usage_category = "sandbox"
+word = "molusa"
+deprecated = true
+commentary = ""
+definitions = "squishy animal, e.g., snail, slug, sponge"
+
+[[words]]
+id = "mije"
+usage_category = "common"
+word = "mije"
+deprecated = false
+commentary = ""
+definitions = "man, male, husband, boyfriend"
+
+[words.ku_data]
+husband = 55
+boyfriend = 29
+male = 94
+guy = 29
+gentleman = 24
+sir = 35
+man = 90
+"transgender man" = 18
+"cisgender man" = 50
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO viro, virseksulo; edzo"
+fr = "NOM homme, mâle ; mari"
+en = "NOUN man, male, masculine person; husband"
+de = "NOMEN Mann, Männchen, maskuline Person; Ehemann"
+
+[[words]]
+id = "oni"
+usage_category = "sandbox"
+word = "oni"
+deprecated = true
+commentary = '''
+This word is deprecated by the creator; it is considered part of the "toki oni" tokiponido instead.
+The pronunciation of the second syllable was due to personal preferences of the creator, not modern Greek.'''
+definitions = "dream, daydream, imaginative play, vision, mystical state; to entrance"
+
+[[words]]
+id = "alente"
+usage_category = "sandbox"
+word = "alente"
+deprecated = false
+commentary = 'Coined humorously as the "final nimisin" - any newer word would semantically be included in alente, so it can be refuted for being "alente but even nicher".'
+definitions = "the set of concepts expressed by established toki pona words, subtracted from the set of every possible concept, such that every concept not already expressed by an existing toki pona word is expressed"
+
+[[words]]
+id = "soko"
+usage_category = "common"
+word = "soko"
+deprecated = false
+commentary = ""
+definitions = "mushroom, fungus, lichen"
+
+[words.ku_data]
+fungus = 42
+mushroom = 53
+
+[[words]]
+id = "ni"
+usage_category = "core"
+word = "ni"
+deprecated = false
+commentary = ""
+definitions = "this, that, these, those"
+
+[words.ku_data]
+those = 77
+specifically = 27
+there = 25
+these = 83
+this = 100
+particular = 31
+that = 86
+
+[words.pu_verbatim]
+eo = "ADJEKTIVO (ĉi) tiu, (ĉi) tio"
+de = "ADJEKTIV diese, dieser, dieses, jene, jener, jenes"
+fr = "ADJECTIF ce, cette"
+en = "ADJECTIVE that, this"
+
+[[words]]
+id = "mama"
+usage_category = "core"
+word = "mama"
+deprecated = false
+commentary = ""
+definitions = "parent, ancestor; creator, originator; caretaker, sustainer, guardian"
+
+[words.ku_data]
+founder = 30
+foster = 44
+father = 40
+parental = 90
+creator = 53
+originator = 43
+mama = 88
+mom = 75
+mommy = 80
+mother = 50
+parent = 100
+daddy = 38
+dad = 25
+
+[words.pu_verbatim]
+eo = "SUBSTANTIVO patro, patrino, gepatroj, praulo; kreinto, iniciatinto, fondinto; prizorganto, bontenanto"
+fr = "NOM parent, ancêtre ; créateur ; celui ou celle qui prend soin"
+de = "NOMEN Eltern, Elternteil, Vorfahr; Schöpfer, Urheber; Betreuer, Erhalter"
+en = "NOUN parent, ancestor; creator, originator; caretaker, sustainer"
+
+[[words]]
+id = "powe"
+usage_category = "obscure"
+word = "powe"
+deprecated = false
+commentary = ""
+definitions = "unreal, false, untrue; pretend; deceive, trick"
+
+[words.ku_data]
+myth = 21
+trick = 31
+fantasy = 14
+"lie (saying untruth)" = 21
+fake = 36
+pretend = 33
+trap = 19
+false = 25
+illusion = 15
+fraud = 20
+
+[[words]]
+id = "ku"
+usage_category = "common"
+word = "ku"
+deprecated = false
+commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+definitions = "interacting with the book Toki Pona Dictionary (2021) by Sonja Lang"
+
+[[words]]
+id = "ne"
+usage_category = "sandbox"
+word = "ne"
+deprecated = false
+commentary = ""
+definitions = "undo particle"
+
+[[words]]
+id = "moku"
+usage_category = "core"
+word = "moku"
+deprecated = false
+commentary = ""
+definitions = "eat, drink, consume, swallow, ingest; food, edible thing"
+
+[words.ku_data]
+eat = 100
+drink = 27
+consumption = 83
+nutrition = 50
+lunch = 26
+groceries = 43
+dining = 88
+eating = 100
+absorb = 35
+dinner = 50
+swallow = 68
+food = 100
+consume = 97
+chew = 44
+drinking = 47
+meal = 83
+
+[words.pu_verbatim]
+fr = "VERBE manger, boire, consommer, avaler"
+en = "VERB to eat, drink, consume, swallow, ingest"
+de = "VERB essen, trinken, konsumieren, schlucken, einnehmen"
+eo = "VERBO manĝi, trinki, konsumi, gluti"
+
+[[words]]
+id = "opasan"
+usage_category = "sandbox"
+word = "opasan"
+deprecated = false
+commentary = ""
+definitions = "talented, brilliant, opossum"
+
+[[words]]
+id = "jaku"
+usage_category = "sandbox"
+word = "jaku"
+deprecated = false
+commentary = ""
+definitions = "(number) one hundred"
+
+[[words]]
+id = "lapan"
+usage_category = "sandbox"
+word = "lapan"
+deprecated = false
+commentary = ""
+definitions = "dairy-like; creamy, fatty, rich, smooth"
+
+[[words]]
+id = "jan"
+usage_category = "core"
+word = "jan"
+deprecated = false
+commentary = 'There are two sides to the concept, "sentient entity" and "homo sapiens", which matters for whether to use the word in edge cases (i.e. aliens, humans turned into werewolves, etc). Which sense is more central to the word remains controversial.'
+definitions = "human being, person, somebody"
+
+[words.ku_data]
+guy = 43
+citizen = 30
+individual = 31
+human = 93
+civilian = 30
+anybody = 62
+Hominidae = 27
+anyone = 56
+being = 42
+dude = 61
+character = 50
+person = 100
+personal = 27
+somebody = 50
+people = 82
+participant = 29
+whoever = 30
+
+[words.pu_verbatim]
+fr = "NOM être humain, personne, quelqu'un"
+eo = "SUBSTANTIVO homo, persono, iu"
+de = "NOMEN Mensch, Person, jemand"
+en = "NOUN human being, person, somebody"
+
+[[words]]
+id = "seli"
+usage_category = "core"
+word = "seli"
+deprecated = false
+commentary = "In pu, definitions of seli are described as adjectives. ku's pu corrections clarify that these refer to nouns instead."
+definitions = "hot, warm; heat, fire, flame; burn"
+
+[words.ku_data]
+temperature = 36
+warm = 65
+cook = 31
+burn = 70
+bake = 36
+cooking = 27
+warming = 58
+fire = 100
+burning = 85
+hot = 92
+tropical = 17
+heat = 100
+boil = 30
+flame = 83
+
+[words.pu_verbatim]
+fr = "NOM feu ; élément de cuisson, réaction chimique, chaleur"
+en = "ADJECTIVE fire; cooking element, chemical reaction, heat source"
+de = "NOMEN Feuer; Kochelement, chemische Reaktion, Hitzequelle"
+eo = "SUBSTANTIVO fajro; varmiga elemento de kuirilo, kemia reago, fonto de varmo"
+
+[[words]]
+id = "mute"
+usage_category = "core"
+word = "mute"
+deprecated = false
+commentary = ""
+definitions = "many, several, very; quantity; (number) twenty"
+
+[words.ku_data]
+highly = 32
+greatly = 33
+lots = 92
+dose = 27
+extremely = 25
+eight = 38
+frequent = 33
+countless = 36
+ten = 26
+quite = 29
+twelve = 39
+deeply = 29
+most = 70
+hundred = 36
+mostly = 32
+fifteen = 40
+numerous = 80
+incredibly = 45
+plenty = 100
+various = 75
+billion = 35
+majority = 48
+nine = 50
+particularly = 27
+quantity = 64
+many = 100
+several = 86
+dozen = 40
+six = 30
+thousand = 50
+twenty = 59
+very = 93
+excessive = 31
+fifty = 55
+multiple = 100
+million = 44
+much = 100
+amount = 40
+exceed = 30
+increasingly = 26
+trillion = 29
+thirty = 29
+
+[words.pu_verbatim]
+fr = """
+ADJECTIF beaucoup de, plusieurs, plus de ; très
+NOM quantité"""
+eo = """
+ADJEKTIVO multaj, multe, pluraj, tre
+SUBSTANTIVO kvanto"""
+de = """
+ADJEKTIV viele, häufig, mehr, einige, sehr
+NOMEN Menge"""
+en = """
+ADJECTIVE many, a lot, more, much, several, very
+NOUN quantity"""
+
+[[words]]
+id = "likujo"
+usage_category = "sandbox"
+word = "likujo"
+deprecated = false
+commentary = ""
+definitions = "collection, assortment, menagerie, arrangement, handful, harvest; seven"
+
+[words.ku_data]
+collection = 3
+seven = 7
+gathering = 7
+
+[[words]]
+id = "a"
+usage_category = "core"
+word = "a"
+deprecated = false
+commentary = 'In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.'
+definitions = "(interjection) ah, oh, ha, eh, um, oy; (particle) [placed after something for emphasis or emotion]"
+
+[words.ku_data]
+huh = 44
+gosh = 73
+um = 47
+whoa = 69
+quite = 29
+ah = 94
+uh-huh = 39
+ooh = 80
+mm-hmm = 27
+wow = 61
+oh = 93
+ha = 83
+really = 27
+hmm = 27
+sigh = 27
+gasp = 28
+uh = 73
+
+[words.pu_verbatim]
+fr = "PARTICULE (accent, émotion ou confirmation)"
+de = "PARTIKEL (Betonung, Emotion oder Bestätigung)"
+en = "PARTICLE (emphasis, emotion or confirmation)"
+eo = "PARTIKULO (emfazo, emocio aŭ konfirmo)"
+
+[[words]]
+id = "positu"
+usage_category = "sandbox"
+word = "positu"
+deprecated = false
+commentary = ""
+definitions = "the life, universe, and everything else"
+
+[[words]]
+id = "an"
+usage_category = "sandbox"
+word = "an"
+deprecated = false
+commentary = ""
+definitions = "attributed location"
+
+[[words]]
+id = "ojuta"
+usage_category = "obscure"
+word = "ojuta"
+deprecated = false
+commentary = ""
+definitions = 'adaptation of the English meme "ligma", (literally) "o uta" (lick)'
+
+[[words]]
+id = "alu"
+usage_category = "sandbox"
+word = "alu"
+deprecated = false
+commentary = ""
+definitions = "(particle) [placed after the main sentence, introducing a context phrase]"
+
+[[words]]
+id = "oki"
+usage_category = "sandbox"
+word = "oki"
+deprecated = false
+commentary = 'Though it may have many possible origins, it was first coined in a small group chat. It is mostly used as a variant of the toki pona words "oke" and "ke"'
+definitions = "(acknowledgement or acceptance)"
+
+[[words]]
+id = "jasima"
+usage_category = "uncommon"
+word = "jasima"
+deprecated = false
+commentary = ""
+definitions = "reflect, echo; mirror, duplicate"
+
+[words.ku_data]
+opposite = 40
+reflect = 59
+reverse = 35
+
+[[words]]
+id = "omen"
+usage_category = "sandbox"
+word = "omen"
+deprecated = false
+commentary = ""
+definitions = "sarcasm, irony"
+
+[[words]]
+id = "patu"
+usage_category = "sandbox"
+word = "patu"
+deprecated = false
+commentary = ""
+definitions = "the digit 8"
+
+[[words]]
+id = "kalapisituji"
+usage_category = "sandbox"
+word = "kalapisituji"
+deprecated = false
+commentary = "the orthography of that word is not fixed and any “wuwojiti” is not considered a mistake. In fact, basically anything after kalapis… can be altered and it would still be considered the same word (so go ahead and have fun with kalapisituwi, kalapisituje, kalapisu…, or any form that pleases you)."
+definitions = "scam, utterly nonsensical, muddled and confused (often on purpose)"
+
+[[words]]
+id = "lili"
+usage_category = "core"
+word = "lili"
+deprecated = false
+commentary = ""
+definitions = "small, short, young; few; piece, part"
+
+[words.ku_data]
+bit = 69
+partial = 36
+quarter = 27
+lightly = 42
+reduce = 83
+small = 100
+reduction = 64
+less = 59
+barely = 54
+slight = 91
+kinda = 41
+mild = 27
+subtle = 44
+gram = 26
+particle = 31
+thin = 45
+young = 62
+fewer = 60
+narrow = 71
+minimal = 53
+hardly = 39
+somewhat = 50
+shallow = 45
+short = 91
+little = 100
+shortage = 25
+diminish = 57
+partly = 67
+ounce = 27
+partially = 50
+tiny = 56
+slightly = 80
+brief = 63
+inch = 45
+mere = 29
+tight = 33
+minor = 69
+junior = 83
+minimize = 75
+decrease = 53
+
+[words.pu_verbatim]
+de = "ADJEKTIV klein, kurz; wenige; ein bisschen; jung"
+en = "ADJECTIVE little, small, short; few; a bit; young"
+eo = "ADJEKTIVO malgranda, malalta; malmulta; iomete; juna"
+fr = "ADJECTIF petit, (un) peu, jeune"
