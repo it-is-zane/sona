@@ -1,25 +1,24 @@
-mod data {
-    use std::collections::HashMap;
+use serde::{Deserialize, Serialize};
+#[derive(Deserialize, Serialize, Debug)]
+pub struct WordData {
+    pub id: String,
+    pub usage_category: String,
+    pub word: String,
+    pub deprecated: bool,
+    pub ku_data: Option<std::collections::HashMap<String, u16>>,
+    pub pu_verbatim: Option<std::collections::HashMap<String, String>>,
+    pub commentary: Option<String>,
+    pub definitions: Option<String>,
+}
 
-    use serde::{Deserialize, Serialize};
-    #[derive(Deserialize, Serialize, Debug)]
-    pub struct Word {
-        pub id: String,
-        pub usage_category: String,
-        pub word: String,
-        pub deprecated: bool,
-        pub ku_data: Option<HashMap<String, u16>>,
-        pub pu_verbatim: Option<HashMap<String, String>>,
-        pub commentary: Option<String>,
-        pub definitions: Option<String>,
-    }
-
+static WORDS: std::sync::LazyLock<Vec<WordData>> = std::sync::LazyLock::new(|| {
     #[derive(Deserialize, Serialize, Debug)]
     struct Words {
-        words: Vec<Word>,
+        words: Vec<WordData>,
     }
 
-    pub fn get_compressed() -> Vec<Word> {
+    #[cfg(feature = "compressed")]
+    {
         let mut toml = String::new();
         std::io::Read::read_to_string(
             &mut bzip2::read::BzDecoder::new(include_bytes!("../res/words.toml.bz2").as_slice()),
@@ -29,12 +28,13 @@ mod data {
         toml::from_str::<Words>(&toml).unwrap().words
     }
 
-    pub fn get() -> Vec<Word> {
+    #[cfg(not(feature = "compressed"))]
+    {
         toml::from_str::<Words>(include_str!("../res/words.toml"))
             .unwrap()
             .words
     }
-}
+});
 
 #[derive(Debug)]
 enum Action {
@@ -149,8 +149,6 @@ impl Store for Game {
         }
     }
 }
-
-static WORDS: std::sync::LazyLock<Vec<data::Word>> = std::sync::LazyLock::new(data::get);
 
 fn main() {
     let mut terminal = ratatui::init();
