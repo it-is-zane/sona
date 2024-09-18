@@ -153,6 +153,9 @@ impl Store for Game {
 static WORDS: std::sync::LazyLock<Vec<data::Word>> = std::sync::LazyLock::new(data::get);
 
 fn main() {
+    let mut terminal = ratatui::init();
+    terminal.clear().unwrap();
+
     let mut dis = Dispatcher::new();
 
     let should_exit = dis.register(false);
@@ -162,8 +165,19 @@ fn main() {
     loop {
         dis.update();
 
-        dis.action(Action::Goto(Page::Results));
-        dis.action(Action::Exit);
+        if let Ok(ratatui::crossterm::event::Event::Key(key)) = ratatui::crossterm::event::read() {
+            let ctrl = key
+                .modifiers
+                .contains(ratatui::crossterm::event::KeyModifiers::CONTROL);
+
+            use ratatui::crossterm::event::KeyCode::*;
+            match key.code {
+                Backspace => dis.action(Action::Backspace),
+                Char('c') if ctrl => dis.action(Action::Exit),
+                Char(c) => dis.action(Action::Char(c)),
+                _ => (),
+            }
+        }
 
         match *page.borrow_mut() {
             Page::Game => println!("game"),       // draw game
@@ -174,4 +188,6 @@ fn main() {
             break;
         }
     }
+
+    ratatui::restore();
 }
