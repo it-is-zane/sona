@@ -1,7 +1,3 @@
-use std::num::Wrapping;
-
-use ratatui::text::ToText;
-
 mod data {
     use std::collections::HashMap;
 
@@ -40,6 +36,67 @@ mod data {
     }
 }
 
+#[derive(Debug)]
+enum Action {
+    Char(char),
+    Backspace,
+    Goto(Page),
+    ApplyGameSettigns(GameSettings),
+    Exit,
+}
+
+#[derive(Default)]
+struct Dispatcher {
+    stores: Vec<std::rc::Rc<std::cell::RefCell<dyn Store>>>,
+    queue: std::collections::VecDeque<Action>,
+}
+
+impl Dispatcher {
+    fn new() -> Self {
+        Dispatcher::default()
+    }
+    fn register<T: Store + 'static>(&mut self, store: T) -> std::rc::Rc<std::cell::RefCell<T>> {
+        let rc = std::rc::Rc::new(std::cell::RefCell::new(store));
+        self.stores.push(rc.clone());
+        rc
+    }
+    fn action(&mut self, action: Action) {
+        self.queue.push_back(action);
+    }
+    fn update(&mut self) {
+        self.queue.drain(..).for_each(|action| {
+            self.stores
+                .iter_mut()
+                .for_each(|store| store.borrow_mut().update(&action))
+        });
+    }
+}
+trait Store {
+    fn update(&mut self, action: &Action);
+}
+
+#[derive(Copy, Clone, Debug)]
+enum Page {
+    Game,
+    Results,
+}
+
+impl Store for Page {
+    fn update(&mut self, action: &Action) {
+        if let Action::Goto(page) = action {
+            *self = *page;
+        }
+    }
+}
+
+impl Store for bool {
+    fn update(&mut self, action: &Action) {
+        if let Action::Exit = action {
+            *self = true
+        }
+    }
+}
+
 struct Word {
     target: String,
     input: String,
@@ -47,6 +104,7 @@ struct Word {
     enter: Option<std::time::Instant>,
     duration: std::time::Duration,
 }
+
 impl Word {
     fn new(target: String, info: String) -> Self {
         Self {
@@ -57,102 +115,63 @@ impl Word {
             duration: std::time::Duration::default(),
         }
     }
-    fn handle_input(&mut self, event: ratatui::crossterm::event::KeyEvent, index: &mut usize) {
-        match (self.enter, event.code) {
-            (Some(enter), ratatui::crossterm::event::KeyCode::Char(' ')) => {
-                self.duration += enter.elapsed();
-                *index += 1;
+}
+
+#[derive(Debug)]
+struct GameSettings {
+    word_count: usize,
+}
+
+#[derive(Default)]
+struct Game {
+    words: Vec<Word>,
+    start: Option<std::time::Instant>,
+    end: Option<std::time::Instant>,
+}
+
+impl Store for Game {
+    fn update(&mut self, action: &Action) {
+        match action {
+            Action::ApplyGameSettigns(settings) => {
+                self.words = WORDS
+                    .iter()
+                    .filter_map(|word| {
+                        word.definitions
+                            .clone()
+                            .map(|def| Word::new(word.word.clone(), def))
+                    })
+                    .take(settings.word_count)
+                    .collect()
             }
-            (Some(enter), ratatui::crossterm::event::KeyCode::Backspace) => {
-                if self.input.pop().is_none() {
-                    self.duration += enter.elapsed();
-                    self.enter = None;
-                    *index -= 1;
-                }
-            }
-            (None, ratatui::crossterm::event::KeyCode::Char(c)) => {
-                self.enter = Some(std::time::Instant::now());
-                self.input.push(c);
-            }
-            (_, ratatui::crossterm::event::KeyCode::Char(c)) => {
-                self.input.push(c);
-            }
+            Action::Char(c) => (),
+            Action::Backspace => (),
             _ => (),
         }
     }
-    fn get_widget(&self) -> Vec<ratatui::text::Span> {
-        let mut target = self.target.chars();
-        let mut input = self.input.chars();
-
-        let mut spans = Vec::new();
-
-        use ratatui::style::Stylize;
-        use ratatui::text::ToSpan;
-        loop {
-            match (target.next(), input.next()) {
-                (None, None) => break,
-                (None, Some(i)) => spans.push(ratatui::text::Span::raw(i.to_string()).light_red()),
-                (Some(_), None) => spans.push('_'.to_span()),
-                (Some(t), Some(i)) if t == i => spans.push(ratatui::text::Span::raw(i.to_string())),
-                (Some(t), Some(_)) => spans.push(ratatui::text::Span::raw(t.to_string()).red()),
-            }
-        }
-        spans.push(' '.to_span());
-        spans
-    }
 }
 
-fn game(words: Vec<data::Word>, mut terminal: ratatui::DefaultTerminal) {
-    let mut test: Vec<Word> = words
-        .iter()
-        .filter(|word| word.usage_category == "core")
-        .filter(|word| word.definitions.is_some())
-        .map(|word| Word::new(word.word.clone(), word.definitions.clone().unwrap()))
-        .collect();
+static WORDS: std::sync::LazyLock<Vec<data::Word>> = std::sync::LazyLock::new(data::get);
 
-    use rand::seq::SliceRandom;
-    test.shuffle(&mut rand::thread_rng());
-    test.truncate(40);
+fn main() {
+    let mut dis = Dispatcher::new();
 
-    let mut index = 0;
+    let should_exit = dis.register(false);
+    let page = dis.register(Page::Game);
+    let game = dis.register(Game::default());
 
     loop {
-        terminal
-            .draw(|frame| {
-                let mut text = test[index].info.to_text();
-                text.push_line(
-                    test.iter()
-                        .flat_map(|word| word.get_widget())
-                        .collect::<ratatui::text::Line>(),
-                );
+        dis.update();
 
-                frame.render_widget(
-                    ratatui::widgets::Paragraph::new(text)
-                        .wrap(ratatui::widgets::Wrap { trim: false }),
-                    frame.area(),
-                );
-            })
-            .unwrap();
+        dis.action(Action::Goto(Page::Results));
+        dis.action(Action::Exit);
 
-        if let Ok(ratatui::crossterm::event::Event::Key(key)) = ratatui::crossterm::event::read() {
-            test[index].handle_input(key, &mut index);
+        match *page.borrow_mut() {
+            Page::Game => println!("game"),       // draw game
+            Page::Results => println!("results"), // draw results
         }
 
-        if index >= test.len() {
+        if *should_exit.borrow_mut() {
             break;
         }
     }
-}
-
-fn main() {
-    let mut terminal = ratatui::init();
-    terminal.clear().unwrap();
-
-    let words = std::thread::spawn(data::get_compressed);
-
-    let words = words.join().unwrap();
-
-    game(words, terminal);
-
-    ratatui::restore();
 }
