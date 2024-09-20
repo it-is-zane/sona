@@ -3,6 +3,10 @@ name = "sona"
 version = "0.1.0"
 edition = "2021"
 
+[features]
+default = ["compressed"]
+compressed = []
+
 [dependencies]
 bzip2 = "0.4.4"
 directories = "5.0.1"
