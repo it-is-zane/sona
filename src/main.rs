@@ -1,4 +1,5 @@
 use serde::{Deserialize, Serialize};
+
 #[derive(Deserialize, Serialize, Debug)]
 pub struct WordData {
     pub id: String,
@@ -64,15 +65,20 @@ impl Dispatcher {
         self.queue.push_back(action);
     }
     fn update(&mut self) {
-        self.queue.drain(..).for_each(|action| {
+        let mut new_queue = std::collections::VecDeque::new();
+
+        self.queue.iter().for_each(|action| {
             self.stores
                 .iter_mut()
-                .for_each(|store| store.borrow_mut().update(&action))
+                .for_each(|store| store.borrow_mut().update(action, &mut new_queue))
         });
+
+        self.queue = new_queue;
     }
 }
+
 trait Store {
-    fn update(&mut self, action: &Action);
+    fn update(&mut self, action: &Action, queue: &mut std::collections::VecDeque<Action>);
 }
 
 #[derive(Copy, Clone, Debug)]
@@ -82,7 +88,7 @@ enum Page {
 }
 
 impl Store for Page {
-    fn update(&mut self, action: &Action) {
+    fn update(&mut self, action: &Action, queue: &mut std::collections::VecDeque<Action>) {
         if let Action::Goto(page) = action {
             *self = *page;
         }
@@ -90,7 +96,7 @@ impl Store for Page {
 }
 
 impl Store for bool {
-    fn update(&mut self, action: &Action) {
+    fn update(&mut self, action: &Action, queue: &mut std::collections::VecDeque<Action>) {
         if let Action::Exit = action {
             *self = true
         }
@@ -125,12 +131,12 @@ struct GameSettings {
 #[derive(Default)]
 struct Game {
     words: Vec<Word>,
+    index: usize,
     start: Option<std::time::Instant>,
-    end: Option<std::time::Instant>,
 }
 
 impl Store for Game {
-    fn update(&mut self, action: &Action) {
+    fn update(&mut self, action: &Action, queue: &mut std::collections::VecDeque<Action>) {
         match action {
             Action::ApplyGameSettigns(settings) => {
                 self.words = WORDS
@@ -143,8 +149,43 @@ impl Store for Game {
                     .take(settings.word_count)
                     .collect()
             }
-            Action::Char(c) => (),
-            Action::Backspace => (),
+            Action::Char(' ') => {
+                if let Some(word) = self.words.get_mut(self.index) {
+                    if let Some(enter) = word.enter {
+                        word.duration += enter.elapsed();
+                    }
+
+                    word.enter = None;
+                }
+
+                self.index += 1;
+
+                if self.index > self.words.len() {
+                    queue.push_back(Action::Goto(Page::Results));
+                }
+            }
+            Action::Backspace => {
+                if let Some(i) = self.index.checked_sub(1) {
+                    if let Some(word) = self.words.get_mut(self.index) {
+                        if let Some(enter) = word.enter {
+                            word.duration += enter.elapsed();
+                        }
+
+                        word.enter = None;
+                    }
+
+                    self.index = i;
+                }
+            }
+            Action::Char(c) => {
+                if let Some(word) = self.words.get_mut(self.index) {
+                    word.input.push(*c);
+
+                    if word.enter.is_none() {
+                        word.enter = Some(std::time::Instant::now());
+                    }
+                }
+            }
             _ => (),
         }
     }
