@@ -1,3 +1,4 @@
+use rand::seq::index;
 use serde::{Deserialize, Serialize};
 
 #[derive(Deserialize, Serialize, Debug)]
@@ -147,7 +148,10 @@ impl Store for Game {
                             .map(|def| Word::new(word.word.clone(), def))
                     })
                     .take(settings.word_count)
-                    .collect()
+                    .collect();
+
+                use rand::seq::SliceRandom;
+                self.words.shuffle(&mut rand::thread_rng());
             }
             Action::Char(' ') => {
                 if let Some(word) = self.words.get_mut(self.index) {
@@ -160,7 +164,7 @@ impl Store for Game {
 
                 self.index += 1;
 
-                if self.index > self.words.len() {
+                if self.index >= self.words.len() - 1 {
                     queue.push_back(Action::Goto(Page::Results));
                 }
             }
@@ -201,8 +205,33 @@ fn main() {
     let page = dis.register(Page::Game);
     let game = dis.register(Game::default());
 
+    dis.action(Action::ApplyGameSettigns(GameSettings { word_count: 10 }));
+
     loop {
         dis.update();
+
+        if *should_exit.borrow_mut() {
+            break;
+        }
+
+        let game = game.borrow();
+        let index = game.index;
+
+        _ = match *page.borrow_mut() {
+            Page::Game => terminal.draw(|_frame| {
+                _frame.render_widget(
+                    game.words
+                        .iter()
+                        .map(|word| word.target.clone() + " ")
+                        .collect::<String>()
+                        + &index.to_string()
+                        + " "
+                        + &game.words[index].target,
+                    _frame.area(),
+                )
+            }), // draw game
+            Page::Results => terminal.draw(|_frame| _frame.render_widget("results", _frame.area())), // draw results
+        };
 
         if let Ok(ratatui::crossterm::event::Event::Key(key)) = ratatui::crossterm::event::read() {
             let ctrl = key
@@ -216,15 +245,6 @@ fn main() {
                 Char(c) => dis.action(Action::Char(c)),
                 _ => (),
             }
-        }
-
-        match *page.borrow_mut() {
-            Page::Game => println!("game"),       // draw game
-            Page::Results => println!("results"), // draw results
-        }
-
-        if *should_exit.borrow_mut() {
-            break;
         }
     }
 
