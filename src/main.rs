@@ -1,7 +1,7 @@
-use ratatui::layout;
-
 #[allow(non_camel_case_types)]
-#[derive(serde::Deserialize, serde::Serialize, Debug, PartialEq, Eq, PartialOrd, Ord)]
+#[derive(
+    serde::Deserialize, serde::Serialize, Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord,
+)]
 pub enum UsageCategory {
     core,
     common,
@@ -10,7 +10,7 @@ pub enum UsageCategory {
     sandbox,
 }
 
-#[derive(serde::Deserialize, serde::Serialize, Debug)]
+#[derive(serde::Deserialize, serde::Serialize, Debug, Clone)]
 pub struct WordData {
     pub id: String,
     pub usage_category: UsageCategory,
@@ -29,7 +29,7 @@ static WORDS: std::sync::LazyLock<Vec<WordData>> = std::sync::LazyLock::new(|| {
     }
 
     #[cfg(feature = "compressed")]
-    {
+    let words = {
         let mut toml = String::new();
         std::io::Read::read_to_string(
             &mut bzip2::read::BzDecoder::new(include_bytes!("../res/words.toml.bz2").as_slice()),
@@ -37,37 +37,96 @@ static WORDS: std::sync::LazyLock<Vec<WordData>> = std::sync::LazyLock::new(|| {
         )
         .unwrap();
         toml::from_str::<Words>(&toml).unwrap().words
-    }
+    };
 
     #[cfg(not(feature = "compressed"))]
-    {
+    let mut words = {
         toml::from_str::<Words>(include_str!("../res/words.toml"))
             .unwrap()
             .words
-    }
+    };
+
+    words
 });
 
-enum TextRenderType {
-    Correct(String),
-    Incorrect { target: String, input: String },
-    Excess(String),
-    NoInput(String),
+#[derive(serde::Serialize, serde::Deserialize)]
+struct WordErrors {
+    words: std::collections::HashMap<String, (i32, i32)>,
 }
 
-struct Word<'a> {
-    data: &'a WordData,
-    time: std::time::Duration,
-    errors: usize,
+/// Extends iterators by first wraping its elements with Some and then chains an infinite iterator of None elements.
+fn extend<I: Clone, T: Iterator<Item = I>>(
+    iter: T,
+) -> std::iter::Chain<std::iter::Map<T, impl Fn(I) -> Option<I>>, std::iter::Repeat<Option<I>>> {
+    iter.map(Some).chain(std::iter::repeat(None))
 }
 
-struct Game<'a> {
-    words: Vec<Word<'a>>,
-    input: String,
-    time: std::time::Duration,
+/// Zips two iterators so that the resulting iterator is the length of the longest iterator.
+/// Their items are wraped with Some so that if one itterator runs out it can return None
+fn full_zip<IA: Clone, IB: Clone, A: Iterator<Item = IA>, B: Iterator<Item = IB>>(
+    a: A,
+    b: B,
+) -> impl std::iter::Iterator<Item = (Option<IA>, Option<IB>)> {
+    extend(a)
+        .zip(extend(b))
+        .take_while(|(a, b)| a.is_some() || b.is_some())
+}
+
+enum TextRenderType<'a> {
+    Correct(&'a str),
+    Incorrect { target: &'a str, input: &'a str },
+    Excess(&'a str),
+    NoInput(&'a str),
+}
+
+fn color_text<'a>(target: &str, input: &str) -> ratatui::prelude::Text<'a> {
+    use ratatui::style::Stylize;
+
+    let default = ratatui::style::Style::new();
+    let blank = default;
+    let correct = default;
+    let error = default.red().underlined();
+    let excess = default.light_yellow();
+
+    let mut colored_out = ratatui::text::Text::default();
+
+    full_zip(target.split_terminator(' '), input.split_terminator(' ')).for_each(
+        |(target, input)| {
+            match (target, input) {
+                (Some(target), None) => colored_out
+                    .push_span(ratatui::text::Span::raw("_".repeat(target.len())).style(blank)),
+                (Some(target), Some(input)) => {
+                    full_zip(target.chars(), input.chars()).for_each(|(target, input)| {
+                        match (target, input) {
+                            (Some(target), Some(input)) if target == input => colored_out
+                                .push_span(
+                                    ratatui::text::Span::raw(target.to_string()).style(correct),
+                                ),
+                            (Some(target), Some(input)) if target != input => colored_out
+                                .push_span(
+                                    ratatui::text::Span::raw(target.to_string()).style(error),
+                                ),
+                            (Some(_), None) => {
+                                colored_out.push_span(ratatui::text::Span::raw("_").style(blank))
+                            }
+                            (None, Some(input)) => colored_out.push_span(
+                                ratatui::text::Span::raw(input.to_string()).style(excess),
+                            ),
+                            _ => (),
+                        }
+                    });
+                }
+                _ => (),
+            }
+            colored_out.push_span(ratatui::text::Span::raw(" ").style(blank));
+        },
+    );
+
+    colored_out
 }
 
 #[derive(Default, Clone, Copy)]
-struct GameSettings {
+struct WordReq {
     in_use: bool,
     deprecated: bool,
     core: bool,
@@ -82,129 +141,33 @@ struct GameSettings {
     n: usize,
 }
 
-impl Game<'_> {
-    fn new(settings: GameSettings) -> Self {
-        use rand::seq::SliceRandom;
+fn get_subset<'a>(settings: WordReq) -> Vec<&'a WordData> {
+    use rand::seq::SliceRandom;
 
-        let word_iter = WORDS
-            .iter()
-            .filter(|data| settings.in_use | data.deprecated)
-            .filter(|data| settings.deprecated | !data.deprecated)
-            .filter(|data| settings.core | (data.usage_category != UsageCategory::core))
-            .filter(|data| settings.common | (data.usage_category != UsageCategory::common))
-            .filter(|data| settings.uncommon | (data.usage_category != UsageCategory::uncommon))
-            .filter(|data| settings.obscure | (data.usage_category != UsageCategory::obscure))
-            .filter(|data| settings.sandbox | (data.usage_category != UsageCategory::sandbox))
-            .filter(|data| settings.ku | data.ku_data.is_some())
-            .filter(|data| settings.pu | data.pu_verbatim.is_some())
-            .filter(|data| settings.commentary | data.commentary.is_some())
-            .filter(|data| settings.definitions | data.definitions.is_some());
+    let mut words: Vec<&WordData> = WORDS
+        .iter()
+        .filter(|data| settings.in_use | data.deprecated)
+        .filter(|data| settings.deprecated | !data.deprecated)
+        .filter(|data| settings.core | (data.usage_category != UsageCategory::core))
+        .filter(|data| settings.common | (data.usage_category != UsageCategory::common))
+        .filter(|data| settings.uncommon | (data.usage_category != UsageCategory::uncommon))
+        .filter(|data| settings.obscure | (data.usage_category != UsageCategory::obscure))
+        .filter(|data| settings.sandbox | (data.usage_category != UsageCategory::sandbox))
+        .filter(|data| settings.ku | data.ku_data.is_some())
+        .filter(|data| settings.pu | data.pu_verbatim.is_some())
+        .filter(|data| settings.commentary | data.commentary.is_some())
+        .filter(|data| settings.definitions | data.definitions.is_some())
+        .collect();
 
-        let mut words: Vec<Word> = word_iter
-            .map(|data| Word {
-                data,
-                time: std::time::Duration::default(),
-                errors: 0,
-            })
-            .collect();
+    words.drain((settings.n)..);
 
-        words.drain((settings.n)..);
+    words.shuffle(&mut rand::thread_rng());
 
-        words.shuffle(&mut rand::thread_rng());
-
-        Game {
-            words,
-            input: String::new(),
-            time: std::time::Duration::default(),
-        }
-    }
-    fn render(&self) -> Vec<TextRenderType> {
-        use TextRenderType::*;
-        self.words
-            .iter()
-            .map(|word| &word.data.word)
-            .map(Some)
-            .zip(
-                self.input
-                    .split(' ')
-                    .map(Some)
-                    .chain(std::iter::once(None).cycle()),
-            )
-            .fold(Vec::new(), |mut acc, vals| {
-                match vals {
-                    (Some(target), None) => {
-                        if let Some(NoInput(str)) = acc.last_mut() {
-                            str.push_str(target);
-                        } else {
-                            acc.push(NoInput(target.clone()));
-                        }
-                    }
-                    (Some(target), Some(input)) => {
-                        target
-                            .chars()
-                            .map(Some)
-                            .chain(std::iter::once(None).cycle())
-                            .zip(input.chars().map(Some).chain(std::iter::once(None).cycle()))
-                            .take(target.len().max(input.len()))
-                            .for_each(|char_pair| match char_pair {
-                                (None, None) => (),
-                                (None, Some(c)) => {
-                                    if let Some(Excess(str)) = acc.last_mut() {
-                                        str.push(c);
-                                    } else {
-                                        acc.push(Excess(c.to_string()));
-                                    }
-                                }
-                                (Some(c), None) => {
-                                    if let Some(NoInput(str)) = acc.last_mut() {
-                                        str.push(c);
-                                    } else {
-                                        acc.push(NoInput(c.to_string()));
-                                    }
-                                }
-                                (Some(t), Some(c)) if t == c => {
-                                    if let Some(Correct(str)) = acc.last_mut() {
-                                        str.push(c);
-                                    } else {
-                                        acc.push(Correct(c.to_string()));
-                                    }
-                                }
-                                (Some(t), Some(c)) => {
-                                    if let Some(Incorrect { target, input }) = acc.last_mut() {
-                                        target.push(t);
-                                        input.push(c);
-                                    } else {
-                                        acc.push(Incorrect {
-                                            target: t.to_string(),
-                                            input: c.to_string(),
-                                        });
-                                    }
-                                }
-                            });
-                    }
-                    _ => (),
-                };
-
-                if let Some(item) = acc.last_mut() {
-                    match item {
-                        Correct(str) => str.push(' '),
-                        Incorrect {
-                            target: _,
-                            input: _,
-                        }
-                        | Excess(_)
-                        | NoInput(_) => acc.push(Correct(" ".to_string())),
-                    }
-                };
-
-                acc
-            })
-    }
+    words
 }
 
-enum Page {}
 enum State {
-    Game { settings: GameSettings },
+    Game { settings: WordReq },
     Results {},
     Settings,
     Exit,
@@ -220,110 +183,133 @@ fn get_char(event: &ratatui::crossterm::event::Event) -> Option<char> {
     None
 }
 
+fn render(
+    colored_out: ratatui::text::Text,
+    hint: Option<&String>,
+    terminal: &mut ratatui::DefaultTerminal,
+) {
+    terminal
+        .draw(|frame| {
+            let layout: [_; 2] = ratatui::layout::Layout::new(
+                ratatui::layout::Direction::Vertical,
+                ratatui::layout::Constraint::from_mins([10, 100]),
+            )
+            .areas(frame.area());
+
+            let block =
+                ratatui::widgets::Block::new().padding(ratatui::widgets::Padding::new(1, 1, 1, 0));
+
+            if let Some(hint) = hint {
+                use ratatui::text::ToSpan;
+
+                frame.render_widget(
+                    ratatui::widgets::Paragraph::new(hint.to_span()),
+                    block.inner(layout[0]),
+                );
+            }
+
+            frame.render_widget(
+                ratatui::widgets::Paragraph::new(colored_out)
+                    .wrap(ratatui::widgets::Wrap { trim: false }),
+                block.inner(layout[1]),
+            );
+        })
+        .unwrap();
+}
+
+fn handle_input(
+    index: &mut usize,
+    input: &mut String,
+    durations: &mut Vec<std::time::Duration>,
+    enter: &mut std::time::Instant,
+    exit: &mut bool,
+) {
+    let event = ratatui::crossterm::event::read().unwrap();
+
+    if input.is_empty() {
+        *enter = std::time::Instant::now();
+        durations.clear();
+    }
+
+    match get_char(&event) {
+        Some(' ') => {
+            match durations.get_mut(*index) {
+                Some(duration) => *duration += enter.elapsed(),
+                None => durations.push(enter.elapsed()),
+            }
+            *enter = std::time::Instant::now();
+
+            input.push(' ');
+            *index += 1
+        }
+        Some('q') => *exit = true,
+        Some(c) => input.push(c),
+        None => {
+            if let ratatui::crossterm::event::Event::Key(ratatui::crossterm::event::KeyEvent {
+                code: ratatui::crossterm::event::KeyCode::Backspace,
+                ..
+            }) = event
+            {
+                if let Some(' ') = input.pop() {
+                    match durations.get_mut(*index) {
+                        Some(duration) => *duration += enter.elapsed(),
+                        None => durations.push(enter.elapsed()),
+                    }
+                    *enter = std::time::Instant::now();
+
+                    *index -= 1;
+                }
+            }
+        }
+    }
+}
+
+fn get_word_skills() {}
+
 fn main() {
     let mut terminal = ratatui::init();
+    let word_skill: std::collections::HashMap<String, (usize, usize, usize)>;
 
-    let mut state = State::Settings;
+    let mut sorted_words: Vec<WordData> = WORDS.iter().cloned().collect();
+    sorted_words.sort_unstable_by(|a, b| a.usage_category.cmp(&b.usage_category));
+
+    let (ids, words, definitions) = sorted_words
+        .iter()
+        .map(|word| (&word.id, &word.word, word.usage_category, &word.definitions))
+        .filter_map(|(id, word, cat, def)| def.as_ref().map(|d| (id, word, cat, d)))
+        .fold(
+            (String::new(), String::new(), Vec::<String>::new()),
+            |(mut ai, mut aw, mut ad), (id, word, cat, def)| {
+                ai.push_str(id);
+                ai.push(' ');
+                aw.push_str(word);
+                aw.push(' ');
+                ad.push(format!("{:?}: ", cat) + def);
+                (ai, aw, ad)
+            },
+        );
+
+    let mut index: usize = 0;
+    let mut input = String::new();
+    let mut durations: Vec<std::time::Duration> = Vec::new();
+    let mut enter = std::time::Instant::now();
+    let mut exit = false;
 
     loop {
-        match state {
-            State::Game { settings } => {
-                let mut game = Game::new(settings);
+        let colored_out = color_text(&words, &input);
 
-                let layout = ratatui::layout::Layout::vertical([
-                    ratatui::layout::Constraint::Min(4),
-                    ratatui::layout::Constraint::Fill(1),
-                    ratatui::layout::Constraint::Length(1),
-                ]);
+        render(colored_out, definitions.get(index), &mut terminal);
 
-                let padding =
-                    ratatui::widgets::Block::new().padding(ratatui::widgets::Padding::uniform(1));
+        handle_input(
+            &mut index,
+            &mut input,
+            &mut durations,
+            &mut enter,
+            &mut exit,
+        );
 
-                loop {
-                    use ratatui::style::Stylize;
-                    terminal
-                        .draw(|frame| {
-                            frame.render_widget(&padding, layout.split(frame.area())[0]);
-
-                            frame.render_widget(
-                                ratatui::widgets::Block::new()
-                                    .title("white")
-                                    .title_alignment(ratatui::layout::Alignment::Center)
-                                    .on_white()
-                                    .black(),
-                                padding.inner(layout.split(frame.area())[0]),
-                            );
-
-                            frame.render_widget(&padding, layout.split(frame.area())[1]);
-
-                            use ratatui::text::ToSpan;
-                            frame.render_widget(
-                                ratatui::widgets::Paragraph::new(
-                                    game.render()
-                                        .iter()
-                                        .map(|item| -> ratatui::prelude::Span {
-                                            match item {
-                                                TextRenderType::Correct(str) => {
-                                                    str.to_span().white()
-                                                }
-                                                TextRenderType::Incorrect { target, input: _ } => {
-                                                    target.to_span().red().underlined()
-                                                }
-                                                TextRenderType::Excess(str) => {
-                                                    str.to_span().yellow()
-                                                }
-                                                TextRenderType::NoInput(str) => {
-                                                    str.to_span().dark_gray()
-                                                }
-                                            }
-                                        })
-                                        .collect::<ratatui::text::Line>(),
-                                )
-                                .wrap(ratatui::widgets::Wrap { trim: false }),
-                                padding.inner(layout.split(frame.area())[1]),
-                            );
-
-                            frame.render_widget(
-                                ratatui::widgets::Block::new()
-                                    .title("Black")
-                                    .title_alignment(ratatui::layout::Alignment::Center),
-                                layout.split(frame.area())[2],
-                            );
-                        })
-                        .unwrap();
-
-                    let event = ratatui::crossterm::event::read().unwrap();
-
-                    if let Some('q') = get_char(&event) {
-                        break;
-                    }
-
-                    if let Some(c) = get_char(&event) {
-                        game.input.push(c);
-                    }
-
-                    if let ratatui::crossterm::event::Event::Key(event) = event {
-                        if let ratatui::crossterm::event::KeyCode::Backspace = event.code {
-                            _ = game.input.pop();
-                        }
-                    }
-                }
-
-                state = State::Results {};
-            }
-            State::Results {} => todo!(),
-            State::Settings => {
-                state = State::Game {
-                    settings: GameSettings {
-                        n: 100,
-                        in_use: true,
-                        definitions: true,
-                        core: true,
-                        ..Default::default()
-                    },
-                };
-            }
-            State::Exit => break,
+        if exit {
+            break;
         }
     }
 
